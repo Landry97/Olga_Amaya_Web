@@ -165,7 +165,7 @@ function showSlide1(a) {
   
   for (let i = 0; i < modalPreviews.length; i++) {
     modalPreviews[i].className = modalPreviews[i].className.replace(' active', '');
-    dot1[i].className = dot[i].className.replace(' active', '');};
+    dot[i].className = dot[i].className.replace(' active', '');};
   const dotzz = document.getElementsByClassName('dots');
   let y = dotzz.length;
   slides1[slideIndex - 1].style.display = 'flex';
