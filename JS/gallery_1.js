@@ -166,10 +166,12 @@ function showSlide1(a) {
   slides1[slideIndex - 1].style.display = 'flex';
   dots[slideIndex - 1].style.background = "rgb(219, 10, 10)";
   dots[slideIndex - 1].style.opacity = ".7";
-  };};
+  };
 
 function toSlide2(a) {
   showSlide2(slideIndex = a);
+  };
+
 function showSlide2(a) {
   const slides2 = document.getElementsByClassName('slide2');
   let modalPreviews = document.getElementsByClassName('modal-preview');
