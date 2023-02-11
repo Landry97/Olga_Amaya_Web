@@ -120,7 +120,11 @@ else {
 
 
 function changeSlide(n) {
-  showSlide(slideIndex += n);
+  showSlide1(slideIndex += n);
+};
+
+function changeSlide(n) {
+  showSlide2(slideIndex += n);
 };
 
 function toSlide1(n) {
