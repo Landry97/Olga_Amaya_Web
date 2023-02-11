@@ -135,10 +135,6 @@ function toSlide2(b) {
   showSlide2(slideIndex = b);
 };
 
-function toSlide3(c) {
-  showSlide3(slideIndex = c);
-};
-
 
 function showSlide1(a) {
   const slides1 = document.getElementsByClassName('slide1');
@@ -213,45 +209,6 @@ function showSlide2(b) {
   dots[slideIndex - 1].style.background = "rgb(219, 10, 10)";
   dots[slideIndex - 1].style.opacity = ".7";
   };
-
-
-function showSlide3(c) {
-  const slides3 = document.getElementsByClassName('slide3');
-  let modalPreviews = document.getElementsByClassName('modal-preview');
-  const dot = document.getElementsByClassName('dots3');
-  let dots = document.getElementsByClassName('dot3');
-  
-  if (c > 1) {
-  document.getElementById('again').style.display = 'none';
-  document.getElementById('next').style.display = 'flex';};
-  if (c > slides3.length-1) {
-  document.getElementById('again').style.display = 'flex';
-  document.getElementById('next').style.display = 'none';};
-  if (c > slides3.length) {
-    slideIndex = 1;	
-  document.getElementById('again').style.display = 'none';
-  document.getElementById('next').style.display = 'flex';}
-  if (c < 1) {
-    slideIndex = slides3.length;
-  document.getElementById('again').style.display = 'flex';
-  document.getElementById('next').style.display = 'none';
-  };
-  for (let i = 0; i < slides3.length; i++) {
-    slides3[i].style.display = "none";
-    dots[i].style.background = "black";
-    dots[i].style.opacity = "1";
-    dots[i].style.display = 'grid';};
-  
-  for (let i = 0; i < modalPreviews.length; i++) {
-    modalPreviews[i].className = modalPreviews[i].className.replace(' active', '');
-    dot[i].className = dot[i].className.replace(' active', '');};
-  const dotzz = document.getElementsByClassName('dots3');
-  let y = dotzz.length;
-  slides3[slideIndex - 1].style.display = 'flex';
-  dots[slideIndex - 1].style.background = "rgb(219, 10, 10)";
-  dots[slideIndex - 1].style.opacity = ".7";
-  };
-
 
 
   overlayShown = false,
