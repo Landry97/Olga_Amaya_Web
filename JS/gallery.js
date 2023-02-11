@@ -1,6 +1,3 @@
-
-let slideIndex = 1;
-
 function openLightbox() { 
   document.getElementById('headerid').style.position = 'fixed';
   document.getElementById('headerid').style.height = '3.5rem';
