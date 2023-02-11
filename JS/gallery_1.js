@@ -12,10 +12,10 @@ function openLightbox_1() {
   x.removeListener(scale);
 var dots = window.matchMedia( "(min-width: 350px)" );
 if (dots.matches) {
-  document.getElementById('dots1').style.display = 'grid';
+  document.getElementById('dots').style.display = 'grid';
 }
 else {
-  document.getElementById('dots1').style.display = 'none';}};
+  document.getElementById('dots').style.display = 'none';}};
 
 
 function closeLightbox_1() {
@@ -52,10 +52,10 @@ function openLightbox_2() {
   x.removeListener(scale);
 var dots = window.matchMedia( "(min-width: 350px)" );
 if (dots.matches) {
-  document.getElementById('dots2').style.display = 'grid';
+  document.getElementById('dots').style.display = 'grid';
 }
 else {
-  document.getElementById('dots2').style.display = 'none';}};
+  document.getElementById('dots').style.display = 'none';}};
 
 
 function closeLightbox_2() {
@@ -91,10 +91,10 @@ function openLightbox_3() {
   x.removeListener(scale);
 var dots = window.matchMedia( "(min-width: 350px)" );
 if (dots.matches) {
-  document.getElementById('dots3').style.display = 'grid';
+  document.getElementById('dots').style.display = 'grid';
 }
 else {
-  document.getElementById('dots3').style.display = 'none';}};
+  document.getElementById('dots').style.display = 'none';}};
 
 
 function closeLightbox_3() {
@@ -139,7 +139,7 @@ function toSlide2(b) {
 function showSlide1(a) {
   const slides1 = document.getElementsByClassName('slide1');
   let modalPreviews = document.getElementsByClassName('modal-preview');
-  const dot = document.getElementsByClassName('dots1');
+  const dot = document.getElementsByClassName('dots');
   let dots = document.getElementsByClassName('dot1');
   
   if (a > 1) {
@@ -165,7 +165,7 @@ function showSlide1(a) {
   
   for (let i = 0; i < modalPreviews.length; i++) {
     modalPreviews[i].className = modalPreviews[i].className.replace(' active', '');
-    dot[i].className = dot[i].className.replace(' active', '');};
+    dot1[i].className = dot[i].className.replace(' active', '');};
   const dotzz = document.getElementsByClassName('dots');
   let y = dotzz.length;
   slides1[slideIndex - 1].style.display = 'flex';
@@ -176,7 +176,7 @@ function showSlide1(a) {
 function showSlide2(b) {
   const slides2 = document.getElementsByClassName('slide2');
   let modalPreviews = document.getElementsByClassName('modal-preview');
-  const dot = document.getElementsByClassName('dots2');
+  const dot = document.getElementsByClassName('dots');
   let dots = document.getElementsByClassName('dot2');
   
   if (b > 1) {
@@ -194,13 +194,13 @@ function showSlide2(b) {
   document.getElementById('again').style.display = 'flex';
   document.getElementById('next').style.display = 'none';
   };
-  for (let j = 0; j < slides2.length; j++) {
+  for (let j = 0; i < slides2.length; j++) {
     slides2[j].style.display = "none";
     dots[j].style.background = "black";
     dots[j].style.opacity = "1";
     dots[j].style.display = 'grid';};
   
-  for (let j = 0; j < modalPreviews.length; j++) {
+  for (let j = 0; i < modalPreviews.length; j++) {
     modalPreviews[j].className = modalPreviews[j].className.replace(' active', '');
     dot2[i].className = dot[j].className.replace(' active', '');};
   const dotzz = document.getElementsByClassName('dots');
