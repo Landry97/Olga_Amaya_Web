@@ -1,11 +1,11 @@
 let slideIndex = 1;
-function openLightbox() { 
+function openLightbox_1() { 
   document.getElementById('mouseTarget').style.position = 'fixed';
   document.getElementById('mouseTarget').style.height = '3.5rem';
   document.getElementById('mouseTarget').style.top = '0';
   document.getElementById('mouseTarget').style.zIndex = '100001';
   document.getElementsByTagName('body')[0].style.overflow ="hidden";
-  document.getElementById('Lightbox').style.display = 'flex';
+  document.getElementById('Lightbox_1').style.display = 'flex';
   document.getElementById('rowid').style.display = 'none';
   document.getElementById('menu-toggle').style.display = 'none';
   document.getElementsByTagName("Footer")[0].style.display = "none";
@@ -19,14 +19,14 @@ else {
   document.getElementById('dots').style.display = 'none';
 }
 };
-function closeLightbox() {
+function closeLightbox_1() {
   x.addListener(scale);
   document.getElementById('mouseTarget').style.position = '';
   document.getElementById('mouseTarget').style.height = '';
   document.getElementById('mouseTarget').style.top = '0';
   document.getElementById('mouseTarget').style.zIndex = '';
   document.getElementsByTagName('body')[0].style.overflow ="";
-  document.getElementById('Lightbox').style.display = 'none'; 
+  document.getElementById('Lightbox_1').style.display = 'none'; 
   document.getElementById('rowid').style.display = 'grid';
   document.getElementById('menu-toggle').style.display = 'flex';
   document.getElementsByTagName("Footer")[0].style.display = "flex";
