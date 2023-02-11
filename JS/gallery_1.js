@@ -193,15 +193,15 @@ function showSlide2(a) {
   document.getElementById('again').style.display = 'flex';
   document.getElementById('next').style.display = 'none';
   };
-  for (let j = 0; j < slides2.length; j++) {
-    slides2[j].style.display = "none";
-    dots[j].style.background = "black";
-    dots[j].style.opacity = "1";
-    dots[j].style.display = 'grid';};
+  for (let i = 0; i < slides2.length; i++) {
+    slides2[i].style.display = "none";
+    dots[i].style.background = "black";
+    dots[i].style.opacity = "1";
+    dots[i].style.display = 'grid';};
   
-  for (let j = 0; j < modalPreviews.length; j++) {
-    modalPreviews[j].className = modalPreviews[j].className.replace(' active', '');
-    dot2[j].className = dot[j].className.replace(' active', '');};
+  for (let i = 0; i < modalPreviews.length; i++) {
+    modalPreviews[i].className = modalPreviews[i].className.replace(' active', '');
+    dot2[i].className = dot[i].className.replace(' active', '');};
   const dotzz = document.getElementsByClassName('dots2');
   let y = dotzz.length;
   slides2[slideIndex - 1].style.display = 'flex';
