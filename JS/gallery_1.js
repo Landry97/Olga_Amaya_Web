@@ -14,7 +14,6 @@ function closeLightbox_1(){
     
     // Assign an event listener to the image
     images[j].addEventListener("click", openModal);
-  }
 }
 
 // Declare all the functions
