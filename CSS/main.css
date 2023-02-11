@@ -97,8 +97,8 @@ figcaption.project-info-index{position: absolute;top: 0;left: 0;right:0;padding:
 @media screen and (min-width: 440px){.project-info-index {color: black;}}
 @media screen and (max-width: 440px){.project-info-index {color: transparent;}}
 @media (max-width: 600px){footer{flex-wrap: wrap;flex-direction: column;}.instagram{margin-left: 0;}.copyright{margin-left: 0;}.privacy{margin-left: 0;}#myBtn{margin-left: auto;margin-right: 6%;}}
-@media (max-width: 750px){figure.project-index{width: 36vw;padding:0;}}
-@media (min-width: 750px){figure.project-index{width: 33vw;height: 33vh;position:relative}}
+@media (max-width: 750px){figure.project-index{width: 100vw;padding:0;}}
+@media (min-width: 750px){figure.project-index{width: 100vw;height: auto;position:relative}}
 @media (min-width: 600px){footer{flex-wrap: nowrap;}.copyright{margin-left: auto;}#myBtn{margin-left: 3.5%;margin-right: 3.5%;}.privacy{margin-left: 3.5%;margin-right: 3.5%;}}
 li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter-spacing: .1rem;}
 
