@@ -1,1 +1,0 @@
-.team-wrapper{display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows:auto;grid-gap: 2.5rem;padding: 2.5rem;width: 100%;align-self: center;}@media screen and (max-width:950px){.team-wrapper{display: flex;flex-direction: column;}.team1, .team2, .team3, .team4, .team5, .team6{height: auto;}};
