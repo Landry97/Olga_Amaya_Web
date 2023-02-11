@@ -1,4 +1,3 @@
-let slideIndex = 1;
 function openLightbox_1() { 
   document.getElementById('mouseTarget').style.position = 'fixed';
   document.getElementById('mouseTarget').style.height = '3.5rem';
