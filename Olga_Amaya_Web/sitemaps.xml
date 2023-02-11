@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.leonlandry.com/index.html</loc>
+    <changefreq>daily</changefreq>
+      <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://www.leonlandry.com/allprojects.html</loc>
+    <changefreq>daily</changefreq>
+      <priority>1</priority>
+  </url>
+   <url>
+    <loc>https://www.leonlandry.com/</loc>
+    <changefreq>daily</changefreq>
+      <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://www.leonlandry.com/about.html</loc>
+    <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.leonlandry.com/team.html</loc>
+    <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.leonlandry.com/drafts.html</loc>
+    <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.leonlandry.com/seminars.html</loc>
+    <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+  </url>
+</urlset>
