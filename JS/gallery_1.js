@@ -131,11 +131,6 @@ function toSlide1(a) {
   showSlide1(slideIndex = a);
 };
 
-function toSlide2(a) {
-  showSlide2(slideIndex = a);
-};
-
-
 function showSlide1(a) {
   const slides1 = document.getElementsByClassName('slide1');
   let modalPreviews = document.getElementsByClassName('modal-preview');
@@ -171,8 +166,10 @@ function showSlide1(a) {
   slides1[slideIndex - 1].style.display = 'flex';
   dots[slideIndex - 1].style.background = "rgb(219, 10, 10)";
   dots[slideIndex - 1].style.opacity = ".7";
-  };
+  };};
 
+function toSlide2(a) {
+  showSlide2(slideIndex = a);
 function showSlide2(a) {
   const slides2 = document.getElementsByClassName('slide2');
   let modalPreviews = document.getElementsByClassName('modal-preview');
@@ -208,7 +205,7 @@ function showSlide2(a) {
   slides2[slideIndex - 1].style.display = 'flex';
   dots[slideIndex - 1].style.background = "rgb(219, 10, 10)";
   dots[slideIndex - 1].style.opacity = ".7";
-  };
+  };};
 
 
   overlayShown = false,
