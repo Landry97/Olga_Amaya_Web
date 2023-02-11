@@ -1,3 +1,12 @@
+function closeLightbox_1(){
+    var list = document.getElementsByClassName('slide1');
+    for (var i=0; i<list.length; i++) {
+        list[i].style.display = 'none';
+    }
+    document.getElementById('lightbox_1').style.display='none';
+}
+
+
 function openLightbox_1() { 
   document.getElementById('mouseTarget').style.position = 'fixed';
   document.getElementById('mouseTarget').style.height = '3.5rem';
