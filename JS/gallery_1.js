@@ -15,9 +15,9 @@ if (dots.matches) {
   document.getElementById('dots').style.display = 'grid';
 }
 else {
-  document.getElementById('dots').style.display = 'none';
-}
-};
+  document.getElementById('dots').style.display = 'none';}};
+
+
 function closeLightbox_1() {
   x.addListener(scale);
   document.getElementById('mouseTarget').style.position = '';
@@ -34,10 +34,7 @@ if (mq.matches) {
   document.getElementById('menu-toggle').style.display = 'flex';
 }
 else {
-  document.getElementById('menu-toggle').style.display = 'none';
-}
-};
-
+  document.getElementById('menu-toggle').style.display = 'none';}};
 
 
 
@@ -58,9 +55,9 @@ if (dots.matches) {
   document.getElementById('dots').style.display = 'grid';
 }
 else {
-  document.getElementById('dots').style.display = 'none';
-}
-};
+  document.getElementById('dots').style.display = 'none';}};
+
+
 function closeLightbox_2() {
   x.addListener(scale);
   document.getElementById('mouseTarget').style.position = '';
@@ -77,12 +74,7 @@ if (mq.matches) {
   document.getElementById('menu-toggle').style.display = 'flex';
 }
 else {
-  document.getElementById('menu-toggle').style.display = 'none';
-}
-};
-
-
-
+  document.getElementById('menu-toggle').style.display = 'none';}};
 
 
 function changeSlide(n) {
@@ -95,6 +87,8 @@ function toSlide(n) {
 
 function showSlide(n) {
   const slides1 = document.getElementsByClassName('slide1');
+  const slides2 = document.getElementsByClassName('slide1');
+  const slides3 = document.getElementsByClassName('slide1');
   
   let modalPreviews = document.getElementsByClassName('modal-preview');
   const dot = document.getElementsByClassName('dots');
@@ -108,19 +102,53 @@ function showSlide(n) {
   document.getElementById('next').style.display = 'flex';
   };
   
+  
   if (n > slides1.length-1) {
   document.getElementById('again').style.display = 'flex';
   document.getElementById('next').style.display = 'none';
   };
+  if (n > slides2.length-1) {
+  document.getElementById('again').style.display = 'flex';
+  document.getElementById('next').style.display = 'none';
+  };
+  if (n > slides3.length-1) {
+  document.getElementById('again').style.display = 'flex';
+  document.getElementById('next').style.display = 'none';
+  };
  
+  
+  
+  
   if (n > slides1.length) {
     slideIndex = 1;	
   document.getElementById('again').style.display = 'none';
   document.getElementById('next').style.display = 'flex';
   };
+  if (n > slides2.length) {
+    slideIndex = 1;	
+  document.getElementById('again').style.display = 'none';
+  document.getElementById('next').style.display = 'flex';
+  };
+  if (n > slides3.length) {
+    slideIndex = 1;	
+  document.getElementById('again').style.display = 'none';
+  document.getElementById('next').style.display = 'flex';
+  };
+  
+  
   
   if (n < 1) {
     slideIndex = slides1.length;
+  document.getElementById('again').style.display = 'flex';
+  document.getElementById('next').style.display = 'none';
+  };
+  if (n < 1) {
+    slideIndex = slides2.length;
+  document.getElementById('again').style.display = 'flex';
+  document.getElementById('next').style.display = 'none';
+  };
+  if (n < 1) {
+    slideIndex = slides3.length;
   document.getElementById('again').style.display = 'flex';
   document.getElementById('next').style.display = 'none';
   };
@@ -132,13 +160,32 @@ function showSlide(n) {
     dots[i].style.opacity = "1";
     dots[i].style.display = 'grid';
   };
+  
+  for (let i = 0; i < slides2.length; i++) {
+    slides1[i].style.display = "none";
+    dots[i].style.background = "black";
+    dots[i].style.opacity = "1";
+    dots[i].style.display = 'grid';
+  };
+  for (let i = 0; i < slides3.length; i++) {
+    slides1[i].style.display = "none";
+    dots[i].style.background = "black";
+    dots[i].style.opacity = "1";
+    dots[i].style.display = 'grid';
+  };
+  
   for (let i = 0; i < modalPreviews.length; i++) {
     modalPreviews[i].className = modalPreviews[i].className.replace(' active', '');
     dot[i].className = dot[i].className.replace(' active', '');
   };
+  
   const dotzz = document.getElementsByClassName('dots');
   let y = dotzz.length;
+  
   slides1[slideIndex - 1].style.display = 'flex';
+  slides2[slideIndex - 1].style.display = 'flex';
+  slides3[slideIndex - 1].style.display = 'flex';
+  
   dots[slideIndex - 1].style.background = "rgb(219, 10, 10)";
   dots[slideIndex - 1].style.opacity = ".7";
   };
