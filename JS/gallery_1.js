@@ -236,7 +236,7 @@ function showSlide3(c) {
   document.getElementById('again').style.display = 'flex';
   document.getElementById('next').style.display = 'none';
   };
-  for (let i = 0; i < slides1.length; i++) {
+  for (let i = 0; i < slides3.length; i++) {
     slides3[i].style.display = "none";
     dots[i].style.background = "black";
     dots[i].style.opacity = "1";
