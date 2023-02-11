@@ -177,7 +177,6 @@ function showSlide2(b) {
   const slides2 = document.getElementsByClassName('slide2');
   let modalPreviews = document.getElementsByClassName('modal-preview');
   const dot = document.getElementsByClassName('dots');
-  let dots = document.getElementsByClassName('dot2');
   
   if (b > 1) {
   document.getElementById('again').style.display = 'none';
