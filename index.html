@@ -68,7 +68,7 @@
           <img src="IMG/muster_project_01.jpg" class="hover-shadow preview" alt="">
         </picture>
     </p>
-        <figcaption class="project-info-index" id="project-info1" onclick="openLightbox();toSlide(1)">
+        <figcaption class="project-info-index" id="project-info1" onclick="openLightbox_1();toSlide(1)">
         PROJECT 1 <br>
         Art Direction/ Fashion Stylist<br>
         </figcaption>
@@ -88,10 +88,10 @@
                 <source srcset="IMG/muster_project_01.jpg">
         
           <!-- IMAGE FALLBACK in case picture element is not supported -->
-          <img src="IMG/muster_project_01.jpg" onclick="openLightbox();toSlide(2)" class="hover-shadow preview" alt="">
+          <img src="IMG/muster_project_01.jpg" class="hover-shadow preview" alt="">
         </picture>
     </p>
-        <figcaption class="project-info-index" id="project-info2">
+        <figcaption class="project-info-index" id="project-info2" onclick="openLightbox_2();toSlide(1)">
         PROJECT 2 <br>
         Art Direction/ Fashion Stylist<br>
         </figcaption>
@@ -111,10 +111,10 @@
                 <source srcset="IMG/muster_project_01.jpg">
         
           <!-- IMAGE FALLBACK in case picture element is not supported -->
-          <img src="IMG/muster_project_01.jpg" onclick="openLightbox();toSlide(3)" class="hover-shadow preview" alt="">
+          <img src="IMG/muster_project_01.jpg" class="hover-shadow preview" alt="">
         </picture>
     </p>
-        <figcaption class="project-info-index" id="project-info3">
+        <figcaption class="project-info-index" id="project-info3" onclick="openLightbox_3();toSlide(1)">
         PROJECT 3 <br>
         Art Direction/ Fashion Stylist<br>
         </figcaption>
@@ -134,7 +134,7 @@
                 <source srcset="IMG/muster_project_01.jpg">
         
           <!-- IMAGE FALLBACK in case picture element is not supported -->
-          <img src="IMG/muster_project_01.jpg" onclick="openLightbox();toSlide(4)" class="hover-shadow preview" alt="">
+          <img src="IMG/muster_project_01.jpg" onclick="openLightbox_1();toSlide(1)" class="hover-shadow preview" alt="">
         </picture>
     </p>
         <figcaption class="project-info-index" id="project-info4">
@@ -157,7 +157,7 @@
                 <source srcset="IMG/muster_project_01.jpg">
         
           <!-- IMAGE FALLBACK in case picture element is not supported -->
-          <img src="IMG/muster_project_01.jpg" onclick="openLightbox();toSlide(5)" class="hover-shadow preview" alt="">
+          <img src="IMG/muster_project_01.jpg" onclick="openLightbox_1();toSlide(5)" class="hover-shadow preview" alt="">
         </picture>
     </p>
         <figcaption class="project-info-index" id="project-info5">
@@ -180,7 +180,7 @@
                 <source srcset="IMG/muster_project_01.jpg">
         
           <!-- IMAGE FALLBACK in case picture element is not supported -->
-          <img src="IMG/muster_project_01.jpg" onclick="openLightbox();toSlide(6)" class="hover-shadow preview" alt="">
+          <img src="IMG/muster_project_01.jpg" onclick="openLightbox_1();toSlide(6)" class="hover-shadow preview" alt="">
         </picture>
     </p>
         <figcaption class="project-info-index" id="project-info6">
@@ -196,7 +196,7 @@
 <!-- LIGHTBOX 1.Project -->
 <div id="Lightbox_1" class="modal">
   
-    <span id="close-pointer" class="close pointer" onclick="closeLightbox()">&times;</span>
+    <span id="close-pointer" class="close pointer" onclick="closeLightbox_1()">&times;</span>
     <div class="modal-content">
       <div class="slide">
         <img src="IMG/muster_project_01.jpg" class="image-slide" alt="" />
@@ -241,6 +241,107 @@
         <p class="INFGLLRY" id="INFGLLRY">
          </a>
   </div> 
+  
+  
+<!-- LIGHTBOX 2.Project -->
+<div id="Lightbox_2" class="modal">
+  
+    <span id="close-pointer" class="close pointer" onclick="closeLightbox_2()">&times;</span>
+    <div class="modal-content">
+      <div class="slide">
+        <img src="IMG/muster_project_01.jpg" class="image-slide" alt="" />
+      </div>
+      <div class="slide">
+        <img src="IMG/muster_project_01.jpg" class="image-slide" alt="" />
+      </div>    
+      <div class="slide">
+        <img src="IMG/muster_project_01.jpg" class="image-slide" alt="" />
+      </div>     
+      <div class="slide">
+        <img src="IMG/muster_project_01.jpg" class="image-slide" alt="" />
+      </div>  
+      <div class="slide">
+        <img src="IMG/muster_project_01.jpg" class="image-slide" alt="" />
+      </div>  
+      <div class="slide">
+        <img src="IMG/muster_project_01.jpg" class="image-slide" alt="" />
+      </div>  
+      <section id="layer"></section>
+    </div>
+    
+    <div class="directiontext">
+      <a class="prev" onclick="changeSlide(-1)"><p class="textprev">PREV</p></a>
+      <a id="next" class="nex" onclick="changeSlide(1)"><p class="textnex">NEXT</p></a>
+      <a id="again" class="again" onclick="changeSlide(1)"><p class="textag">AGAIN</p></a>
+    </div>
+  
+  
+<!-- LIGHTBOX: DOTS -->
+<div class="dots" id="dots">
+      <div class="dot" onclick="toSlide(1)"></div>
+      <div class="dot" onclick="toSlide(2)"></div>
+      <div class="dot" onclick="toSlide(3)"></div>
+  
+      <div class="dot" onclick="toSlide(4)"></div>
+      <div class="dot" onclick="toSlide(5)"></div>
+      <div class="dot" onclick="toSlide(6)"></div>
+</div> 
+    
+<a class="infogallery" id="infogalleryid" href="#info">INFO
+        <p class="INFGLLRY" id="INFGLLRY">
+         </a>
+  </div> 
+  
+  
+  <!-- LIGHTBOX 1.Project -->
+<div id="Lightbox_3" class="modal">
+  
+    <span id="close-pointer" class="close pointer" onclick="closeLightbox_3()">&times;</span>
+    <div class="modal-content">
+      <div class="slide">
+        <img src="IMG/muster_project_01.jpg" class="image-slide" alt="" />
+      </div>
+      <div class="slide">
+        <img src="IMG/muster_project_01.jpg" class="image-slide" alt="" />
+      </div>    
+      <div class="slide">
+        <img src="IMG/muster_project_01.jpg" class="image-slide" alt="" />
+      </div>     
+      <div class="slide">
+        <img src="IMG/muster_project_01.jpg" class="image-slide" alt="" />
+      </div>  
+      <div class="slide">
+        <img src="IMG/muster_project_01.jpg" class="image-slide" alt="" />
+      </div>  
+      <div class="slide">
+        <img src="IMG/muster_project_01.jpg" class="image-slide" alt="" />
+      </div>  
+      <section id="layer"></section>
+    </div>
+    
+    <div class="directiontext">
+      <a class="prev" onclick="changeSlide(-1)"><p class="textprev">PREV</p></a>
+      <a id="next" class="nex" onclick="changeSlide(1)"><p class="textnex">NEXT</p></a>
+      <a id="again" class="again" onclick="changeSlide(1)"><p class="textag">AGAIN</p></a>
+    </div>
+  
+  
+<!-- LIGHTBOX: DOTS -->
+<div class="dots" id="dots">
+      <div class="dot" onclick="toSlide(1)"></div>
+      <div class="dot" onclick="toSlide(2)"></div>
+      <div class="dot" onclick="toSlide(3)"></div>
+  
+      <div class="dot" onclick="toSlide(4)"></div>
+      <div class="dot" onclick="toSlide(5)"></div>
+      <div class="dot" onclick="toSlide(6)"></div>
+</div> 
+    
+<a class="infogallery" id="infogalleryid" href="#info">INFO
+        <p class="INFGLLRY" id="INFGLLRY">
+         </a>
+  </div> 
+  
   
   <footer>
     <p class="instagram">
