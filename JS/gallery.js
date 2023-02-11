@@ -7,7 +7,9 @@ function openLightbox() {
   document.getElementsByTagName('body')[0].style.overflow ="hidden";
   document.getElementById('Lightbox').style.display = 'flex';
   document.getElementById('rowid').style.display = 'none';
+  document.getElementById('info').style.display = 'none';
   document.getElementById('menu-toggle').style.display = 'none';
+  document.getElementById('madebyid').style.display = 'none';
   document.getElementsByTagName("Footer")[0].style.display = "none";
   document.getElementById('menu-toggle').style.display = 'none';
   x.removeListener(scale);
@@ -27,8 +29,10 @@ function closeLightbox() {
   document.getElementById('mouseTarget').style.zIndex = '';
   document.getElementsByTagName('body')[0].style.overflow ="";
   document.getElementById('Lightbox').style.display = 'none'; 
-  document.getElementById('rowid').style.display = 'flex';
+  document.getElementById('rowid').style.display = 'grid';
+  document.getElementById('info').style.display = 'flex';
   document.getElementById('menu-toggle').style.display = 'flex';
+  document.getElementById('madebyid').style.display = 'flex';
   document.getElementsByTagName("Footer")[0].style.display = "flex";
 var mq = window.matchMedia( "(max-width: 950px)" );
 if (mq.matches) {
