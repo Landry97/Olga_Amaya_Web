@@ -105,9 +105,9 @@ li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter
 @media (min-width: 750px){
     .project-list-index{ 
         --num-cols: 2; 
-        width: 90vw;
+        width: 100vw;
         align-self: center;
-        --gap: 1.5rem; 
+        --gap: .15rem; 
         --row-height: auto;        
         box-sizing: border-box; 
         padding: var(--gap); 
