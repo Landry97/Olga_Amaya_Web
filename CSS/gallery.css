@@ -27,6 +27,13 @@ div.direction{display: flex;align-items: center;justify-content: center;text-ali
 .image-slide{display: flex;justify-content: center;align-items: center;width: 100%;max-width: 90%;height: 100%;max-height: 95%;-o-object-fit: contain;object-fit: contain;}
 .modal-preview{width: auto;}
 div.dots{position: fixed;bottom: 1rem;right: 1rem;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows: auto;grid-gap: 0.15rem;cursor: pointer;}
+div.dot{
+    margin: .21rem;
+    cursor: pointer;
+    width: .5em;
+    height: .5em;
+    border-radius: .25em;
+    background: black;}
 div.dot1 {
     margin: .21rem;
     cursor: pointer;
