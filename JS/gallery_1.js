@@ -136,7 +136,7 @@ function toSlide2(b) {
 };
 
 function toSlide3(c) {
-  showSlide3(slideIndex = b);
+  showSlide3(slideIndex = c);
 };
 
 
