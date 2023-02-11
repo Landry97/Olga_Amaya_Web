@@ -139,7 +139,7 @@ function toSlide2(b) {
 function showSlide1(a) {
   const slides1 = document.getElementsByClassName('slide1');
   let modalPreviews = document.getElementsByClassName('modal-preview');
-  const dot = document.getElementsByClassName('dots');
+  const dot = document.getElementsByClassName('dots1');
   let dots = document.getElementsByClassName('dot1');
   
   if (a > 1) {
@@ -176,7 +176,7 @@ function showSlide1(a) {
 function showSlide2(b) {
   const slides2 = document.getElementsByClassName('slide2');
   let modalPreviews = document.getElementsByClassName('modal-preview');
-  const dot = document.getElementsByClassName('dots');
+  const dot = document.getElementsByClassName('dots2');
   let dots = document.getElementsByClassName('dot2');
   
   if (b > 1) {
