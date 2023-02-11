@@ -177,6 +177,7 @@ function showSlide2(b) {
   const slides2 = document.getElementsByClassName('slide2');
   let modalPreviews = document.getElementsByClassName('modal-preview');
   const dot = document.getElementsByClassName('dots');
+  let dots = document.getElementsByClassName('dot2');
   
   if (b > 1) {
   document.getElementById('again').style.display = 'none';
@@ -193,15 +194,15 @@ function showSlide2(b) {
   document.getElementById('again').style.display = 'flex';
   document.getElementById('next').style.display = 'none';
   };
-  for (let i = 0; i < slides2.length; i++) {
-    slides2[i].style.display = "none";
-    dots[i].style.background = "black";
-    dots[i].style.opacity = "1";
-    dots[i].style.display = 'grid';};
+  for (let j = 0; i < slides2.length; j++) {
+    slides2[j].style.display = "none";
+    dots[j].style.background = "black";
+    dots[j].style.opacity = "1";
+    dots[j].style.display = 'grid';};
   
-  for (let i = 0; i < modalPreviews.length; i++) {
-    modalPreviews[i].className = modalPreviews[i].className.replace(' active', '');
-    dot2[i].className = dot[i].className.replace(' active', '');};
+  for (let j = 0; i < modalPreviews.length; j++) {
+    modalPreviews[j].className = modalPreviews[j].className.replace(' active', '');
+    dot2[i].className = dot[j].className.replace(' active', '');};
   const dotzz = document.getElementsByClassName('dots');
   let y = dotzz.length;
   slides2[slideIndex - 1].style.display = 'flex';
