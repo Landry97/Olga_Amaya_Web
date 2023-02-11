@@ -127,10 +127,11 @@ function toSlide(n) {
   showSlide(slideIndex = n);
 };
 
+
 function showSlide(n) {
   const slides1 = document.getElementsByClassName('slide1');
-  const slides2 = document.getElementsByClassName('slide1');
-  const slides3 = document.getElementsByClassName('slide1');
+  const slides2 = document.getElementsByClassName('slide2');
+  const slides3 = document.getElementsByClassName('slide3');
   
   let modalPreviews = document.getElementsByClassName('modal-preview');
   const dot = document.getElementsByClassName('dots');
