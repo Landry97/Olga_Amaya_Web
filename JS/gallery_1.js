@@ -12,10 +12,10 @@ function openLightbox_1() {
   x.removeListener(scale);
 var dots = window.matchMedia( "(min-width: 350px)" );
 if (dots.matches) {
-  document.getElementById('dots').style.display = 'grid';
+  document.getElementById('dots1').style.display = 'grid';
 }
 else {
-  document.getElementById('dots').style.display = 'none';}};
+  document.getElementById('dots1').style.display = 'none';}};
 
 
 function closeLightbox_1() {
@@ -52,10 +52,10 @@ function openLightbox_2() {
   x.removeListener(scale);
 var dots = window.matchMedia( "(min-width: 350px)" );
 if (dots.matches) {
-  document.getElementById('dots').style.display = 'grid';
+  document.getElementById('dots2').style.display = 'grid';
 }
 else {
-  document.getElementById('dots').style.display = 'none';}};
+  document.getElementById('dots2').style.display = 'none';}};
 
 
 function closeLightbox_2() {
@@ -91,10 +91,10 @@ function openLightbox_3() {
   x.removeListener(scale);
 var dots = window.matchMedia( "(min-width: 350px)" );
 if (dots.matches) {
-  document.getElementById('dots').style.display = 'grid';
+  document.getElementById('dots3').style.display = 'grid';
 }
 else {
-  document.getElementById('dots').style.display = 'none';}};
+  document.getElementById('dots3').style.display = 'none';}};
 
 
 function closeLightbox_3() {
