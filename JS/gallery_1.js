@@ -5,16 +5,24 @@ function closeLightbox_1(){
     }
     document.getElementById('lightbox_1').style.display='none';
 }
+// Declare iterators.
+var i, j;
 
+// Go through each row and assign events
+var rows = document.getElementsByClassName("project-list-index");
+var images;
+for(i = 0; i < rows.length; i++) {
   // Prepare each image in the row
-  images = rows[i].getElementsByTagName("picture");
+  images = rows[i].getElementsByTagName("figcaption");
   for(j = 0; j < images.length; j++) {
     // Use the image's position as its slide number and save it in an attribute
     images[j].setAttribute("data-number", j);
     
     // Assign an event listener to the image
     images[j].addEventListener("click", openModal);
+  }
 }
+
 
 // Declare all the functions
 function openModal(e) {
