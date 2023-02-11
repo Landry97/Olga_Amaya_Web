@@ -107,7 +107,7 @@ li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter
         --num-cols: 2; 
         width: 100vw;
         align-self: center;
-        --gap: .15rem; 
+        --gap: 0rem; 
         --row-height: auto;        
         box-sizing: border-box; 
         padding: var(--gap); 
