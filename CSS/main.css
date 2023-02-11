@@ -87,7 +87,7 @@ figure.project-index:hover{transform: translateY(0)}
 figure.project-index:hover:before{opacity: 1;}
 figure.project-index:hover .project-info-index:hover{opacity: 1;transform: translateY(0);}
 figure.project-index{position: relative;}
-figure.project-index:before{content: '';position: absolute;display: block;width: 100%;height: 100%;background: transparent;z-index: 2;transition: 0.3s;opacity: 0;box-shadow: inset 0 0 0 0.15rem black;}
+figure.project-index:before{content: '';position: absolute;display: block;width: 100%;height: 100%;background: transparent;z-index: 2;transition: 0.3s;opacity: 0;}
 figcaption.project-info-index{position: absolute;top: 0;left: 0;right:0;padding: 5% 0 0 5%;;width: 100%;height: 100%;}
 .project-index .project-info-index{position: absolute;z-index: 3;opacity: 0;transform: translateY(0);transition: 0.25s; background: white;}
 .project-info-index p{margin: 0;letter-spacing: .1rem;}
