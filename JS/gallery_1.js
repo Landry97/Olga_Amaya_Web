@@ -182,8 +182,7 @@ function showSlide2(n) {
   document.getElementById('next').style.display = 'none';
   };
   for (let i = 0; i < slides2.length; i++) {
-    slides2[i].style.display = "none";
-  
+    slides2[i].style.display = "none";};
   for (let i = 0; i < modalPreviews.length; i++) {
     modalPreviews[i].className = modalPreviews[i].className.replace(' active', '');
   slides2[slideIndex - 1].style.display = 'flex';
