@@ -94,7 +94,7 @@ function toSlide(n) {
 };
 
 function showSlide(n) {
-  const slides = document.getElementsByClassName('slide');
+  const slides = document.getElementsByClassName('slide1');
   let modalPreviews = document.getElementsByClassName('modal-preview');
   const dot = document.getElementsByClassName('dots');
   let dots = document.getElementsByClassName('dot');
