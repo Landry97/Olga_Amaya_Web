@@ -108,12 +108,12 @@ function showSlide(n) {
   document.getElementById('next').style.display = 'flex';
   };
   
-  if (n > slides.length-1) {
+  if (n > slides1.length-1) {
   document.getElementById('again').style.display = 'flex';
   document.getElementById('next').style.display = 'none';
   };
  
-  if (n > slides.length) {
+  if (n > slides1.length) {
     slideIndex = 1;	
   document.getElementById('again').style.display = 'none';
   document.getElementById('next').style.display = 'flex';
