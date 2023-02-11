@@ -194,13 +194,13 @@ function showSlide2(b) {
   document.getElementById('again').style.display = 'flex';
   document.getElementById('next').style.display = 'none';
   };
-  for (let j = 0; i < slides2.length; j++) {
+  for (let j = 0; j < slides2.length; j++) {
     slides2[j].style.display = "none";
     dots[j].style.background = "black";
     dots[j].style.opacity = "1";
     dots[j].style.display = 'grid';};
   
-  for (let j = 0; i < modalPreviews.length; j++) {
+  for (let j = 0; j < modalPreviews.length; j++) {
     modalPreviews[j].className = modalPreviews[j].className.replace(' active', '');
     dot2[i].className = dot[j].className.replace(' active', '');};
   const dotzz = document.getElementsByClassName('dots');
