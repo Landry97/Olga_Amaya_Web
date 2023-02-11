@@ -7,7 +7,6 @@ function openLightbox() {
   document.getElementsByTagName('body')[0].style.overflow ="hidden";
   document.getElementById('Lightbox').style.display = 'flex';
   document.getElementById('rowid').style.display = 'none';
-  document.getElementById('info').style.display = 'none';
   document.getElementById('menu-toggle').style.display = 'none';
   document.getElementById('madebyid').style.display = 'none';
   document.getElementsByTagName("Footer")[0].style.display = "none";
@@ -30,7 +29,6 @@ function closeLightbox() {
   document.getElementsByTagName('body')[0].style.overflow ="";
   document.getElementById('Lightbox').style.display = 'none'; 
   document.getElementById('rowid').style.display = 'grid';
-  document.getElementById('info').style.display = 'flex';
   document.getElementById('menu-toggle').style.display = 'flex';
   document.getElementById('madebyid').style.display = 'flex';
   document.getElementsByTagName("Footer")[0].style.display = "flex";
