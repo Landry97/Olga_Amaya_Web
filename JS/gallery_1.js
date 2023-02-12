@@ -61,11 +61,15 @@ function changeSlide(n) {
   showSlide(slideIndex += n);
 };
 
-function toSlide(n) {
-  showSlide(slideIndex = n);
+function toSlide1(n) {
+  showSlide1(slideIndex = n);
 };
 
-function showSlide(n) {
+function toSlide2(n) {
+  showSlide2(slideIndex = n);
+};
+
+function showSlide1(n) {
   const slides1 = document.getElementsByClassName('slide1');
   
   let modalPreviews = document.getElementsByClassName('modal-preview');
@@ -104,6 +108,48 @@ function showSlide(n) {
   let y = dotzz.length;
   slides1[slideIndex - 1].style.display = 'flex';
   };
+
+function showSlide2(n) {
+  const slides2 = document.getElementsByClassName('slide2');
+  
+  let modalPreviews = document.getElementsByClassName('modal-preview');
+  
+  if (n > 1) {
+  document.getElementById('again').style.display = 'none';
+  document.getElementById('next').style.display = 'flex';
+  };
+  
+  if (n > slides2.length-1) {
+  document.getElementById('again').style.display = 'flex';
+  document.getElementById('next').style.display = 'none';
+  };
+ 
+  if (n > slides2.length) {
+    slideIndex = 1;	
+  document.getElementById('again').style.display = 'none';
+  document.getElementById('next').style.display = 'flex';
+  };
+  
+  if (n < 1) {
+    slideIndex = slides2.length;
+  document.getElementById('again').style.display = 'flex';
+  document.getElementById('next').style.display = 'none';
+  };
+  
+
+  for (let i = 0; i < slides2.length; i++) {
+    slides2[i].style.display = "none";
+  };
+  
+  for (let i = 0; i < modalPreviews.length; i++) {
+    modalPreviews[i].className = modalPreviews[i].className.replace(' active', '');
+  };
+  const dotzz = document.getElementsByClassName('dots');
+  let y = dotzz.length;
+  slides1[slideIndex - 1].style.display = 'flex';
+  };
+
+
 
   overlayShown = false,
   overlayScrollListener = null,
