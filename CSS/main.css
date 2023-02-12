@@ -96,7 +96,7 @@ align-content: center;
 align-self: center;
 justify-content: center}
 
-.project-index .project-info-index{position: absolute;z-index: 3;opacity: 0;transform: translateY(0);transition: 0.25s; background-color: rgba(255, 255, 255, 0.9); font-size: 1rem; letter-spacing: .75rem;}
+.project-index .project-info-index{position: absolute;z-index: 3;opacity: 0;transform: translateY(0);transition: 0.25s; background-color: rgba(255, 255, 255, 0.9); font-size: 1em; letter-spacing: .55em; padding:3em;}
 .project-info-index p{margin: 0;letter-spacing: .1rem;}
 @media screen and (max-width:330px){.header-title a span{font-size: 0.9rem;}}
 @media (max-width: 950px){#nav-ul{display: none;}.balkentext{display: none;}.balken2{display: none;}.balken3{display: none;}}
