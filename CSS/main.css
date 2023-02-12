@@ -164,3 +164,9 @@ li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter
     align-items: center;
     align-content: center;
 }
+.videolink{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: transparent;
+}
