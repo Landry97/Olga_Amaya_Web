@@ -92,25 +92,15 @@ function showSlide1(n) {
   let modalPreviews = document.getElementsByClassName('modal-preview');
   
   if (n > 1) {
-  document.getElementById('again').style.display = 'none';
   document.getElementById('next').style.display = 'flex';
-  };
-  
-  if (n > slides1.length-1) {
-  document.getElementById('again').style.display = 'flex';
-  document.getElementById('next').style.display = 'none';
   };
  
   if (n > slides1.length) {
     slideIndex = 1;	
-  document.getElementById('again').style.display = 'none';
-  document.getElementById('next').style.display = 'flex';
   };
   
   if (n < 1) {
     slideIndex = slides1.length;
-  document.getElementById('again').style.display = 'flex';
-  document.getElementById('next').style.display = 'none';
   };
   
 
@@ -128,27 +118,13 @@ function showSlide2(n) {
   const slides2 = document.getElementsByClassName('slide2');
   
   let modalPreviews = document.getElementsByClassName('modal-preview');
-  
-  if (n > 1) {
-  document.getElementById('again').style.display = 'none';
-  document.getElementById('next').style.display = 'flex';
-  };
-  
-  if (n > slides2.length-1) {
-  document.getElementById('again').style.display = 'flex';
-  document.getElementById('next').style.display = 'none';
-  };
  
   if (n > slides2.length) {
     slideIndex = 1;	
-  document.getElementById('again').style.display = 'none';
-  document.getElementById('next').style.display = 'flex';
   };
   
   if (n < 1) {
     slideIndex = slides2.length;
-  document.getElementById('again').style.display = 'flex';
-  document.getElementById('next').style.display = 'none';
   };
   
 
