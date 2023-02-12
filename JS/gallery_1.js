@@ -58,7 +58,8 @@ function closeLightbox_2() {
 
 
 function changeSlide(n) {
-  showSlide(slideIndex += n);
+  showSlide1(slideIndex += n);
+  showSlide2(slideIndex += n);
 };
 
 function toSlide1(n) {
