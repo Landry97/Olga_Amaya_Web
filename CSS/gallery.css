@@ -110,9 +110,9 @@ img.preview,img.modal-preview{opacity: 1;}
 img.active,.preview:hover,.modal-preview:hover{opacity: 0.8;}  
 img.hover-shadow{transition: 0.3s;}
 .hover-shadow:hover{box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);} 
-.close{color: black;height: 3rem;position: absolute;top: 0;right: 0;font-size: 2.5rem;font-weight: bold;padding: 0 1rem 0 0;z-index: 505;display:flex;text-align: center;justify-content: center;align-items: center;}
+.close{color: white;height: 3rem;position: absolute;top: 0;right: 0;font-size: 2.5rem;font-weight: bold;padding: 0 1rem 0 0;z-index: 505;display:flex;text-align: center;justify-content: center;align-items: center;}
 .close:hover,.close:focus{color: #999;text-decoration: none;cursor: pointer;}
 .previous,.next{display: flex;justify-content: center;cursor: pointer;position: absolute;color: transparent;}
 .previous{left: 0;padding: 35vh 44vw 35vh 1rem;}
 .next{right: 0;padding: 35vh 1rem 35vh 44vw;}
-#close-pointer:hover{color: rgb(219, 10, 10);}
+#close-pointer:hover{color: white;}
