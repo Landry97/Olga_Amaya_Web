@@ -174,18 +174,11 @@ function showOverlay() {
     body.scrollLeft(overlaySavedScrollLeft);
   })
 };
-var boxid = "Lightbox_1";
+
 window.onkeydown = function (event){ 
 if (event.keyCode == 37) {
-    changeSlide1(-1);}  
+    changeSlide1(-1), changeSlide2(-1);}  
 if (event.keyCode == 39) {
     changeSlide1(1);}
 };
 
-var boxid = "Lightbox_2";
-window.onkeydown = function (event){ 
-if (event.keyCode == 37) {
-    changeSlide2(-1);}  
-if (event.keyCode == 39) {
-    changeSlide2(1);}
-};
