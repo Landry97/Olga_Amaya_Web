@@ -59,10 +59,22 @@ function closeLightbox_2() {
 
 function changeSlide1(n) {
   showSlide1(slideIndex += n);
+  window.onkeydown = function (event){ 
+if (event.keyCode == 37) {
+    changeSlide1(-1);}  
+if (event.keyCode == 39) {
+    changeSlide1(1);}
+};
 };
 
 function changeSlide2(n) {
   showSlide2(slideIndex += n);
+  window.onkeydown = function (event){ 
+if (event.keyCode == 37) {
+    changeSlide2(-1);}  
+if (event.keyCode == 39) {
+    changeSlide2(1);}
+};
 };
 
 
@@ -175,10 +187,5 @@ function showOverlay() {
   })
 };
 
-window.onkeydown = function (event){ 
-if (event.keyCode == 37) {
-    changeSlide1(-1), changeSlide2(-1);}  
-if (event.keyCode == 39) {
-    changeSlide1(1);}
-};
+
 
