@@ -67,9 +67,12 @@ else {
 }
 };
 
+
+
+
 function changeSlide1(n) {
   showSlide1(slideIndex += n);
-  focusFeatures = function (event){ 
+  window.onkeydown = function (event){ 
 if (event.keyCode == 37) {
     changeSlide1(-1);}  
 if (event.keyCode == 39) {
@@ -79,7 +82,7 @@ if (event.keyCode == 39) {
 
 function changeSlide2(n) {
   showSlide2(slideIndex += n);
-  focusFeatures = function (event){ 
+  window.onkeydown = function (event){ 
 if (event.keyCode == 37) {
     changeSlide2(-1);}  
 if (event.keyCode == 39) {
