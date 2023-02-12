@@ -12,7 +12,7 @@ function openLightbox_1() {
   x.removeListener(scale);
 var dots = window.matchMedia( "(min-width: 350px)" );
 if (dots.matches) {
-  document.getElementById('dots').style.display = 'grid';
+  document.getElementById('dots').style.display = 'none';
 }
 else {
   document.getElementById('dots').style.display = 'none';
@@ -52,15 +52,8 @@ function openLightbox_2() {
   document.getElementById('menu-toggle').style.display = 'none';
   document.getElementsByTagName("Footer")[0].style.display = "none";
   document.getElementById('menu-toggle').style.display = 'none';
-  x.removeListener(scale);
-var dots = window.matchMedia( "(min-width: 350px)" );
-if (dots.matches) {
-  document.getElementById('dots').style.display = 'grid';
-}
-else {
-  document.getElementById('dots').style.display = 'none';
-}
 };
+
 function closeLightbox_2() {
   x.addListener(scale);
   document.getElementById('mouseTarget').style.position = '';
@@ -72,13 +65,6 @@ function closeLightbox_2() {
   document.getElementById('rowid').style.display = 'grid';
   document.getElementById('menu-toggle').style.display = 'flex';
   document.getElementsByTagName("Footer")[0].style.display = "flex";
-var mq = window.matchMedia( "(max-width: 950px)" );
-if (mq.matches) {
-  document.getElementById('menu-toggle').style.display = 'flex';
-}
-else {
-  document.getElementById('menu-toggle').style.display = 'none';
-}
 };
 
 
@@ -97,11 +83,6 @@ function showSlide(n) {
   const slides1 = document.getElementsByClassName('slide1');
   
   let modalPreviews = document.getElementsByClassName('modal-preview');
-  const dot = document.getElementsByClassName('dots');
-  let dots = document.getElementsByClassName('dot');
-
-
-  
   
   if (n > 1) {
   document.getElementById('again').style.display = 'none';
@@ -128,20 +109,16 @@ function showSlide(n) {
 
   for (let i = 0; i < slides1.length; i++) {
     slides1[i].style.display = "none";
-    dots[i].style.background = "black";
-    dots[i].style.opacity = "1";
-    dots[i].style.display = 'grid';
   };
+  
   for (let i = 0; i < modalPreviews.length; i++) {
     modalPreviews[i].className = modalPreviews[i].className.replace(' active', '');
-    dot[i].className = dot[i].className.replace(' active', '');
   };
   const dotzz = document.getElementsByClassName('dots');
   let y = dotzz.length;
   slides1[slideIndex - 1].style.display = 'flex';
-  dots[slideIndex - 1].style.background = "rgb(219, 10, 10)";
-  dots[slideIndex - 1].style.opacity = ".7";
   };
+
   overlayShown = false,
   overlayScrollListener = null,
   overlaySavedScrollTop = 0,
