@@ -67,8 +67,12 @@ else {
 }
 };
 
-
-
+window.onkeydown = function (event){ 
+if (event.keyCode == 37) {
+    changeSlide1(-1);changeSlide2(-1)}  
+if (event.keyCode == 39) {
+    changeSlide1(1);changeSlide2(1)}
+};
 
 function changeSlide1(n) {
   showSlide1(slideIndex += n);
