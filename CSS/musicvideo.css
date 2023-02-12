@@ -7,15 +7,14 @@ display: flex;
 justify-content: center;
 align-items: center;
 padding-bottom: 56%;
-width: 75vw;
-height: auto;
-max-height: 100%;
+width: 80vw;
+height: 100%;
+min-height: 100%;
 } 
 iframe {
 position: absolute;
 top: 0;
 left: 0;
-bottom:10;
 width: 100%;
 height: 100%;
 }
