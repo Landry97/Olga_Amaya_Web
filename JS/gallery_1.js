@@ -175,10 +175,3 @@ function showOverlay() {
     body.scrollLeft(overlaySavedScrollLeft);
   })
 };
-
-document.addEventListener('keydown', (event) => {
-  if (event.keyCode == 37) {
-    changeSlide1(-1);changeSlide2(-1)}  
-if (event.keyCode == 39) {
-    changeSlide2(1); changeSlide2(1)}
-}
