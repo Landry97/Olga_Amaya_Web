@@ -57,9 +57,15 @@ function closeLightbox_2() {
   document.getElementById('Lightbox_2').style.display = 'none'; 
   document.getElementById('rowid').style.display = 'grid';
   document.getElementById('menu-toggle').style.display = 'flex';
-  document.getElementsByTagName("Footer")[0].style.display = "flex";
+  document.getElementsByTagName("Footer")[0].style.display = "flex";  
+  var mq = window.matchMedia( "(max-width: 950px)" );
+if (mq.matches) {
+  document.getElementById('menu-toggle').style.display = 'flex';
+}
+else {
+  document.getElementById('menu-toggle').style.display = 'none';
+}
 };
-
 
 
 
