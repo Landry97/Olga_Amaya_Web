@@ -127,13 +127,11 @@ img.hover-shadow{transition: 0.3s;}
 .right {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
- position: absolute; left: 1.5rem;
 }
 
 .left {
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
- position: absolute; right: 1.5rem;
 }
 
 
