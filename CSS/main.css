@@ -3,23 +3,17 @@ figure, figure img, picture{ display: flex;}
 figure{position: relative;}@font-face{font-family: "BBBouquet-Regular";src: url("Font/happy-times-NG_regular_master_web.woff2") format("woff2"),url("Font/happy-times-NG_regular_master_web.woff") format("woff");}
 h,h1,h2,h3,h4,h5,h6,a,p,p1,p2,p3,p4,p5,p6{font-family:BBBouquet-Regular,Futura,Trebuchet MS,Arial,sans-serif;}
 body#bodyid.bodyclass.show{overflow: hidden;} 
-body{width: 100%;height: 100%;min-height: 100vh;background: white;color: black;display: flex;flex-direction: column;font-family: BBBouquet-Regular,Futura,Trebuchet MS,Arial,sans-serif;font-size: 1rem;}
+body{width: 100%;height: 100%;min-height: 100vh;background: black;color: white;display: flex;flex-direction: column;font-family: BBBouquet-Regular,Futura,Trebuchet MS,Arial,sans-serif;font-size: 1rem;}
 footer, header{font-family: Trebuchet MS;}main ul li a{font-family: BBBouquet-Regular,Futura,Trebuchet MS,Arial,sans-serif;font-size: 1rem;letter-spacing: .15rem;font-weight: lighter;}
-.balkencontainer{display: flex;flex-direction: column;width: 100%;height: 1.5rem;justify-content: center;align-items: center;margin-top: -.45em;}
-.balkentext{margin-top: -1rem;display: flex;align-items: baseline;flex-direction: row;flex-wrap: nowrap;margin-left: auto;margin-right: 1%;z-index: 101;}
-.balkentext h4{padding-left: .3rem;padding-right: .3rem;}.balken_2{background-color: black;width: 100%;height: 100%;}
-.balken{background-color: black;width: 98%;height: 0.15rem;}
-.balken2{background-color: black;width: 25%;height: 0.11rem;margin-top: 0.25rem;margin-left: auto;margin-right: 1%;}
-.balken3{background-color: black;width: 17%;height: 0.11rem;margin-top: 0.25rem;margin-left: auto;margin-right: 1%;}
 header{position: relative;display: flex;background-color: transparent;flex-direction: row;flex-wrap: nowrap;width: 100%;align-items: center;align-content: center;justify-content: center;}
 .header-title {position: relative;display: flex;align-content: center;text-align: center;align-items: center;justify-content: center;text-transform: uppercase;z-index: 1000;height: 3.5rem;font-weight: lighter;letter-spacing: .6em;}
-.header-title a span{color: black;font-size: 1.25rem;height: 100%;text-align: center;box-sizing:border-box;display: block;float: none;line-height: normal;position: static;z-index: auto;}
-.header-title p{color: black;text-decoration: none;list-style-type: none;}nav .menu{display: flex;flex: 1;}
+.header-title a span{color: white;font-size: 1.25rem;height: 100%;text-align: center;box-sizing:border-box;display: block;float: none;line-height: normal;position: static;z-index: auto;}
+.header-title p{color: white;text-decoration: none;list-style-type: none;}nav .menu{display: flex;flex: 1;}
 .header-title a{text-decoration: none;list-style-type: none;letter-spacing: .33em;text-decoration: none;padding-top: 1em;padding-bottom: 1em; font-size: 2.25rem;}
-p.menupoint{height: 8px;position: absolute;text-indent: -100rem;width: 8px;border-radius: 8px;cursor: pointer;z-index: 1000;background-color: black;}
+p.menupoint{height: 8px;position: absolute;text-indent: -100rem;width: 8px;border-radius: 8px;cursor: pointer;z-index: 1000;background-color: white;}
 .menu-toggle{display: none;position: absolute;left: 0;text-indent: -100rem;width: 3em;padding-top: 1em;padding-bottom: 1em;align-items: center;justify-content: center;justify-items: center;}
 nav.menu li{display: flex;align-content: center;text-align: center;align-items: center;flex-direction: row;letter-spacing: .3rem;padding-right: 4rem;padding-left: 4rem;}
-li.menu-item a{color: black;text-decoration: none;list-style-type: none;}li.menu-item a:hover{color:rgb(219, 10, 10);}
+li.menu-item a{color: white;text-decoration: none;list-style-type: none;}li.menu-item a:hover{color:rgb(219, 10, 10);}
 nav.menu ul{display: flex;height: 100%;width: 100%;}nav.menu ul li{padding-left:2.5rem;}
 nav.menu{background-size: 1rem 1rem;bottom: 0;height: 100%;position: absolute;width: 100%;z-index: 101;}
 address{display: none;font-size: 1.25rem;text-decoration: none;text-decoration-style: none;color: black;letter-spacing: .3rem;width: 100ch;height: auto;width: 100%;}
@@ -47,8 +41,8 @@ main ul{display: flex;flex-direction: row;flex-wrap: wrap;align-content:center;a
 main ul li{display: block;padding: 1rem 2rem 1rem 2rem;list-style-type: none;}
 main ul li:hover{list-style-type: circle;color: rgb(219, 10, 10);}
 .footer-wrapper{height: auto;min-height: 20vh;display: flex;align-content: flex-end;} 
-footer{margin-top: auto;color: white;display: flex;flex-direction: row;width: 100%;padding-top: 5rem;padding-bottom: 3rem;padding-left: 2.5rem;letter-spacing: .1rem;font-size: .75em;}
-footer p a {color: black;text-decoration: none;}
+footer{margin-top: auto;color: black;display: flex;flex-direction: row;width: 100%;padding-top: 5rem;padding-bottom: 3rem;padding-left: 2.5rem;letter-spacing: .1rem;font-size: .75em;}
+footer p a {color: white;text-decoration: none;}
 .instagram{height: 1rem;display: flex;align-content: space-around;align-items: center;margin-right: 3.5%;margin-top: .5%;margin-bottom: .5%;font-size: .85rem;}
 .copyright{height: 1rem;display: flex;align-content: center;align-items: center;margin-right: 3.5%;margin-top: .5%;margin-bottom: .5%;}
 .privacy{height: 1rem;display: flex;align-content: space-around;align-items: center;margin-top: .5%;margin-bottom: .5%;}
