@@ -172,10 +172,14 @@ li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter
 }
 
 .jobtitle{
-    padding 1.5em;
-    font-size: 2.5rem;
+  font-size: 1.75rem;
+  margin: 1rem 2rem 1rem 2rem;
+  font-weight: lighter;
+  letter-spacing: .5rem;
 }
 .jobsub
-font-size: 2rem;
-padding: 1.5em;
+  font-size: 1.5rem;
+  margin: 1rem 2rem 1rem 2rem;
+  font-weight: italic;
+  letter-spacing: .5rem;
 }
