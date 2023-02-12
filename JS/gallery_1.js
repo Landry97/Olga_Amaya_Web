@@ -22,6 +22,13 @@ function closeLightbox_1() {
   document.getElementById('rowid').style.display = 'grid';
   document.getElementById('menu-toggle').style.display = 'flex';
   document.getElementsByTagName("Footer")[0].style.display = "flex";
+  var mq = window.matchMedia( "(max-width: 950px)" );
+if (mq.matches) {
+  document.getElementById('menu-toggle').style.display = 'flex';
+}
+else {
+  document.getElementById('menu-toggle').style.display = 'none';
+}
 };
 
 
