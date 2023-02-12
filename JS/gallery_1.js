@@ -67,10 +67,8 @@ else {
 }
 };
 
-document.addEventListener('keydown', enable, false); // for the games
 document.addEventListener('keydown', focusFeatures, false); // for the focus features
 
-document.onkeydown = enable
 document.onkeydown = focusFeatures
 
 window.onkeydown = function (event){ 
