@@ -104,8 +104,6 @@ function showSlide1(n) {
   for (let i = 0; i < modalPreviews.length; i++) {
     modalPreviews[i].className = modalPreviews[i].className.replace(' active', '');
   };
-  const dotzz = document.getElementsByClassName('dots');
-  let y = dotzz.length;
   slides1[slideIndex - 1].style.display = 'flex';
   };
 
@@ -144,9 +142,7 @@ function showSlide2(n) {
   for (let i = 0; i < modalPreviews.length; i++) {
     modalPreviews[i].className = modalPreviews[i].className.replace(' active', '');
   };
-  const dotzz = document.getElementsByClassName('dots');
-  let y = dotzz.length;
-  slides1[slideIndex - 1].style.display = 'flex';
+  slides2[slideIndex - 1].style.display = 'flex';
   };
 
 
