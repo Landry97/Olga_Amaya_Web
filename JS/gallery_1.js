@@ -67,16 +67,28 @@ else {
 }
 };
 
+document.addEventListener('keydown', enable, false); // for the games
+document.addEventListener('keydown', focusFeatures, false); // for the focus features
+
+document.onkeydown = enable
+document.onkeydown = focusFeatures
+
 window.onkeydown = function (event){ 
 if (event.keyCode == 37) {
-    changeSlide1(-1);changeSlide2(-1)}  
+    changeSlide1(-1);}  
 if (event.keyCode == 39) {
-    changeSlide1(1);changeSlide2(1)}
+    changeSlide1(1);}
+};
+focusFeatures = function (event){ 
+if (event.keyCode == 37) {
+    changeSlide2(-1);}  
+if (event.keyCode == 39) {
+    changeSlide2(1);}
 };
 
 function changeSlide1(n) {
   showSlide1(slideIndex += n);
-  window.onkeydown = function (event){ 
+  focusFeatures = function (event){ 
 if (event.keyCode == 37) {
     changeSlide1(-1);}  
 if (event.keyCode == 39) {
@@ -86,7 +98,7 @@ if (event.keyCode == 39) {
 
 function changeSlide2(n) {
   showSlide2(slideIndex += n);
-  window.onkeydown = function (event){ 
+  focusFeatures = function (event){ 
 if (event.keyCode == 37) {
     changeSlide2(-1);}  
 if (event.keyCode == 39) {
