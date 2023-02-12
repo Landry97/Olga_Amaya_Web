@@ -6,9 +6,9 @@ position: relative;
 display: flex;
 justify-content: center;
 align-items: center;
-padding-bottom: 55%;
-width: 100vw;
-height: 100%;
+padding-bottom: 56%;
+width: 75vw;
+height: auto;
 max-height: 100%;
 } 
 iframe {
