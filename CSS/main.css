@@ -12,9 +12,9 @@ header{position: relative;display: flex;background-color: transparent;flex-direc
 .header-title a{text-decoration: none;list-style-type: none;letter-spacing: .33em;text-decoration: none;padding-top: 1em;padding-bottom: 1em; font-size: 2.25rem;}
 p.menupoint{height: 8px;position: absolute;text-indent: -100rem;width: 8px;border-radius: 8px;cursor: pointer;z-index: 1000;background-color: white;}
 .menu-toggle{display: none;position: absolute;left: 0;text-indent: -100rem;width: 3em;padding-top: 1em;padding-bottom: 1em;align-items: center;justify-content: center;justify-items: center;}
-nav.menu li{display: flex;align-content: center;text-align: center;align-items: center;flex-direction: row;letter-spacing: .3rem;padding-right: 4rem;padding-left: 4rem;}
+nav.menu li{display: flex;align-content: center;text-align: center;align-items: center;flex-direction: row;letter-spacing: .3rem;}
 li.menu-item a{color: white;text-decoration: none;list-style-type: none;}li.menu-item a:hover{color:rgb(219, 10, 10);}
-nav.menu ul{display: flex;height: 100%;width: 100%;}nav.menu ul li{padding-left:2.5rem;}
+nav.menu ul{display: flex;height: 100%;width: 100%;}nav.menu ul li{padding-left:1.5rem;}
 nav.menu{background-size: 1rem 1rem;bottom: 0;height: 100%;position: absolute;width: 100%;z-index: 101;}
 address{display: none;font-size: 1.25rem;text-decoration: none;text-decoration-style: none;color: black;letter-spacing: .3rem;width: 100ch;height: auto;width: 100%;}
 address div p a{font-size: 1.25rem;text-decoration: none;text-decoration-style: none;color: black;align-content: center;text-align: center;align-items: center;}
