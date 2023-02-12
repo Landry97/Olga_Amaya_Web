@@ -177,7 +177,7 @@ function showOverlay() {
 var boxid = "Lightbox";
 window.onkeydown = function (event){ 
 if (event.keyCode == 37) {
-    changeSlide(-1);}  
+    changeSlide1(-1);changeSlide2(-1);}  
 if (event.keyCode == 39) {
-    changeSlide(1);}
+    changeSlide1(+1);changeSlide2(+1);}
 };
