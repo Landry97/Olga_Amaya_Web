@@ -12,15 +12,15 @@ p.INFGLLRY{display: none;height: 10px;position: absolute;width: 10px;cursor: poi
 .header.show{position: fixed;top: 0;}
 #INFGLLRY.show{display: flex;position: fixed;bottom: 0;left: 0;height: 40vh;width: 100vw;text-align: center;justify-content: center;align-items: center;z-index: -1;background: rgb(219, 10, 10);padding: .75rem 1rem 1.25rem 1rem;}
 .infogallery{position: fixed;left: 0;padding: 1rem 1.5rem;bottom: 0;text-decoration: none;letter-spacing:.15rem;}
-a.infogallery{color: rgb(219, 10, 10);}
-p.infogallery.show{color: black;}
-a.infogallery:hover{color: black;}
+a.infogallery{color: white;}
+p.infogallery.show{color: white;}
+a.infogallery:hover{color: white;}
 .row{display: flex;align-items: center;justify-content: center;flex-direction: row;flex-wrap: wrap;align-content: center;width: 90%;height: auto;}
 .col {flex-wrap: wrap;display: flex;align-items: center;justify-content: center;cursor: pointer;margin-top: 1rem;margin-bottom: 1rem;margin-left: .5rem;margin-right: .5rem;}
 .col picture img{width: 100%;height: 100%;max-width: 100%;object-fit: contain;}
 .madeby{display: flex;width: auto;align-items: center;text-align: center;justify-content: center;}
 @media screen and (max-width: 750px) {.row{flex-direction: column;}}
-.modal{display: none;position: fixed;justify-content: center;align-items: center;z-index: 101;width: 100%;background-color: white;height: 100%;}
+.modal{display: none;position: fixed;justify-content: center;align-items: center;z-index: 101;width: 100%;background-color: black;height: 100%;}
 .modal-content{display: flex;flex-direction: column;justify-content: center;align-items: center;width: 100%;max-width: 100%;height: 100%;max-height: 75%;}
 div.direction{display: flex;align-items: center;justify-content: center;text-align: center;} 
 .slide{position: relative; display: none;justify-content: center;align-items: center;width: 100%;max-width: 90%;height: 100%;max-height: 100%;}
