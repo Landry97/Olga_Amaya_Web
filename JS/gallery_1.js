@@ -66,24 +66,6 @@ else {
   document.getElementById('menu-toggle').style.display = 'none';
 }
 };
-
-document.addEventListener('keydown', focusFeatures, false); // for the focus features
-
-document.onkeydown = focusFeatures
-
-window.onkeydown = function (event){ 
-if (event.keyCode == 37) {
-    changeSlide1(-1);}  
-if (event.keyCode == 39) {
-    changeSlide1(1);}
-};
-focusFeatures = function (event){ 
-if (event.keyCode == 37) {
-    changeSlide2(-1);}  
-if (event.keyCode == 39) {
-    changeSlide2(1);}
-};
-
 function changeSlide1(n) {
   showSlide1(slideIndex += n);
   focusFeatures = function (event){ 
