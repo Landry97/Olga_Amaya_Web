@@ -172,5 +172,29 @@ function showOverlay() {
   })
 };
 
+document.addEventListener('keydown', (event) => {
+   keysPressed[event.key] = true;
+
+   if (keysPressed['Control'] && event.key == '37') {
+       changeSlide1(-1);changeSlide1(-1);
+   }
+});
+
+document.addEventListener('keyup', (event) => {
+   delete keysPressed[event.key];
+});
+
+document.addEventListener('keydown', (event) => {
+   keysPressed[event.key] = true;
+
+   if (keysPressed['Control'] && event.key == '39') {
+       changeSlide2(1);changeSlide2(1);
+   }
+});
+
+document.addEventListener('keyup', (event) => {
+   delete keysPressed[event.key];
+});
+
 
 
