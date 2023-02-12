@@ -66,6 +66,7 @@ else {
   document.getElementById('menu-toggle').style.display = 'none';
 }
 };
+
 function changeSlide1(n) {
   showSlide1(slideIndex += n);
   focusFeatures = function (event){ 
@@ -173,28 +174,11 @@ function showOverlay() {
 };
 
 document.addEventListener('keydown', (event) => {
-   keysPressed[event.key] = true;
-
-   if (keysPressed['Control'] && event.key == '37') {
-       changeSlide1(-1);changeSlide1(-1);
-   }
-});
-
-document.addEventListener('keyup', (event) => {
-   delete keysPressed[event.key];
-});
-
-document.addEventListener('keydown', (event) => {
-   keysPressed[event.key] = true;
-
-   if (keysPressed['Control'] && event.key == '39') {
-       changeSlide2(1);changeSlide2(1);
-   }
-});
-
-document.addEventListener('keyup', (event) => {
-   delete keysPressed[event.key];
-});
+  if (event.keyCode == 37) {
+    changeSlide1(-1);changeSlide2(-1)}  
+if (event.keyCode == 39) {
+    changeSlide2(1); changeSlide2(1)}
+};
 
 
 
