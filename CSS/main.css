@@ -85,15 +85,15 @@ p.project-image:hover, .project-info:hover{color: rgb(219, 10, 10);}
  /*each project different :hover -> background-color */
 
 
-#project-info1:hover{background-color: rgba(255, 0, 0, 0.9);}
-#project-info2:hover{background-color: rgba(0, 255, 0, 0.9);}
-#project-info3:hover{background-color: rgba(0, 0, 255, 0.9);}
-#project-info4:hover{background-color: rgba(255, 255, 0, 0.9);}
-#project-info5:hover{background-color: rgba(0, 0, 255, 0.9);}
-#project-info6:hover{background-color: rgba(0, 255, 255, 0.9);}
-#project-info7:hover{background-color: rgba(255, 255, 255, 0.9);}
-#project-info8:hover{background-color: rgba(255, 0, 0, 0.9);}
-#project-info9:hover{background-color: rgba(0, 0, 255, 0.9);}
+#project-info1:hover{background-color: rgba(255, 0, 0, 0.7);}
+#project-info2:hover{background-color: rgba(0, 255, 0, 0.7);}
+#project-info3:hover{background-color: rgba(100, 255, 0, 0.7);}
+#project-info4:hover{background-color: rgba(255, 255, 0, 0.7);}
+#project-info5:hover{background-color: rgba(0, 200, 55, 0.7);}
+#project-info6:hover{background-color: rgba(0, 255, 255, 0.7);}
+#project-info7:hover{background-color: rgba(255, 255, 255, 0.7);}
+#project-info8:hover{background-color: rgba(255, 0, 0, 0.7);}
+#project-info9:hover{background-color: rgba(0, 0, 255, 0.7);}
 
 figure.project-index:hover{transform: translateY(0)}
 figure.project-index:hover:before{opacity: 1;}
