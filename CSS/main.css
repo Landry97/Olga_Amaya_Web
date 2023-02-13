@@ -128,7 +128,14 @@ text-align: center;
 @media screen and (min-width: 440px){.project-info-index {color: black;}}
 @media screen and (max-width: 440px){.project-info-index {color: white;}}
 @media screen and (min-width: 440px){.project-info-index {opacity: 0;}}
-@media screen and (max-width: 440px){.project-info-index {opacity: 1 !important;}}
+@media screen and (max-width: 440px){.project-info-index {opacity: 1 !important;padding-top: 60%;}}
+.jobsub {
+display: none;
+}
+
+
+@media screen and (min-width: 440px){.jobsub {display:'';}}
+@media screen and (max-width: 440px){.jobsub {display: none;}}
 
 
 
