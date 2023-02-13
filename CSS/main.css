@@ -46,16 +46,19 @@ footer p a {color: white;text-decoration: none;}
 .instagram{height: 1rem;display: flex;align-content: space-around;align-items: center;margin-right: 3.5%;margin-top: .5%;margin-bottom: .5%;font-size: .85rem;}
 .copyright{height: 1rem;display: flex;align-content: center;align-items: center;margin-right: 3.5%;margin-top: .5%;margin-bottom: .5%;}
 .privacy{height: 1rem;display: flex;align-content: space-around;align-items: center;margin-top: .5%;margin-bottom: .5%;}
-#myBtn{ display: none;     width: 0;
+
+#myBtn { display: none;     width: 0;
     height: 0;
-    border-top: 0.2rem solid white;
-    border-right: .5rem solid white;
-    border-bottom: 1rem solid black;
-    border-left: .5rem solid white;
+    border-top: 0.2rem solid black;
+    border-right: .5rem solid black;
+    border-bottom: 1rem solid white;
+    border-left: .5rem solid black;
     align-content: space-around;
     align-items: center;
     cursor: pointer;
-}#myBtn:hover{ 
+}
+
+#myBtn:hover{ 
     border-bottom: 1rem solid rgb(219, 10, 10);}
 .wrapper{margin-top: 2rem;text-align: center;font-size: 3rem;padding: 0 1em 0 1em;}
 .project-list{padding: 2.25rem 0 2.25rem 0;display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;justify-items: center;}
