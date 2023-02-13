@@ -33,7 +33,7 @@ address div p a{font-size: 1.25rem;text-decoration: none;text-decoration-style: 
 #nav-ul.show li.activePage a:hover{color: white;z-index:102;}
 #nav-ul.show li.menu-item a{color: black;}
 #nav-ul.show li.menu-item a:hover, #address.show li.menu-item a:hover{color: white;} 
-#address.show{transform: translateY(100%);color: black;background-color: rgb(160,230,180);display: flex;flex-direction: column;flex-wrap: nowrap;align-items: center;justify-content: center;align-content: center;text-decoration: none;height: auto;width: 55%;margin-top: auto;margin-bottom: 80%;}
+#address.show{transform: translateY(100%);color: black;background-color: rgb(255, 255, 153);display: flex;flex-direction: column;flex-wrap: nowrap;align-items: center;justify-content: center;align-content: center;text-decoration: none;height: auto;width: 55%;margin-top: auto;margin-bottom: 80%;}
 #address.show li a{color: black;}
 .workclass{ display: flex;justify-content: center;}
 main{display: flex;justify-content: center;background-color: transparent;height: auto;width: 100%;color: black;letter-spacing: .1rem;padding-left:.75rem;padding-right:.75rem;}
@@ -112,7 +112,7 @@ align-content: center;
 align-self: center;
 justify-content: center}
 
-    .project-index .project-info-index {position: absolute;z-index: 3;opacity: 0;transform: translateY(0);transition: 0.25s; background-color: rgba(255, 255, 255, 0.9); 
+    .project-index .project-info-index {position: absolute;z-index: 3;opacity: 0;transform: translateY(0);transition: 0.25s; 
 font-size: 1em;
 letter-spacing: .55em;
 display: flex;
