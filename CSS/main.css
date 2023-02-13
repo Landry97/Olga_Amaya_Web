@@ -245,7 +245,13 @@ a.studiolist {
   /* color: black; */
   color: white;
 }
-
+.landingbg{
+          background: url("IMG/carlossadness_project_01.jpg") no-repeat scroll center center / cover     rgba(0, 0, 0, 0);
+display: block;
+height: 100%;
+position: relative;
+width: 100%;
+     }
 
 
 
