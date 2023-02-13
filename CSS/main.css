@@ -81,9 +81,22 @@ p.project-image:hover, .project-info:hover{color: rgb(219, 10, 10);}
 .internalcontainerR {flex: 1;background: white;margin: .5rem;padding: 1rem;}
 .madeby{margin: .5rem;padding: .5rem;letter-spacing: .15em;font-size: 1em;}
 .madebyinfo{display: flex;width: auto;align-items: center;text-align: center;justify-content: center;margin: .5rem;padding: .5rem;letter-spacing: .1em;font-size: 0.9em;}
+
+ /*each project different :hover -> background-color */
+
+
+#project-info1:hover{background-color: rgba(255, 0, 0, 0.9);}
+#project-info2:hover{background-color: rgba(0, 255, 0, 0.9);}
+#project-info3:hover{background-color: rgba(0, 0, 255, 0.9);}
+#project-info4:hover{background-color: rgba(255, 255, 0, 0.9);}
+#project-info5:hover{background-color: rgba(0, 0, 255, 0.9);}
+#project-info6:hover{background-color: rgba(0, 255, 255, 0.9);}
+#project-info7:hover{background-color: rgba(255, 255, 255, 0.9);}
+#project-info8:hover{background-color: rgba(255, 0, 0, 0.9);}
+#project-info9:hover{background-color: rgba(0, 0, 255, 0.9);}
+
 figure.project-index:hover{transform: translateY(0)}
 figure.project-index:hover:before{opacity: 1;}
-#project-info2:hover{background-color: yellow;}
 figure.project-index:hover .project-info-index:hover{opacity: 1;transform: translateY(0);}
 figure.project-index{position: relative;}
 figure.project-index:before{content: '';position: absolute;display: block;width: 100%;height: 100%;background: transparent;z-index: 2;transition: 0.3s;opacity: 0;}
