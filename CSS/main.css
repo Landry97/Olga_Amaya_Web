@@ -126,7 +126,7 @@ text-align: center;
 @media (max-width: 950px){#nav-ul{display: none;}.balkentext{display: none;}.balken2{display: none;}.balken3{display: none;}}
 @media screen and (max-width:750px){.holdingcontainer {flex-direction: column;}}
 @media screen and (min-width: 440px){.project-info-index {color: black;}}
-@media screen and (max-width: 440px){.project-info-index {color: transparent;}}
+@media screen and (max-width: 440px){.project-info-index {color: white; margin-top: 80%; margin right: 25%}}
 @media (max-width: 600px){footer{flex-wrap: wrap;flex-direction: column;}.instagram{margin-left: 0;}.copyright{margin-left: 0;}.privacy{margin-left: 0;}#myBtn{margin-left: auto;margin-right: 6%;}}
 @media (max-width: 750px){figure.project-index{width: 100vw;padding:0;}}
 @media (min-width: 750px){figure.project-index{width: 100vw;height: auto;position:relative}}
