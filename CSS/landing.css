@@ -41,8 +41,8 @@ font-size: 18px;
   margin-top:20px;
 }
 #showcase .button:hover{
-  background: blue;
-  color: red;
+  background: transparent;
+  color: white;
 }
 
 #section-a{
