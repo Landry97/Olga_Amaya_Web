@@ -8,16 +8,12 @@ var x = window.matchMedia("(max-width: 950px)")
 scale(x) // Call listener function at run time
 x.addListener(scale) // Attach listener function on state changes 
 const menu = document.getElementById('menu-toggle');
-const menuclose = document.getElementsByClassName('menu-toggle show');
+const menuclose = document.getElementById('#menupointid.show');
 const menupoint = document.getElementById('menupointid');
 const navUL = document.getElementById('nav-ul');
 const navMenu = document.getElementById('navMenu');
 const address = document.getElementById('address');
 const body = document.getElementById('bodyid');
-const headerindex = document.getElementById('headerindex');
-
-
-menuclose[0].addEventListener('click' , headerindex , false ) ; 
 
 menu.addEventListener('click', () => {
       navMenu.classList.toggle('show');
