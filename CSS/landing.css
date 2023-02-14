@@ -26,17 +26,19 @@ background-image:url('../IMG/landing.jpg');
   padding:0 2rem;
 }
 #showcase h1{
-font-size:50px;
-  line-height:1.2;
+font-size: 2.5rem;
+line-height: 1.25;
+padding: 1rem;
 }
 
 #showcase p{
-font-size:20px;
+font-size:1rem;
+padding: .25rem;
 }
 
 #showcase .button{
-font-size: 3rem;
-  line-height:1.8;
+font-size: 2.75rem;
+line-height: 1.35;
   text-decoration:none;
   color: white;
   border: transparent 1px solid;
@@ -68,6 +70,16 @@ padding: 1rem;
 #section-c{display:flex;
 }
 #section-a, #section-b, #section-c {display:none;
+}
+
+#showcase h1 {
+font-size: 2.5rem;
+line-height: 1.25;
+padding: 1rem;
+}
+#showcase .button {
+font-size: 2.75rem;
+line-height: 1.35;
 }
 
 
