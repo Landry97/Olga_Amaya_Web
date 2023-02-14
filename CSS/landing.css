@@ -44,3 +44,21 @@ font-size: 18px;
   background: blue;
   color: red;
 }
+
+#section-a{
+padding: 1rem;
+  background:yellow;
+  color: black;
+  text-align:center;
+}
+
+#section-b{
+padding: 1rem;
+  background:blue;
+  color: black;
+  text-align:center;
+}
+
+#section-c{display:flex;
+}
+
