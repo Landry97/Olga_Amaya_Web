@@ -8,11 +8,6 @@ var x = window.matchMedia("(max-width: 950px)")
 scale(x) // Call listener function at run time
 x.addListener(scale) // Attach listener function on state changes 
 
-
-var menuclose = document.getElementById('#menupointid.show');
-scale(menuclose) // Call listener function at run time
-menuclose.addListener(scale) // Attach listener function on state changes 
-
 const menu = document.getElementById('menu-toggle');
 const menupoint = document.getElementById('menupointid');
 const navUL = document.getElementById('nav-ul');
@@ -29,11 +24,6 @@ menu.addEventListener('click', () => {
       menupoint.classList.toggle('show');
       headerindex.style.color = "black";
 }); 
-
-menuclose.addEventListener('click', () => {
-      headerindex.style.color = "white";
-}); 
-
 
 
 //TO TOP BUTTON
