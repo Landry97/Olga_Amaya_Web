@@ -43,8 +43,8 @@ line-height: 1.35;
   color: white;
   border: transparent 1px solid;
   padding: 1rem 2rem;
-  margin-top:1rem;
-  margin-bottom:1rem;
+  margin-top:.5rem;
+  margin-bottom: .5rem;
 }
 
 #showcase .button:hover{
