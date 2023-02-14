@@ -33,16 +33,20 @@ font-size:20px;
 }
 
 #showcase .button{
-font-size: 18px;
+font-size: 3rem;
+  line-height:1.8;
   text-decoration:none;
   color: black;
-  border: black 1px solid;
-  padding: 10px 20px;
-  margin-top:20px;
+  border: transparent 1px solid;
+  padding: 1rem 2rem;
+  margin-top:2rem;
+  margin-bottom:2rem;
 }
+
 #showcase .button:hover{
   background: transparent;
   color: white;
+  border: white 1px solid;
 }
 
 #section-a{
