@@ -18,7 +18,7 @@ background-image:url('../IMG/landing.jpg');
   height:100vh;
   display:flex;
   flex-direction:column;
-  justify-content:end;
+  justify-content:center;
   align-items:center;
   text-align:center;
   padding:0 2rem;
