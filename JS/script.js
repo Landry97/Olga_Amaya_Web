@@ -9,7 +9,7 @@ scale(x) // Call listener function at run time
 x.addListener(scale) // Attach listener function on state changes 
 
 
-var menuclose = document.getElementById('#menupointid.show');#
+var menuclose = document.getElementById('#menupointid.show');
 scale(menuclose) // Call listener function at run time
 menuclose.addListener(scale) // Attach listener function on state changes 
 
