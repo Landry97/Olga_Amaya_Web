@@ -12,7 +12,7 @@ line-height:1.6;
 }
 
 #showcase{
-background-image:url('IMG/landing.jpg');
+background-image:url('../IMG/landing.jpg');
   background-size:cover;
   background-position:center;
   height:100vh;
