@@ -26,10 +26,17 @@ menu.addEventListener('click', () => {
       body.classList.toggle('show');
       menu.classList.toggle('show');
       menupoint.classList.toggle('show');
-      headerindex.style.color = "black";
-}); 
-menu2.addEventListener('click', () => {
-      headerindex.style.color = "white";
+  
+  function colorgame(x) {
+  if (x.matches) { // If media query matches
+    document.getElementById('headerindex').style.color = 'black';
+  } else {
+    document.getElementById('menu-toggle').style.color = 'white';
+  }}
+var z = window.matchMedia("(color: white)")
+colorgame(z) // Call listener function at run time
+z.addListener(colorgame) // Attach listener function on state changes 
+
 }); 
 
 
