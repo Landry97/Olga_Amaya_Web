@@ -26,16 +26,21 @@ menu.addEventListener('click', () => {
       body.classList.toggle('show');
       menu.classList.toggle('show');
       menupoint.classList.toggle('show');
-  
-  function colorgame {
-  if document.getElementById('headerindex').style.color = 'white';) { 
-    document.getElementById('headerindex').style.color = 'black';
-  }
-  else {
-    document.getElementById('menu-toggle').style.color = 'white';
-  }}
-
+colorBox(); // Call the script like this
 }); 
+ 
+
+var colorBox = function () {
+    var udata = [100];
+    if (udata >= 70) {
+        document.getElementById("headerindex").style.color = 'white';
+    } else if (udata >= 51 && udata.value < 70) {
+        document.getElementById("headerindex").style.color = 'black';
+    } else if (udata <= 50) {
+        document.getElementById("headerindex").style.color = 'white';
+    }
+}
+
 
 
 
