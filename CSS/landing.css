@@ -58,7 +58,9 @@ padding: 1rem;
   color: black;
   text-align:center;
 }
-
 #section-c{display:flex;
 }
+#section-a, #section-b, #section-c {display:none;
+}
+
 
