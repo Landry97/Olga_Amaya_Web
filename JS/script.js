@@ -9,6 +9,10 @@ scale(x) // Call listener function at run time
 x.addListener(scale) // Attach listener function on state changes 
 
 const menu = document.getElementById('menu-toggle');
+const menu2 = document.getElementById('menu-toggle.menu-toggle.show');
+
+const headerindex = document.getElementById('headerindex');
+
 const menupoint = document.getElementById('menupointid');
 const navUL = document.getElementById('nav-ul');
 const navMenu = document.getElementById('navMenu');
@@ -24,11 +28,9 @@ menu.addEventListener('click', () => {
       menupoint.classList.toggle('show');
       menupoint.id.toggle('show');
       headerindex.style.color = "black";
-  function changeid ()
-{
-var e = document.getElementById("menupointid");
-e.id = "ape";
-}
+}); 
+menu2.addEventListener('click', () => {
+      headerindex.style.color = "white";
 }); 
 
 
