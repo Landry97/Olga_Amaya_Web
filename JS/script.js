@@ -28,14 +28,12 @@ menu.addEventListener('click', () => {
       menupoint.classList.toggle('show');
   
   function colorgame(z) {
-  if (z.matches) { // If media query matches
+  if document.getElementById('headerindex').style.color = 'white';) { 
     document.getElementById('headerindex').style.color = 'black';
-  } else {
+  }
+  else {
     document.getElementById('menu-toggle').style.color = 'white';
   }}
-var z = window.matchMedia("(color: white)")
-colorgame(z) // Call listener function at run time
-z.addListener(colorgame) // Attach listener function on state changes 
 
 }); 
 
