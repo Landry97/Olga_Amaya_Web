@@ -47,6 +47,7 @@ font-size: 3rem;
   background: transparent;
   color: white;
   border: white 1px solid;
+  transform: rotate(-0.025turn);transition-timing-function: ease;
 }
 
 #section-a{
