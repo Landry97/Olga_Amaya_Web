@@ -13,6 +13,7 @@ const navUL = document.getElementById('nav-ul');
 const navMenu = document.getElementById('navMenu');
 const address = document.getElementById('address');
 const body = document.getElementById('bodyid');
+const headerindex = document.getElementById('headerindex');
 menu.addEventListener('click', () => {
       navMenu.classList.toggle('show');
       navUL.classList.toggle('show');
@@ -20,6 +21,7 @@ menu.addEventListener('click', () => {
       body.classList.toggle('show');
       menu.classList.toggle('show');
       menupoint.classList.toggle('show');
+document.getElementById("headerindex") = "black";
 }); 
 //TO TOP BUTTON
 mybutton = document.getElementById("myBtn");
