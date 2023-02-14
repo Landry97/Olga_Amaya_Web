@@ -7,7 +7,7 @@ body{
 margin:0;
 font-family: Arial;
 font-size: 1rem;
-color: black;
+color: white;
 line-height:1.6;
 }
 
@@ -36,7 +36,7 @@ font-size:20px;
 font-size: 3rem;
   line-height:1.8;
   text-decoration:none;
-  color: black;
+  color: white;
   border: transparent 1px solid;
   padding: 1rem 2rem;
   margin-top:2rem;
