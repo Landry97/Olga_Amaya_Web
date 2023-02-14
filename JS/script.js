@@ -8,12 +8,14 @@ var x = window.matchMedia("(max-width: 950px)")
 scale(x) // Call listener function at run time
 x.addListener(scale) // Attach listener function on state changes 
 const menu = document.getElementById('menu-toggle');
+const menuclose = document.getElementsByClassName('menu-toggle show');
 const menupoint = document.getElementById('menupointid');
 const navUL = document.getElementById('nav-ul');
 const navMenu = document.getElementById('navMenu');
 const address = document.getElementById('address');
 const body = document.getElementById('bodyid');
 const headerindex = document.getElementById('headerindex');
+
 menu.addEventListener('click', () => {
       navMenu.classList.toggle('show');
       navUL.classList.toggle('show');
@@ -23,6 +25,11 @@ menu.addEventListener('click', () => {
       menupoint.classList.toggle('show');
       headerindex.style.color = "black";
 }); 
+
+menuclose.addEventListener('click', () => {
+      headerindex.style.color = "white";
+}); 
+
 //TO TOP BUTTON
 mybutton = document.getElementById("myBtn");
 // [When the user scrolls down 20px from the top of the document, show the button]
