@@ -27,7 +27,7 @@ menu.addEventListener('click', () => {
       menu.classList.toggle('show');
       menupoint.classList.toggle('show');
   
-  function colorgame(z) {
+  function colorgame {
   if document.getElementById('headerindex').style.color = 'white';) { 
     document.getElementById('headerindex').style.color = 'black';
   }
