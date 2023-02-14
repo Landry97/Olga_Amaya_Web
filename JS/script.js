@@ -21,7 +21,7 @@ menu.addEventListener('click', () => {
       body.classList.toggle('show');
       menu.classList.toggle('show');
       menupoint.classList.toggle('show');
-document.getElementById("headerindex") = "black";
+      headerindex = "black";
 }); 
 //TO TOP BUTTON
 mybutton = document.getElementById("myBtn");
