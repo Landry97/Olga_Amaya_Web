@@ -26,14 +26,14 @@ address div p a{font-size: 1.25rem;text-decoration: none;text-decoration-style: 
 
 #menupointid.show{background: url("black-cross.png") no-repeat;background-size: 100%;background-color: transparent;height: 1.05rem;width: 1.05rem;} 
 #menu.show{display: none;}
-#navMenu.show{left: 0;right: 0;top: 0; bottom: 0;font-size: 1.75rem;letter-spacing: .6rem;min-width: 100vw;width: 100%;min-height: 100vh;display: flex;flex-direction: column;align-content: center;align-items: center;z-index: 101;background-color: rgb(160,230,180);}
+#navMenu.show{left: 0;right: 0;top: 0; bottom: 0;font-size: 1.75rem;letter-spacing: .6rem;min-width: 100vw;width: 100%;min-height: 100vh;display: flex;flex-direction: column;align-content: center;align-items: center;z-index: 101;background-color: rgb(255,200,255);}
 #nav-ul.show{transform: translateY(40%);display: flex;flex-direction: column;align-items: center;flex-wrap: nowrap;width: 100%;height: auto;margin-top: auto;}
 #nav-ul.show li{margin: 1.5rem;}
 #nav-ul.show li.activePage a{color: black;z-index:101;}
 #nav-ul.show li.activePage a:hover{color: white;z-index:102;}
 #nav-ul.show li.menu-item a{color: black;}
 #nav-ul.show li.menu-item a:hover, #address.show li.menu-item a:hover{color: white;} 
-#address.show{transform: translateY(100%);color: black;background-color: rgb(255, 255, 153);display: flex;flex-direction: column;flex-wrap: nowrap;align-items: center;justify-content: center;align-content: center;text-decoration: none;height: auto;width: 55%;margin-top: auto;margin-bottom: 80%;}
+#address.show{transform: translateY(100%);color: black;background-color: rgb(255, 200, 255);display: flex;flex-direction: column;flex-wrap: nowrap;align-items: center;justify-content: center;align-content: center;text-decoration: none;height: auto;width: 55%;margin-top: auto;margin-bottom: 80%;}
 #address.show li a{color: black;}
 .workclass{ display: flex;justify-content: center;}
 main{display: flex;justify-content: center;background-color: transparent;height: auto;width: 100%;color: black;letter-spacing: .1rem;padding-left:.75rem;padding-right:.75rem;}
@@ -244,8 +244,6 @@ a.studiolist {
   /* color: black; */
   color: white;
 }
-
-
 
 
 
