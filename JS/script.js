@@ -27,8 +27,8 @@ menu.addEventListener('click', () => {
       menu.classList.toggle('show');
       menupoint.classList.toggle('show');
   
-  function colorgame(x) {
-  if (x.matches) { // If media query matches
+  function colorgame(z) {
+  if (z.matches) { // If media query matches
     document.getElementById('headerindex').style.color = 'black';
   } else {
     document.getElementById('menu-toggle').style.color = 'white';
