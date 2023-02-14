@@ -16,6 +16,9 @@ const address = document.getElementById('address');
 const body = document.getElementById('bodyid');
 const headerindex = document.getElementById('headerindex');
 
+
+menuclose[0].addEventListener('click' , headerindex , false ) ; 
+
 menu.addEventListener('click', () => {
       navMenu.classList.toggle('show');
       navUL.classList.toggle('show');
@@ -29,6 +32,8 @@ menu.addEventListener('click', () => {
 menuclose.addEventListener('click', () => {
       headerindex.style.color = "white";
 }); 
+
+
 
 //TO TOP BUTTON
 mybutton = document.getElementById("myBtn");
