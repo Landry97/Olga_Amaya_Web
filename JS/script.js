@@ -24,7 +24,14 @@ menu.addEventListener('click', () => {
       menupoint.classList.toggle('show');
       menupoint.id.toggle('show');
       headerindex.style.color = "black";
+  function changeid ()
+{
+var e = document.getElementById("menupointid");
+e.id = "ape";
+}
 }); 
+
+
 
 
 //TO TOP BUTTON
