@@ -26,7 +26,6 @@ menu.addEventListener('click', () => {
       body.classList.toggle('show');
       menu.classList.toggle('show');
       menupoint.classList.toggle('show');
-      menupoint.id.toggle('show');
       headerindex.style.color = "black";
 }); 
 menu2.addEventListener('click', () => {
