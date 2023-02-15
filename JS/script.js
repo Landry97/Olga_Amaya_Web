@@ -29,7 +29,7 @@ menu.addEventListener('click', () => {
 const hindex = document.getElementById('headerindex');
 
   function f_color() {
-if (document.getElementById('headerindex').style.color = "rgb(" +255+ "," +255+ "," +255+ ")") 
+if (hindex.style.color = "rgb(" +255+ "," +255+ "," +255+ ")") 
 {
     hindex.style.color = "rgb(" +0+ "," +0+ "," +0+ ")";
 }
