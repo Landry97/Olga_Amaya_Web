@@ -155,7 +155,7 @@ p.project-image:hover, .project-info:hover{color: rgb(219, 10, 10);}
 #project-info11:hover{background-color: rgba(255, 0, 0, 0.8);}
 #project-info12:hover{background-color: rgba(0, 0, 255, 0.8);}
 
-  footer p.instagram a:hover,footer p.privacy a:hover{text-decoration: underline;text-decoration-color: underline;rgba(255,100, 250, 0.9)}
+  footer p.instagram a:hover,footer p.privacy a:hover{text-decoration: underline;text-decoration-color: rgba(255,100, 250)}
 
   
 }
