@@ -406,19 +406,22 @@ function showOverlay() {
   })
 };
 
-
-document.addEventListener("keydown", function(event) {
-  event.preventDefault();
-  const key = event.key; // "ArrowRight", "ArrowLeft", "ArrowUp", or "ArrowDown"
-  switch (event.key) { // change to event.key to key to use the above variable
-    case "ArrowLeft":
-      // Left pressed
-      <changeSlide1(-1);changeSlide2(-1);changeSlide4(-1);changeSlide5(-1);changeSlide6(-1);changeSlide7(-1)>
-      break;
-    case "ArrowRight":
-      // Right pressed
-      <changeSlide1(1);changeSlide2(1);changeSlide4(1);changeSlide5(1);changeSlide6(1);changeSlide7(1)>
-      break;
-  }
+var leftKey = 37, upKey = 38, rightKey = 39, downKey = 40;
+var keystate;
+document.addEventListener("keydown", function (e) {
+    keystate[e.keyCode] = true;
 });
+document.addEventListener("keyup", function (e) {
+    delete keystate[e.keyCode];
+});
+
+if (keystate[leftKey]) {
+//code to be executed when left arrow key is pushed.
+  changeSlide1(-1);changeSlide2(-1);changeSlide4(-1);changeSlide5(-1);changeSlide6(-1);changeSlide7(-1);
+}
+if (keystate[rightKey]) {
+//code to be executed when right arrow key is pushed.
+  changeSlide1(1);changeSlide2(1);changeSlide4(1);changeSlide5(1);changeSlide6(1);changeSlide7(1);
+}
+
 
