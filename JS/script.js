@@ -23,7 +23,7 @@ menu.addEventListener('click', () => {
       body.classList.toggle('show');
       menu.classList.toggle('show');
       menupoint.classList.toggle('show');
-      h_index.classList.toggle('show');
+      h_index.classList.toggle('h_index');
 
 }); 
 
