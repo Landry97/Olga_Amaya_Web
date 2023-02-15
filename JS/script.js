@@ -31,10 +31,10 @@ menu.addEventListener('click', () => {
 
   function f_color() {
 
-if (document.getElementById('headerindex')..style.color = "black";) { 
+if (document.getElementById('headerindex').style.color = "black";) { 
    document.getElementById('headerindex').style.color = "white";
 }
-else if (document.getElementById('headerindex')..style.color = "white";) { 
+else if (document.getElementById('headerindex').style.color = "white";) { 
    document.getElementById('headerindex').style.color = "black";
 }
 };
