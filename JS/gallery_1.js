@@ -33,7 +33,6 @@ else {
 
 
 function openLightbox_2() { 
-  document.getElementById('mouseTarget').style.position = 'fixed';
   document.getElementById('mouseTarget').style.height = '3.5rem';
   document.getElementById('mouseTarget').style.top = '0';
   document.getElementById('mouseTarget').style.zIndex = '100001';
@@ -47,7 +46,6 @@ function openLightbox_2() {
 
 function closeLightbox_2() {
   x.addListener(scale);
-  document.getElementById('mouseTarget').style.position = '';
   document.getElementById('mouseTarget').style.height = '';
   document.getElementById('mouseTarget').style.top = '0';
   document.getElementById('mouseTarget').style.zIndex = '';
@@ -71,7 +69,6 @@ else {
 
 
 function openLightbox_4() { 
-  document.getElementById('mouseTarget').style.position = 'fixed';
   document.getElementById('mouseTarget').style.height = '3.5rem';
   document.getElementById('mouseTarget').style.top = '0';
   document.getElementById('mouseTarget').style.zIndex = '100001';
@@ -85,7 +82,6 @@ function openLightbox_4() {
 
 function closeLightbox_4() {
   x.addListener(scale);
-  document.getElementById('mouseTarget').style.position = '';
   document.getElementById('mouseTarget').style.height = '';
   document.getElementById('mouseTarget').style.top = '0';
   document.getElementById('mouseTarget').style.zIndex = '';
@@ -109,7 +105,6 @@ else {
 
 
 function openLightbox_5() { 
-  document.getElementById('mouseTarget').style.position = 'fixed';
   document.getElementById('mouseTarget').style.height = '3.5rem';
   document.getElementById('mouseTarget').style.top = '0';
   document.getElementById('mouseTarget').style.zIndex = '100001';
@@ -123,7 +118,6 @@ function openLightbox_5() {
 
 function closeLightbox_5() {
   x.addListener(scale);
-  document.getElementById('mouseTarget').style.position = '';
   document.getElementById('mouseTarget').style.height = '';
   document.getElementById('mouseTarget').style.top = '0';
   document.getElementById('mouseTarget').style.zIndex = '';
@@ -147,7 +141,6 @@ else {
 
 
 function openLightbox_6() { 
-  document.getElementById('mouseTarget').style.position = 'fixed';
   document.getElementById('mouseTarget').style.height = '3.5rem';
   document.getElementById('mouseTarget').style.top = '0';
   document.getElementById('mouseTarget').style.zIndex = '100001';
@@ -161,7 +154,6 @@ function openLightbox_6() {
 
 function closeLightbox_6() {
   x.addListener(scale);
-  document.getElementById('mouseTarget').style.position = '';
   document.getElementById('mouseTarget').style.height = '';
   document.getElementById('mouseTarget').style.top = '0';
   document.getElementById('mouseTarget').style.zIndex = '';
