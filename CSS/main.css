@@ -11,6 +11,27 @@ header{position: relative;display: flex;background-color: transparent;flex-direc
 .header-title p{color: white;text-decoration: none;list-style-type: none;}nav .menu{display: flex;flex: 1;}
 .header-title a{text-decoration: none;list-style-type: none;letter-spacing: .33em;text-decoration: none;padding-top: 1em;padding-bottom: 1em; font-size: 2.25rem;}
 .h_index {color: black !important}
+
+#headerindex {
+  display: flex;
+  position: absolute;
+  
+  width: 70%;
+  height:100%;
+  left: 15%;
+  top: 0;
+  bottom: 0;
+  
+  align-content: center;
+  bottom: 0;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  
+  z-index: -100001 !important;
+}
+
 p.menupoint{height: 8px;position: absolute;text-indent: -100rem;width: 8px;border-radius: 8px;cursor: pointer;z-index: 1000;background-color: white;}
 .menu-toggle{display: none;position: absolute;left: 0;text-indent: -100rem;width: 3em;padding-top: 1em;padding-bottom: 1em;align-items: center;justify-content: center;justify-items: center;}
 nav.menu li{display: flex;align-content: center;text-align: center;align-items: center;flex-direction: row;letter-spacing: .3rem;}
