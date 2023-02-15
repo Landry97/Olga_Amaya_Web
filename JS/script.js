@@ -9,10 +9,6 @@ scale(x) // Call listener function at run time
 x.addListener(scale) // Attach listener function on state changes 
 
 const menu = document.getElementById('menu-toggle');
-const menu2 = document.getElementById('menu-toggle.menu-toggle.show');
-
-const headerindex = document.getElementById('headerindex');
-
 const menupoint = document.getElementById('menupointid');
 const navUL = document.getElementById('nav-ul');
 const navMenu = document.getElementById('navMenu');
@@ -29,15 +25,16 @@ menu.addEventListener('click', () => {
   f_color();
 }); 
 
+const element = document.getElementById(headerindex);
 
   function f_color() {
-if (document.getElementById('headerindex').style.color = "rgb(" +255+ "," +255+ "," +255+ ")") 
+if (element.style.color = "rgb(" +255+ "," +255+ "," +255+ ")") 
 {
-    document.getElementById('headerindex').style.color = "black";
+    element.style.color = "rgb(" +0+ "," +0+ "," +0+ ")";
 }
-    else if (document.getElementById('headerindex').style.color = "black") 
+    else if (element.style.color = "rgb(" +0+ "," +0+ "," +0+ ")") 
 {
-    document.getElementById('headerindex').style.color = "rgb(" +255+ "," +255+ "," +255+ ")"
+    element.style.color = "rgb(" +255+ "," +255+ "," +255+ ")"
 }
    
 };
