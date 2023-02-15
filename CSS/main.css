@@ -45,7 +45,7 @@ z-index: -1;
 p.menupoint{height: 8px;position: absolute;text-indent: -100rem;width: 8px;border-radius: 8px;cursor: pointer;z-index: 1000;background-color: white;}
 .menu-toggle{display: none;position: absolute;left: 0;text-indent: -100rem;width: 3em;padding-top: 1em;padding-bottom: 1em;align-items: center;justify-content: center;justify-items: center;}
 nav.menu li{display: flex;align-content: center;text-align: center;align-items: center;flex-direction: row;letter-spacing: .3rem;}
-li.menu-item a{color: white;text-decoration: none;list-style-type: none;}li.menu-item a:hover{color:rgb(219, 10, 10);}
+li.menu-item a{color: white;text-decoration: none;list-style-type: none;}li.menu-item a:hover{color:rgb(255,100,250);}
 nav.menu ul{display: flex;height: 100%;width: 100%;}nav.menu ul li{padding-left:1.5rem;}
 nav.menu ul {
   /* width: 100%; */
