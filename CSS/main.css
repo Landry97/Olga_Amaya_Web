@@ -47,7 +47,7 @@ p.menupoint{height: 8px;position: absolute;text-indent: -100rem;width: 8px;borde
 nav.menu li{display: flex;align-content: center;text-align: center;align-items: center;flex-direction: row;letter-spacing: .3rem;}
 
 li.menu-item a{color: white;text-decoration: none;list-style-type: none;} 
-li.menu-item a:hover{text-decoration-color: rgb(255,100,250);text-decoration: underline;}
+li.menu-item a:hover{text-decoration: underline;text-decoration-color: rgb(255,100,250);list-style-type: circle;}
 
 nav.menu ul{display: flex;height: 100%;width: 100%;}nav.menu ul li{padding-left:1.5rem;}
 nav.menu ul {
