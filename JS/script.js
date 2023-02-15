@@ -30,7 +30,6 @@ menu.addEventListener('click', () => {
 }); 
 
   function f_color() {
-    document.getElementById('headerindex').style.color = "white";
 if (document.getElementById('headerindex').style.color == "white") {
     document.getElementById('headerindex').style.color = "black";}
 };
