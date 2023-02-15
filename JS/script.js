@@ -35,7 +35,7 @@ if (document.getElementById('headerindex').style.color = "rgb(" +255+ "," +255+ 
 {
     document.getElementById('headerindex').style.color = "black";
 }
-    else if (document.getElementById('headerindex').style.color = "rgb(" +0+ "," +0+ "," +0+ ")") 
+    else if (document.getElementById('headerindex').style.color = "black") 
 {
     document.getElementById('headerindex').style.color = "rgb(" +255+ "," +255+ "," +255+ ")"
 }
