@@ -26,16 +26,18 @@ menu.addEventListener('click', () => {
       body.classList.toggle('show');
       menu.classList.toggle('show');
       menupoint.classList.toggle('show');
-colorBox(); // Call the script like this
+  f_color();
 }); 
 
-var colorBox = function () {
-    if (document.getElementById("headerindex").style.color = 'white') {
-        document.getElementById("headerindex").style.color = 'black';
-    } else if (document.getElementById("headerindex").style.color = 'black') {
-        document.getElementById("headerindex").style.color = 'white';
-    
+  function f_color() {
+
+if (document.getElementById('headerindex')..style.color = "black";) { 
+   document.getElementById('headerindex').style.color = "white";
 }
+else if (document.getElementById('headerindex')..style.color = "white";) { 
+   document.getElementById('headerindex').style.color = "black";
+}
+};
 
 
 //TO TOP BUTTON
