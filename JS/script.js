@@ -32,11 +32,10 @@ menu.addEventListener('click', () => {
 
   function f_color() {
 if (document.getElementById('headerindex').style.color = "rgb(" +255+ "," +255+ "," +255+ ")") {
-    document.getElementById('headerindex').style.color = "rgb(" +0+ "," +0+ "," +0+ ")";}
-    if else {
-  //  block of code to be executed if the condition is false
-      document.getElementById('headerindex').style.color = "rgb(" +255+ "," +255+ "," +255+ ")"
-}
+    document.getElementById('headerindex').style.color = "rgb(" +0+ "," +0+ "," +0+ ")";}  
+if (document.getElementById('headerindex').style.color = "rgb(" +0+ "," +0+ "," +0+ ")") {
+    document.getElementById('headerindex').style.color = "rgb(" +255+ "," +255+ "," +255+ ")";}
+   
 };
 
     
