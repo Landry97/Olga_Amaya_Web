@@ -27,6 +27,8 @@ menu.addEventListener('click', () => {
       menu.classList.toggle('show');
       menupoint.classList.toggle('show');
 colorBox(); // Call the script like this
+  
+colorBox2(); // Call the script like this
 }); 
  
 
@@ -36,6 +38,17 @@ var colorBox = function () {
         document.getElementById("headerindex").style.color = 'black';
     } else if (udata >= 51 && udata.value < 70) {
         document.getElementById("headerindex").style.color = 'white';
+    } else if (udata <= 50) {
+        document.getElementById("headerindex").style.color = 'white';
+    }
+}
+
+var colorBox2 = function () {
+    var udata = [100];
+    if (udata >= 70) {
+        document.getElementById("headerindex").style.color = 'white';
+    } else if (udata >= 51 && udata.value < 70) {
+        document.getElementById("headerindex").style.color = 'black';
     } else if (udata <= 50) {
         document.getElementById("headerindex").style.color = 'white';
     }
