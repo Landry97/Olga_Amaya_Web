@@ -27,25 +27,27 @@ menu.addEventListener('click', () => {
       menu.classList.toggle('show');
       menupoint.classList.toggle('show');
 colorBox(); // Call the script like this
-  var udata = [40];
 }); 
  
-
 var colorBox = function () {
-    var udata = [100];
-    if (udata >= 70) {
+    var udata1 = [100];
+    if (udata1 >= 70) {
         document.getElementById("headerindex").style.color = 'black';
-    } else if (udata >= 51 && udata.value < 70) {
+    } else if (udata1 >= 51 && udata1.value < 70) {
         document.getElementById("headerindex").style.color = 'white';
-    } else if (udata <= 50) {
+    } else if (udata1 <= 50) {
         document.getElementById("headerindex").style.color = 'black';
     }
 }
 
-
-
-
-
+var udata1 = [100];
+var udata2;
+if(udata1 = [100]){
+    udata2 =[60];
+}
+else{
+    udata2 = [100];
+}
 
 //TO TOP BUTTON
 mybutton = document.getElementById("myBtn");
