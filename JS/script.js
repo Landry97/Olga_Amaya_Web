@@ -27,6 +27,7 @@ menu.addEventListener('click', () => {
       menu.classList.toggle('show');
       menupoint.classList.toggle('show');
 colorBox(); // Call the script like this
+  var udata = [40];
 }); 
  
 
