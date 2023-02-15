@@ -407,16 +407,18 @@ function showOverlay() {
 };
 
 
-window.onkeydown = function (event){ 
-if (event.keyCode == 37) {
-    changeSlide1(-1);
-    changeSlide2(-1);
-    changeSlide4(-1);  
-    changeSlide5(-1);} 
-if (event.keyCode == 39) {
-    changeSlide1(1);
-    changeSlide2(1);
-    changeSlide4(1);
-    changeSlide5(1); 
-}
-};
+document.addEventListener("keydown", function(event) {
+  event.preventDefault();
+  const key = event.key; // "ArrowRight", "ArrowLeft", "ArrowUp", or "ArrowDown"
+  switch (event.key) { // change to event.key to key to use the above variable
+    case "ArrowLeft":
+      // Left pressed
+      <changeSlide1(-1);changeSlide2(-1);changeSlide4(-1);changeSlide5(-1);changeSlide6(-1);changeSlide7(-1);>
+      break;
+    case "ArrowRight":
+      // Right pressed
+      <changeSlide1(1);changeSlide2(1);changeSlide4(1);changeSlide5(1);changeSlide6(1);changeSlide7(1);>
+      break;
+  }
+});
+
