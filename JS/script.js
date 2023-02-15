@@ -29,6 +29,16 @@ menu.addEventListener('click', () => {
 colorBox(); // Call the script like this
 }); 
  
+
+var udata1 = [100];
+var udata2;
+if(udata1 = [100]){
+    udata2 =[60];
+}
+else{
+    udata2 = [100];
+}
+
 var colorBox = function () {
     var udata1 = [100];
     if (udata1 >= 70) {
@@ -40,14 +50,6 @@ var colorBox = function () {
     }
 }
 
-var udata1 = [100];
-var udata2;
-if(udata1 = [100]){
-    udata2 =[60];
-}
-else{
-    udata2 = [100];
-}
 
 //TO TOP BUTTON
 mybutton = document.getElementById("myBtn");
