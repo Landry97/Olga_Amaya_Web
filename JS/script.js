@@ -25,18 +25,16 @@ menu.addEventListener('click', () => {
   f_color();
 }); 
 
-const element = document.getElementById(headerindex);
-
   function f_color() {
-if (element.style.color = "rgb(" +255+ "," +255+ "," +255+ ")") 
+if (document.getElementById(headerindex).style.color = "rgb(" +255+ "," +255+ "," +255+ ")") 
 {
-    element.style.color = "rgb(" +0+ "," +0+ "," +0+ ")";
+    document.getElementById(headerindex).style.color = "rgb(" +0+ "," +0+ "," +0+ ")";
 }
-    else if (element.style.color = "rgb(" +0+ "," +0+ "," +0+ ")") 
+    else if (document.getElementById(headerindex).style.color = "rgb(" +0+ "," +0+ "," +0+ ")") 
 {
-    element.style.color = "rgb(" +255+ "," +255+ "," +255+ ")"
+    document.getElementById(headerindex).style.color = "rgb(" +255+ "," +255+ "," +255+ ")"
 }
-   
+
 };
 
 
