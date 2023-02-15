@@ -1,33 +1,23 @@
-
-
-
-.header-title a span {
-  position: absolute;
-  left: 40%;
-  width: 100vw;
-}
-
 nav.menu ul {
   z-index: 1000000;
 }
 
-/* Element | https://olgaamaya.netlify.app/ */
-
 #headerindex {
   display: flex;
-  text-align: center;
-  width: 100%;
+  position: absolute;
+  
+  width: 60%;
   height:100%;
+  left: 20%;
   top: 0;
-  left: 0;
-  text-align: center;
-  display: flex;
+  bottom: 0;
+  
   align-content: center;
   bottom: 0;
-  position: absolute;
+  text-align: center;
   justify-content: center;
-  align-content: center;
   justify-items: center;
   align-items: center;
+  
   z-index: -100001 !important;
 }
