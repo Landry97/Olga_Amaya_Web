@@ -1,22 +1,12 @@
 
-/* main.css | https://olgaamaya.netlify.app/CSS/main.css */
-
-.header-title {
-  /* position: relative; */
-  text-align: center;
-  justify-items: center;
+.header-title  {
+  position: '';
+  left: 10%;
 }
 
-@media screen and (max-width: 330px) {
-  .header-title a span {
-    text-align: center !important;
-    justify-content: center;
-    align-content: ;
-    display: ;
-  }
-}
 
 .header-title a {
+  position: '';
   left: 10%;
 }
 
@@ -39,7 +29,8 @@ nav.menu ul {
   display: flex;
   text-align: center;
   width: 100%;
-  top: 0rem;
+  height:100%;
+  top: 0;
   left: 0;
   text-align: center;
   display: flex;
