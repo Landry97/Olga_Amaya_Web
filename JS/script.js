@@ -28,26 +28,13 @@ menu.addEventListener('click', () => {
       menupoint.classList.toggle('show');
 colorBox(); // Call the script like this
 }); 
- 
-
-var udata1 = [100];
-var udata2;
-if(udata1 = [100]){
-    udata2 =[60];
-}
-else{
-    udata2 = [100];
-}
 
 var colorBox = function () {
-    var udata1 = [100];
-    if (udata1 >= 70) {
+    if (document.getElementById("headerindex").style.color = 'white') {
         document.getElementById("headerindex").style.color = 'black';
-    } else if (udata2 >= 51 && udata1.value < 70) {
+    } else if (document.getElementById("headerindex").style.color = 'black') {
         document.getElementById("headerindex").style.color = 'white';
-    } else if (udata1 <= 50) {
-        document.getElementById("headerindex").style.color = 'black';
-    }
+    
 }
 
 
