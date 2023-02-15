@@ -12,8 +12,8 @@ mouseTarget.addEventListener('mouseenter', function(){
  info4.style.opacity = "";
  info5.style.opacity = "";
  info6.style.opacity = "";
- document.getElementById("bodyid").style.background = "black";
- document.getElementById("headerindex").style.color = "white";
+ document.getElementById("bodyid").style.background = "rgb(" +255+ "," +255+ "," +255+ ")";
+ document.getElementById("headerindex").style.color = "rgb(" +0+ "," +0+ "," +0+ ")";
 })
 mouseTarget.addEventListener('mouseleave', function(){
  document.getElementById("bodyid").style.background = "";
