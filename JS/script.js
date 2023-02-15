@@ -33,7 +33,7 @@ colorBox(); // Call the script like this
 var colorBox = function () {
     var udata = [100];
     if (udata >= 70) {
-        document.getElementById("headerindex").style.color = 'white';
+        document.getElementById("headerindex").style.color = 'black';
     } else if (udata >= 51 && udata.value < 70) {
         document.getElementById("headerindex").style.color = 'white';
     } else if (udata <= 50) {
