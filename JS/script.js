@@ -14,6 +14,7 @@ const navUL = document.getElementById('nav-ul');
 const navMenu = document.getElementById('navMenu');
 const address = document.getElementById('address');
 const body = document.getElementById('bodyid');
+const h_index = document.getElementById('headerindex');
 
 menu.addEventListener('click', () => {
       navMenu.classList.toggle('show');
@@ -22,23 +23,10 @@ menu.addEventListener('click', () => {
       body.classList.toggle('show');
       menu.classList.toggle('show');
       menupoint.classList.toggle('show');
-  f_color();
+      h_index.classList.toggle('show');
+
 }); 
 
-
-const hindex = document.getElementById('headerindex');
-
-  function f_color() {
-if (hindex.style.color = "rgb(" +255+ "," +255+ "," +255+ ")") 
-{
-    hindex.style.color = "rgb(" +0+ "," +0+ "," +0+ ")";
-}
-    else if (hindex.style.color = "rgb(" +0+ "," +0+ "," +0+ ")") 
-{
-    hindex.style.color = "rgb(" +255+ "," +255+ "," +255+ ")"
-}
-
-};
 
 
 
