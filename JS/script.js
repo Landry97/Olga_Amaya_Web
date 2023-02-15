@@ -37,7 +37,7 @@ var colorBox = function () {
     } else if (udata >= 51 && udata.value < 70) {
         document.getElementById("headerindex").style.color = 'white';
     } else if (udata <= 50) {
-        document.getElementById("headerindex").style.color = 'black';
+        document.getElementById("headerindex").style.color = 'white';
     }
 }
 
