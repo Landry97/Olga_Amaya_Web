@@ -183,6 +183,12 @@ text-align: center;}}
 @media screen and (max-width: 640px){.jobsub {display: none;}}
 
 
+@media screen and (max-width: 640px){#headerindex {
+font-size: 1rem;
+letter-spacing: 0.4rem;}}
+
+
+
 
 @media (max-width: 600px){footer{flex-wrap: wrap;flex-direction: column;}.instagram{margin-left: 0;}.copyright{margin-left: 0;}.privacy{margin-left: 0;}#myBtn{margin-left: auto;margin-right: 6%;}}
 @media (max-width: 750px){figure.project-index{width: 100vw;padding:0;}}
