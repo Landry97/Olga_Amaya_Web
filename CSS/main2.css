@@ -1,19 +1,7 @@
 
-.header-title  {
-  position: '';
-  left: 10%;
-}
 
-
-.header-title a {
-  position: '';
-  left: 10%;
-}
 
 .header-title a span {
-  /* display: block; */
-  /* position: static; */
-  /* position: initial; */
   position: absolute;
   left: 40%;
   width: 100vw;
