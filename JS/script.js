@@ -26,16 +26,18 @@ menu.addEventListener('click', () => {
       body.classList.toggle('show');
       menu.classList.toggle('show');
       menupoint.classList.toggle('show');
-  f_color();
+  f_color();f2_color();
 }); 
 
   function f_color() {
     document.getElementById('headerindex').style.color = "white";
 if (document.getElementById('headerindex').style.color == "white") {
     document.getElementById('headerindex').style.color = "black";
-} else {
+};
+    
+    function f2_color() {
+if (document.getElementById('headerindex').style.color == "black") {
     document.getElementById('headerindex').style.color = "white";
-}
 };
     
 
