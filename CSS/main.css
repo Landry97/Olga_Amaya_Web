@@ -89,7 +89,7 @@ address div p a{font-size: 1.25rem;text-decoration: none;text-decoration-style: 
 main{display: flex;justify-content: center;background-color: transparent;height: auto;width: 100%;color: black;letter-spacing: .1rem;padding-left:.75rem;padding-right:.75rem;}
 main ul{display: flex;flex-direction: row;flex-wrap: wrap;align-content:center;align-items: center;text-align: center; margin-top:1rem; }
 main ul li{display: block;padding: 1rem 2rem 1rem 2rem;list-style-type: none;}
-main ul li:hover{list-style-type: circle;color: rgb(219, 10, 10);}
+main ul li:hover{list-style-type: circle;color: rgb(255,100,250);}
 .footer-wrapper{height: auto;min-height: 20vh;display: flex;align-content: flex-end;} 
 footer{margin-top: auto;color: black;display: flex;flex-direction: row;width: 100%;padding-top: 5rem;padding-bottom: 3rem;padding-left: 2.5rem;letter-spacing: .1rem;font-size: .75em;}
 footer p a {color: white;text-decoration: none;}
