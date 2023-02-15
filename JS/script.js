@@ -35,9 +35,9 @@ var colorBox = function () {
     if (udata >= 70) {
         document.getElementById("headerindex").style.color = 'white';
     } else if (udata >= 51 && udata.value < 70) {
-        document.getElementById("headerindex").style.color = 'black';
-    } else if (udata <= 50) {
         document.getElementById("headerindex").style.color = 'white';
+    } else if (udata <= 50) {
+        document.getElementById("headerindex").style.color = 'black';
     }
 }
 
