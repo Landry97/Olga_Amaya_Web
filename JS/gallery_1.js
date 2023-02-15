@@ -405,3 +405,17 @@ function showOverlay() {
     body.scrollLeft(overlaySavedScrollLeft);
   })
 };
+
+
+window.onkeydown = function (event){ 
+if (event.keyCode == 37) {
+    changeSlide1(-1);
+    changeSlide2(-1);
+    changeSlide3(-1);
+    changeSlide4(-1);}  
+if (event.keyCode == 39) {
+    changeSlide1(1);
+    changeSlide2(1);
+    changeSlide3(1);
+    changeSlide4(1);}
+};
