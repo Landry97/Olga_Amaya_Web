@@ -26,24 +26,20 @@ menu.addEventListener('click', () => {
       body.classList.toggle('show');
       menu.classList.toggle('show');
       menupoint.classList.toggle('show');
-  f_color(); f2_color();
+  f_color();
 }); 
 
 
   function f_color() {
 if (document.getElementById('headerindex').style.color = "rgb(" +255+ "," +255+ "," +255+ ")") 
 {
-    document.getElementById('headerindex').style.color = "rgb(" +0+ "," +0+ "," +0+ ")";
+    document.getElementById('headerindex').style.color = "black";
 }
-};
-
-
-  function f2_color() {
-    
-if (document.getElementById('headerindex').style.color = "rgb(" +0+ "," +0+ "," +0+ ")") 
+    if else (document.getElementById('headerindex').style.color = "rgb(" +0+ "," +0+ "," +0+ ")") 
 {
     document.getElementById('headerindex').style.color = "rgb(" +255+ "," +255+ "," +255+ ")";
-} 
+}
+   
 };
 
 
