@@ -33,12 +33,12 @@ menu.addEventListener('click', () => {
   function f_color() {
     document.getElementById('headerindex').style.color = "white";
 if (document.getElementById('headerindex').style.color == "white") {
-    document.getElementById('headerindex').style.color = "black";
+    document.getElementById('headerindex').style.color = "black";}
 };
     
     function f2_color() {
 if (document.getElementById('headerindex').style.color == "black") {
-    document.getElementById('headerindex').style.color = "white";
+    document.getElementById('headerindex').style.color = "white";}
 };
     
 
