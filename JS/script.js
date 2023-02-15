@@ -26,7 +26,8 @@ menu.addEventListener('click', () => {
       body.classList.toggle('show');
       menu.classList.toggle('show');
       menupoint.classList.toggle('show');
-  f_color();f2_color();
+  f_color();
+  f2_color();
 }); 
 
   function f_color() {
