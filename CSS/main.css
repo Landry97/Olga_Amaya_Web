@@ -89,8 +89,11 @@ address div p a{font-size: 1.25rem;text-decoration: none;text-decoration-style: 
 .workclass{ display: flex;justify-content: center;}
 main{display: flex;justify-content: center;background-color: transparent;height: auto;width: 100%;color: black;letter-spacing: .1rem;padding-left:.75rem;padding-right:.75rem;}
 main ul{display: flex;flex-direction: row;flex-wrap: wrap;align-content:center;align-items: center;text-align: center; margin-top:1rem; }
+
 main ul li{display: block;padding: 1rem 2rem 1rem 2rem;list-style-type: none;}
-main ul li:hover{list-style-type: circle;color: rgb(255,100,250);}
+main ul li:hover{list-style-type: circle;text-decoration-color: white;}
+
+
 .footer-wrapper{height: auto;min-height: 20vh;display: flex;align-content: flex-end;} 
 footer{margin-top: auto;color: black;display: flex;flex-direction: row;width: 100%;padding-top: 5rem;padding-bottom: 3rem;padding-left: 2.5rem;letter-spacing: .1rem;font-size: .75em;}
 footer p a {color: white;text-decoration: none;}
@@ -138,7 +141,7 @@ p.project-image:hover, .project-info:hover{color: rgb(219, 10, 10);}
 
  /*each project different :hover -> background-color */
 
-@media screen and (min-width: 640px){
+@media screen and (min-width: 950px){
 #project-info1:hover{background-color: rgba(255, 0, 0, 0.8);}
 #project-info2:hover{background-color: #3B48AD; opacity: .8;}
 #project-info3:hover{background-color: #FFE68F; opacity: .8;}
@@ -152,7 +155,7 @@ p.project-image:hover, .project-info:hover{color: rgb(219, 10, 10);}
 #project-info11:hover{background-color: rgba(255, 0, 0, 0.8);}
 #project-info12:hover{background-color: rgba(0, 0, 255, 0.8);}
 
-  footer p.instagram a:hover,footer p.privacy a:hover{text-decoration: underline overline;}
+  footer p.instagram a:hover,footer p.privacy a:hover{text-decoration: underline;text-decoration-color: underline;rgba(255,100, 250, 0.9)}
 
   
 }
@@ -185,20 +188,20 @@ text-align: center;}}
 
 
 .project-info-index p{margin: 0;letter-spacing: .1rem;}
-@media screen and (max-width:330px){.header-title a span{font-size: 0.9rem; letter-spacing: .5rem;}}
+@media screen and (max-width:350px){.header-title a span{font-size: 0.9rem; letter-spacing: .5rem;}}
 @media (max-width: 950px){#nav-ul{display: none;}}
-@media screen and (max-width:640px){.holdingcontainer {flex-direction: column;}}
-@media screen and (min-width: 640px){.project-info-index {color: black;}}
-@media screen and (max-width: 640px){.project-info-index {color: white;}}
-@media screen and (min-width: 640px){.project-info-index {opacity: 0;}}
-@media screen and (max-width: 640px){.project-info-index {opacity: 1 !important;padding-top: 60%;}}
+@media screen and (max-width:950px){.holdingcontainer {flex-direction: column;}}
+@media screen and (min-width: 950px){.project-info-index {color: black;}}
+@media screen and (max-width: 950px){.project-info-index {color: white;}}
+@media screen and (min-width: 950px){.project-info-index {opacity: 0;}}
+@media screen and (max-width: 950px){.project-info-index {opacity: 1 !important;padding-top: 60%;}}
 .jobsub {display: none;}
 
-@media screen and (min-width: 640px){.layersmallview {display: none;}}
-@media screen and (max-width: 640px){.layersmallview {display: '';}}
+@media screen and (min-width: 950px){.layersmallview {display: none;}}
+@media screen and (max-width: 950px){.layersmallview {display: '';}}
 
-@media screen and (min-width: 640px){.jobsub {display: flex;}}
-@media screen and (max-width: 640px){.jobsub {display: none;}}
+@media screen and (min-width: 950px){.jobsub {display: flex;}}
+@media screen and (max-width: 950px){.jobsub {display: none;}}
 
 
 @media (max-width: 640px){footer{flex-wrap: wrap;flex-direction: column;}.instagram{margin-left: 0;}.copyright{margin-left: 0;}.privacy{margin-left: 0;}#myBtn{margin-left: auto;margin-right: 6%;}}
@@ -207,7 +210,7 @@ text-align: center;}}
 @media (min-width: 640px){footer{flex-wrap: nowrap;}.copyright{margin-left: auto;}#myBtn{margin-left: 3.5%;margin-right: 3.5%;}.privacy{margin-left: 3.5%;margin-right: 3.5%;}}
 li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter-spacing: .1rem;}
 
-@media (min-width: 750px){
+@media (min-width: 950px){
     .project-list-index{ 
         --num-cols: 3; 
         width: 100vw;
@@ -220,11 +223,6 @@ li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter
         grid-template-columns: repeat(var(--num-cols),1fr); 
         grid-auto-rows: var(--row-height); gap: var(--gap); } 
    figure.project-index{width: 100%;height: 100%;object-fit: cover; margin:0;}}
-
-
-@media (min-width: 1000px){
-    .project-list-index{ 
-        --num-cols: 3;}}
 
 /* Works on Firefox */
 * {
