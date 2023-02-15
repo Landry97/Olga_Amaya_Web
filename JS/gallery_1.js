@@ -1,5 +1,4 @@
 function openLightbox_1() { 
-  document.getElementById('mouseTarget').style.position = 'fixed';
   document.getElementById('mouseTarget').style.height = '3.5rem';
   document.getElementById('mouseTarget').style.top = '0';
   document.getElementById('mouseTarget').style.zIndex = '100001';
@@ -13,7 +12,6 @@ function openLightbox_1() {
 
 function closeLightbox_1() {
   x.addListener(scale);
-  document.getElementById('mouseTarget').style.position = '';
   document.getElementById('mouseTarget').style.height = '';
   document.getElementById('mouseTarget').style.top = '0';
   document.getElementById('mouseTarget').style.zIndex = '';
