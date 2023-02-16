@@ -291,11 +291,14 @@ Headlineaboutcontainer ->aboutcontainer ->internalaboutcontainer
 
 .headlineaboutcontainer{
   text-align: center;
+  margin-bottom: auto;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
 }
 .aboutcontainer {
+  margin-top: auto;
   background: black;
   text-align: center;
-  margin-bottom: auto;
 }
 
 .about, .internalaboutcontainer, 
