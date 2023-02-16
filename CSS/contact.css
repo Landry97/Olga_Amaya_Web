@@ -62,5 +62,5 @@
 .social .child { transition: all .2s ease-in-out; }
 
 .social:hover .child {
-  transform: scale(1.1);
+  transform: scale(1.3);
 }
