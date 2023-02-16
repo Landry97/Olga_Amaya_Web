@@ -206,8 +206,15 @@ text-align: center;}}
 @media screen and (max-width: 950px){.jobsub {display: none;}}
 
 
-@media (max-width: 640px){footer{flex-wrap: wrap;flex-direction: column;}.instagram{margin-left: 0;}.copyright{margin-left: 0;}.privacy{margin-left: 0;}#myBtn{margin-left: auto;margin-right: 6%;}}
-@media (max-width: 640px){figure.project-index{width: 100vw;padding:0;}}
+@media (max-width: 640px){
+footer{flex-wrap: wrap;flex-direction: column;}
+.instagram{margin-left: 0;}
+.copyright{margin-left: 0;}
+.privacy{margin-left: 0;}
+#myBtn{margin-left: auto;margin-right: 6%;}
+figure.project-index{width: 100vw;padding:0;}
+.social_elements {margin: 0 0 1.5rem 0;}
+}
 @media (min-width: 640px){figure.project-index{width: 100vw;height: auto;position:relative}}
 @media (min-width: 640px){footer{flex-wrap: nowrap;}.copyright{margin-left: auto;}#myBtn{margin-left: 3.5%;margin-right: 3.5%;}.privacy{margin-left: 3.5%;margin-right: 3.5%;}}
 li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter-spacing: .1rem;}
