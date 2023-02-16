@@ -15,7 +15,7 @@ const navMenu = document.getElementById('navMenu');
 const address = document.getElementById('address');
 const body = document.getElementById('bodyid');
 const h_index = document.getElementById('headerindex');
-const contact = document.getElementsByClassName("menu-item");
+const contact = document.getElementById("item-contact");
 
 menu.addEventListener('click', () => {
       navMenu.classList.toggle('show');
