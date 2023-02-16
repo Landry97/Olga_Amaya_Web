@@ -146,4 +146,6 @@ padding: 1rem;
 }
 
 @media screen and (min-width: 1245px){#showcase h1 {font-size: 8rem !important;
-}}
+}
+  #showcase .button{font-size: 4rem !important;}
+}
