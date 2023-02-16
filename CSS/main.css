@@ -169,7 +169,7 @@ p.project-image:hover, .project-info:hover{color: rgb(219, 10, 10);}
 figure.project-index:hover{transform: translateY(0)}
 figure.project-index:hover:before{opacity: 1;}
 figure.project-index:hover .project-info-index:hover{opacity: 1;transform: translateY(0);}
-figure.project-index{position: relative;}
+figure.project-index{position: relative;width:100vw;}
 figure.project-index:before{content: '';position: absolute;display: block;width: 100%;height: 100%;background: transparent;z-index: 2;transition: 0.3s;opacity: 0;}
 figcaption.project-info-index{
     
