@@ -29,6 +29,15 @@
   height: 2rem;
   margin: 0 1rem 0 1rem;
 }
+.social-svg_4 {
+  background-image: url('/BUTTONS/facebook.png');
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+  
+    width: 2rem;
+  height: 2rem;
+  margin: 0 1rem 0 1rem;
+}
 
 .social_elements {
   position: relative;
