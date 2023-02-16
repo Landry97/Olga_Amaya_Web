@@ -215,7 +215,6 @@ li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter
 @media (min-width: 950px){
     .project-list-index{ 
         --num-cols: 3; 
-        width:100%;
         align-self: center;
         --gap: 0rem; 
         --row-height: auto;        
@@ -301,3 +300,4 @@ a.studiolist {
   /* color: black; */
   color: white;
 }
+#rowid {width: 100% !important;}
