@@ -1,9 +1,12 @@
 /*1*/
 
-.social-svg {
+.social-svg_ {
   background-image: url('/BUTTONS/insta.png');
   background-repeat: no-repeat;
   background-size: 1.5rem;
+  position: absolute;
+  left:0;
+  top:0;
 }
 
 
