@@ -57,3 +57,5 @@
   flex-wrap: nowrap;
   justify-content: center;
 }
+
+.social:hover {transform: scale(1.3);}
