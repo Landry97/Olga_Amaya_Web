@@ -1,3 +1,3 @@
 function change_text(){
-    document.getElementById("portfolio").innerHTML = "Portfolio ";
+    document.getElementById("portfolio").innerHTML = "_PORTFOLIO";
 }
