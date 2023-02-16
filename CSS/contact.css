@@ -1,26 +1,14 @@
-
-
-/* contact.css | https://olgaamaya.netlify.app/CSS/contact.css */
+/*1*/
 
 .social-svg {
-  /* height: 1rem; */
-  /* width: 1rem; */
-  background: url(".../BUTTONS/insta.png");
   background-image: url('/BUTTONS/insta.png');
   background-repeat: no-repeat;
   background-size: 1.5rem;
-  background-size: auto;
 }
 
-.social {
-  /* position: relative; */
-}
-
-/* main.css | https://olgaamaya.netlify.app/CSS/main.css */
 
 .instagram {
-  /* height: 1rem; */
-  height: 2rem;
   position: relative;
+  height: 2rem;
   width: 2rem;
 }
