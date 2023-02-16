@@ -1,5 +1,15 @@
 /*1*/
 
+.social-svg_0 {
+  background-image: url('/BUTTONS/phone.png');
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+  
+    width: 2rem;
+  height: 2rem;
+ margin: 0 1rem 0 1rem;
+}
+
 .social-svg_1 {
   background-image: url('/BUTTONS/insta.png');
   background-repeat: no-repeat;
