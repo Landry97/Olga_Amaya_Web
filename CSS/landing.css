@@ -145,7 +145,5 @@ padding: 1rem;
   100% { opacity: 1; }
 }
 
-@media screen and (min-width: 1245px){h1 {font-size: 8rem;
+@media screen and (min-width: 1245px){#showcase h1 {font-size: 8rem !important;
 }}
-
-1245
