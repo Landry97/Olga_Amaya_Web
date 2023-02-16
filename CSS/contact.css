@@ -1,0 +1,6 @@
+
+    
+   .social{position: relative;}
+   .social-svg{}
+   .instagram a .social .social-svg{position: absolute;
+                                   left:0; right:0;}
