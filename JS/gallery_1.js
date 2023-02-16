@@ -408,6 +408,7 @@ function showOverlay() {
 
 var leftKey = 37, upKey = 38, rightKey = 39, downKey = 40;
 var keystate = [100];
+delete keystate[e.keyCode];
 document.addEventListener("keydown", function (e) {
     keystate[e.keyCode] = true;
 });
