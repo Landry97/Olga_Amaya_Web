@@ -317,4 +317,6 @@ a.studiolist, p.aboutlist {
 #item-contact .menu-item contact{padding:0 !important!}
 
 .menu-item {padding-left:2.5rem;}
-.menu-item contact {padding-left:0;}
+.menu-item.contact {
+  padding-left: 0;
+}
