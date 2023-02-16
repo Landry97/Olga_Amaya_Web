@@ -49,7 +49,7 @@ nav.menu li{display: flex;align-content: center;text-align: center;align-items: 
 li.menu-item a{color: white;text-decoration: none;list-style-type: none;} 
 li.menu-item a:hover{text-decoration: underline;text-decoration-color: rgb(255,100,250);list-style-type: circle;}
 
-nav.menu ul{display: flex;height: 100%;width: 100%;}nav.menu ul li{padding-left:2.5rem;}
+nav.menu ul{display: flex;height: 100%;width: 100%;}
 nav.menu ul {
   /* width: 100%; */
   width: 15%;
@@ -315,3 +315,6 @@ a.studiolist, p.aboutlist {
 }
 #rowid {width: 100% !important;}
 #item-contact .menu-item contact{padding:0 !important!}
+
+.menu-item {padding-left:2.5rem;}
+.menu-item contact {padding-left:0;}
