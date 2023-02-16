@@ -1,7 +1,15 @@
 /*1*/
 
-.social-svg_ {
+.social-svg_1 {
   background-image: url('/BUTTONS/insta.png');
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+  position: absolute;
+  left:0;
+  top:0;
+}
+.social-svg_2 {
+  background-image: url('/BUTTONS/mail.png');
   background-repeat: no-repeat;
   background-size: 1.5rem;
   position: absolute;
