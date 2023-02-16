@@ -15,6 +15,7 @@ const navMenu = document.getElementById('navMenu');
 const address = document.getElementById('address');
 const body = document.getElementById('bodyid');
 const h_index = document.getElementById('headerindex');
+const contact = document.getElementsByClassName("menu-item");
 
 menu.addEventListener('click', () => {
       navMenu.classList.toggle('show');
@@ -24,6 +25,7 @@ menu.addEventListener('click', () => {
       menu.classList.toggle('show');
       menupoint.classList.toggle('show');
       h_index.classList.toggle('h_index');
+      contact.classList.toggle('contact');
 
 }); 
 
