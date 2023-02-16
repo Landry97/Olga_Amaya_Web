@@ -73,3 +73,18 @@
   #social_elements{
   padding-top:2rem;}
 }
+
+
+/* main.css | https://olgaamaya.netlify.app/CSS/main.css */
+
+@media (min-width: 640px) {
+  .copyright {
+    /* margin-left: auto; */
+    margin-left: 0;
+  }
+  .privacy {
+    /* margin-left: 3.5%; */
+    margin-left: auto;
+  }
+}
+
