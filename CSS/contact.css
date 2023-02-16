@@ -59,8 +59,8 @@
   margin-top: auto;
 }
 
-.social .child { transition: all .2s ease-in-out; }
+#social_elements .child { transition: all .2s ease-in-out; }
 
-.social:hover .child {
+#social_elements:hover .social svg {
   transform: scale(1.3);
 }
