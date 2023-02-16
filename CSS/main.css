@@ -302,7 +302,7 @@ Headlineaboutcontainer ->aboutcontainer ->internalaboutcontainer
 .holdingcontainer, .internalcontainerL, .internalcontainerA {
   background: black;
 }
-a.studiolist, a.aboutlist {
+a.studiolist, p.aboutlist {
   color: white;
 }
 #rowid {width: 100% !important;}
