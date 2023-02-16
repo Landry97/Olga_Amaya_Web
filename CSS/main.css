@@ -285,35 +285,24 @@ margin: 1rem 2rem 1rem 2rem !important;
   font-size: 1rem
 }
 
-/* contact area */
+/* contact/about: 
+Headlineaboutcontainer ->aboutcontainer ->internalaboutcontainer
+*/
 
-.holdingcontainer {
-  background: black;
-}
-
-.internalcontainerA {
-  background: black;   
-}
 .headlineaboutcontainer{
   text-align: center;
 }
 .aboutcontainer {
   background: black;
   text-align: center;
-}
-.internalaboutcontainer {
-  background: black;   
+  margin-bottom: auto;
 }
 
-.about {
+.about, .internalaboutcontainer, 
+.holdingcontainer, .internalcontainerL, .internalcontainerA {
   background: black;
 }
-
-.internalcontainerL {
-  background: black;
-}
-
-a.studiolist {
+a.studiolist, a.aboutlist {
   color: white;
 }
 #rowid {width: 100% !important;}
