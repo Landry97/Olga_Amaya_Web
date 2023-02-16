@@ -212,7 +212,7 @@ text-align: center;}
 
 @media (max-width: 640px){
 footer{flex-wrap: wrap;flex-direction: column;}
-.instagram{margin-left: 0;}
+.instagram{margin-left: 0;padding-bottom: .5rem;}
 .copyright{margin-left: 0;}
 .privacy{margin-left: 0;}
 #myBtn{margin-left: auto;margin-right: 6%;}
