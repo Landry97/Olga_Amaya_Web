@@ -3,4 +3,6 @@
    .social{position: relative;}
    .social-svg{}
    .instagram a .social .social-svg{position: absolute;
-                                   left:0; right:0;}
+                                   left:0; right:0;
+background: url(".../BUTTONS/insta.svg") no-repeat;background-size: 100%;background-color: black;height: 1.05rem;width: 1.05rem;}
+
