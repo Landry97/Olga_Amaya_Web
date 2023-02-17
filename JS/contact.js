@@ -9,6 +9,8 @@ var meinIntervall2 = setInterval(function() {
 
 var meinIntervall3 = setInterval(function() {
     clearInterval(meinIntervall);
+    clearInterval(meinIntervall2);
+    clearInterval(meinIntervall3);
     update(); 
 }, 25000); 
 
