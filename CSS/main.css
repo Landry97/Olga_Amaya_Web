@@ -335,7 +335,7 @@ a.studiolist, p.aboutlist {
     position: absolute;
     bottom: 5%;
     margin: 0 !important;
-white-space: nowrap; line-height: 1rem; animation: animate 30s linear infinite;
+white-space: nowrap; line-height: 1rem; animation: animate 10s linear infinite;
   }
 }
 
