@@ -7,7 +7,11 @@ var meinIntervall2 = setInterval(function() {
     update(); 
 }, 17000); 
 
-clearInterval(meinIntervall),20000);
+var meinIntervall3 = setInterval(function() {
+    clearInterval(meinIntervall);
+    update(); 
+}, 21000); 
+
 
 // Intervall beenden 
 // clearInterval(meinIntervall);
