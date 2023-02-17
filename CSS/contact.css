@@ -88,40 +88,51 @@
 /* animation contact start*/
 
 .headlineaboutcontainer {
-  animation: fadeIn 10s;
-  -webkit-animation: fadeIn 10s;
-  -moz-animation: fadeIn 10s;
-  -o-animation: fadeIn 10s;
-  -ms-animation: fadeIn 10s;
+  animation: fadeIn 20s;
+  -webkit-animation: fadeIn 20s;
+  -moz-animation: fadeIn 20s;
+  -o-animation: fadeIn 20s;
+  -ms-animation: fadeIn 20s;
 }
 
 @keyframes fadeIn {
   0% { opacity: 0; }
-  50% { opacity: 1; }
+  25% { opacity: 1; }
+  50% {opacity: 0; }
+  75% { opacity: 1; }
   100% { opacity: 0; }
 }
 
 @-moz-keyframes fadeIn {
   0% { opacity: 0; }
-  50% { opacity: 1; }
+  25% { opacity: 1; }
+  50% {opacity: 0; }
+  75% { opacity: 1; }
   100% { opacity: 0; }
 }
 
 @-webkit-keyframes fadeIn {
   0% { opacity: 0; }
-  50% { opacity: 1; }
+  25% { opacity: 1; }
+  50% {opacity: 0; }
+  75% { opacity: 1; }
   100% { opacity: 0; }
 }
 
 @-o-keyframes fadeIn {
+  
   0% { opacity: 0; }
-  50% { opacity: 1; }
+  25% { opacity: 1; }
+  50% {opacity: 0; }
+  75% { opacity: 1; }
   100% { opacity: 0; }
 }
 
 @-ms-keyframes fadeIn {
   0% { opacity: 0; }
-  50% { opacity: 1; }
+  25% { opacity: 1; }
+  50% {opacity: 0; }
+  75% { opacity: 1; }
   100% { opacity: 0; }
 }
 
