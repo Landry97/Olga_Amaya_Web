@@ -328,23 +328,20 @@ a.studiolist, p.aboutlist {
 .layersmallview {
   height: 15%;
   width:100%;
-  display: flex;
 }
-#jobtitle-mobile{display: flex;position: absolute;left:0; width: 100%;overflow:hidden;bottom:1.5%; animation: animate2 9s linear infinite;}
+#jobtitle-mobile{display: none;}
+
 @media screen and (max-width: 640px) {
-#jobtitle-mobile{display: flex;}
-  .jobtitle {overflow: hidden;
-  /*! overflow: hidden; */
+  .jobtitle {
+    overflow: hidden;
     width:100%;
-    font-size: .6rem;
+    font-size: .8rem;
+    font-weight: bold;
     position: absolute;
-    bottom: 8%;
+    bottom: 5%;
     margin: 0 !important;
-white-space: nowrap; line-height: 1rem; animation: animate 9s linear infinite;
-  display: flex;
+white-space: nowrap; line-height: 1rem; animation: animate 15s linear infinite;
   }
 }
 
-@keyframes animate { 0% { transform:translateX(100%);} 100% { transform:translateX(-100%);}} 
-
-@keyframes animate2{ 0% { transform:translateX(-100%);} 100% { transform:translateX(100%);}} 
+@keyframes animate { 0% { transform:translateX(0);} 100% { transform:translateX(-100%);}} 
