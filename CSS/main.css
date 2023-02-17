@@ -328,7 +328,6 @@ a.studiolist, p.aboutlist {
 .layersmallview {
   height: 15%;
   width:100%;
-  position: relative;
 }
 #jobtitle-mobile{display: none;}
 @media screen and (max-width: 640px) {
