@@ -327,10 +327,14 @@ a.studiolist, p.aboutlist {
 
 .layersmallview {
   height: 15%;
+  width:100%;
+  position: relative;
 }
-
+#jobtitle-mobile{display: none;}
 @media screen and (max-width: 640px) {
+#jobtitle-mobile{display: flex;}
   .jobtitle {
+    width:100%;
     font-size: .6rem;
     position: absolute;
     bottom: 5%;
