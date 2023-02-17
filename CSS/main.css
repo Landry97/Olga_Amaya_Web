@@ -331,11 +331,10 @@ a.studiolist, p.aboutlist {
 
 @media screen and (max-width: 640px) {
   .jobtitle {
-    /* font-size: 1.5rem; */
     font-size: .6rem;
     position: absolute;
     bottom: 5%;
-    margin-bottom: 5% !important;
+    margin: 0 !important;
   }
 }
 
