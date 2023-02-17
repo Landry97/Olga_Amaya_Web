@@ -5,4 +5,4 @@ var meinIntervall = setInterval(function() {
 }, 5000); 
 
 // Intervall beenden 
-clearInterval(meinIntervall);
+// clearInterval(meinIntervall);
