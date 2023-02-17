@@ -227,7 +227,7 @@ li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter
     .project-list-index{ 
         --num-cols: 3; 
         align-self: center;
-        --gap: 0-5rem; 
+        --gap: 0.5rem; 
         --row-height: auto;        
         box-sizing: border-box; 
         padding: var(--gap); 
