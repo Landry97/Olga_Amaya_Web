@@ -74,9 +74,6 @@
   padding-top:2rem;}
 }
 
-
-/* main.css | https://olgaamaya.netlify.app/CSS/main.css */
-
 @media (min-width: 640px) {
   .copyright {
     /* margin-left: auto; */
@@ -87,6 +84,8 @@
     margin-left: auto;
   }
 }
+
+/* animation contact start*/
 
 .headlineaboutcontainer {
   animation: fadeIn 10s;
@@ -125,3 +124,6 @@
   50% { opacity: 1; }
   100% { opacity: 0; }
 }
+
+
+/* animation contact stop*/
