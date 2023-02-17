@@ -9,7 +9,7 @@ var meinIntervall2 = setInterval(function() {
    // clearInterval(meinIntervall);
     //clearInterval(meinIntervall2);
     //clearInterval(meinIntervall3);
-// 20000); 
+// 20001); 
 
 
 // Intervall beenden 
