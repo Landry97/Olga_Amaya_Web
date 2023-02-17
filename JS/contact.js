@@ -5,7 +5,7 @@ var meinIntervall = setInterval(function() {
 var meinIntervall2 = setInterval(function() {
     document.getElementById("headline").innerHTML = "International Costume Designer and Fashion Stylist based in Barcelona.";
     update(); 
-}, 10001); 
+}, 9000); 
 
 var meinIntervall3 = setInterval(function() {
     clearInterval(meinIntervall);
