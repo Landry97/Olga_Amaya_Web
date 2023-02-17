@@ -93,7 +93,8 @@
   -webkit-animation: fadeIn 10s;
   -moz-animation: fadeIn 10s;
   -o-animation: fadeIn 10s;
-  -ms-animation: fadeIn 10s}
+  -ms-animation: fadeIn 10s;
+}
 
 
 @keyframes fadeIn {
@@ -125,8 +126,4 @@
   50% { opacity: 1; }
   100% { opacity: 0; }
 }
-  
-  
-  
-
   
