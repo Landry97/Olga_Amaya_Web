@@ -333,6 +333,7 @@ a.studiolist, p.aboutlist {
 @media screen and (max-width: 640px) {
 #jobtitle-mobile{display: flex;}
   .jobtitle {
+  overflow: hidden;
     width:100%;
     font-size: .6rem;
     position: absolute;
