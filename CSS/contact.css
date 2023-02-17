@@ -128,22 +128,22 @@
   100% { opacity: 0; }
 }
 
-@-moz-keyframes fadeIn {
+@-moz-keyframes fadeout {
   0% { opacity: 1; }
   100% { opacity: 0; }
 }
 
-@-webkit-keyframes fadeIn {
+@-webkit-keyframes fadeout {
   0% { opacity: 1; }
   100% { opacity: 0; }
 }
 
-@-o-keyframes fadeIn {
+@-o-keyframes fadeout {
   0% { opacity: 1; }
   100% { opacity: 0; }
 }
 
-@-ms-keyframes fadeIn {
+@-ms-keyframes fadeout {
   0% { opacity: 1; }
   100% { opacity: 0; }
 }
