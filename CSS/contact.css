@@ -99,52 +99,34 @@
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
+  100% { opacity: 0; }
 }
 
 @-moz-keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
+  100% { opacity: 0; }
 }
 
 @-webkit-keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
+  100% { opacity: 0; }
 }
 
 @-o-keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
+  100% { opacity: 0; }
 }
 
 @-ms-keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
+  100% { opacity: 0; }
 }
   
   
   
-@keyframes fadeout {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
-}
 
-@-moz-keyframes fadeout {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
-@-webkit-keyframes fadeout {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
-@-o-keyframes fadeout {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
-@-ms-keyframes fadeout {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
-}
   
