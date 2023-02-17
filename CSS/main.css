@@ -284,13 +284,6 @@ li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter
 .jobsub{font-size: 1rem;}
 }
 
-.jobtitle{
-  font-size: 1.15rem;
-}
-.jobsub{
-  font-size: 1rem
-}
-
 .jobtitle, .jobsub{
 margin: 1rem 2rem 1rem 2rem !important;
   font-weight: lighter;
