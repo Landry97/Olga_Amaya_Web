@@ -1,9 +1,8 @@
 var meinIntervall = setInterval(function() { 
     // alle 3 Sekunden ausführen 
+    document.getElementById("headline").innerHTML = "let's get in contact!";
     update(); 
-    document.getElementById("headline").innerHTML = "let's get in contact";
-    document.getElementById("headline").innerHTML = "nice to meet you";
-}, 15000); 
+}, 5000); 
 
 // Intervall beenden 
 clearInterval(meinIntervall);
