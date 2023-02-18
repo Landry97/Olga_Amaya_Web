@@ -54,9 +54,9 @@ flex-direction: row;
 }
 @keyframes animate {
   0% {
-      transform: translateX(0);
+      transform: translate(0,0);
   }
   100% {
-      transform: translateX(-200vw);
+      transform: translate(-200%,0);
   }
 }
