@@ -55,6 +55,6 @@ flex-direction: row;
       transform: translate(0,0);
   }
   100% {
-      transform: translate(-200vw,0);
+      transform: translate(-200%,0);
   }
 }
