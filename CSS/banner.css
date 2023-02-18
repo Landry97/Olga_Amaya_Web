@@ -38,6 +38,7 @@ height: 100%;
   animation:animate 10s linear infinite;
   color: white;
   top: .5rem;
+  letter-spacing: .15rem;
 }
 .marquee2 span {animation-delay:5s;
   color: yellow;
