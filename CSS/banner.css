@@ -1,5 +1,6 @@
 .marquee-w {
 position: relative;
+  justify-content: end;
 display: flex;
 flex-direction: row;
   flex-wrap: nowrap;
