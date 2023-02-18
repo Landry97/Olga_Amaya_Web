@@ -366,12 +366,11 @@ overflow: hidden;
   height:100%;
   line-height: 1.5rem;
   font-size: 1.25rem;
-  animation: marquee 10s linear infinite;
+  animation: animate 10s linear infinite;
 }
 .marquee2 span {animation-delay:5s;
 }
-
-@keyframes marquee {
+@keyframes animate {
 
   0% {
       transform: translate(0,0);
