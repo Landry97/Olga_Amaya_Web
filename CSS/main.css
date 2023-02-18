@@ -197,11 +197,6 @@ text-align: center;}
 @media screen and (max-width:350px){.header-title a span{font-size: 0.9rem; letter-spacing: .5rem;}}
 @media (max-width: 950px){#nav-ul{display: none;}}
 @media screen and (max-width:950px){.holdingcontainer {flex-direction: column;}}
-@media screen and (min-width: 950px){.project-info-index {color: black;}}
-@media screen and (max-width: 950px){.project-info-index {color: white;}}
-@media screen and (min-width: 950px){.project-info-index {opacity: 0;}}
-@media screen and (max-width: 950px){.project-info-index {opacity: 1 !important;padding-top: 60%;}}
-.jobsub {display: none;}
 
 @media screen and (min-width: 950px){.layersmallview {display: none;}}
 @media screen and (max-width: 950px){.layersmallview {display: '';}}
@@ -326,7 +321,7 @@ a.studiolist, p.aboutlist {
   width:100%;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 950px) {
   .jobtitle, .jobsub {
     display: none;}
 }
