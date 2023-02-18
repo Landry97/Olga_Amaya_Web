@@ -35,12 +35,12 @@ height: 100%;
   height:100%;
   line-height: 1.5rem;
   font-size: 1.25rem;
-  animation:animate 10s linear infinite;
+  animation:animate 30s linear infinite;
   color: white;
   position: absolute;
   top: .5rem;
 }
-.marquee2 span {animation-delay:5s;
+.marquee2 span {animation-delay:15s;
   color: yellow;
   left:50%;
 }
