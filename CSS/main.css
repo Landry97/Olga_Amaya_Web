@@ -321,20 +321,15 @@ a.studiolist, p.aboutlist {
 .menu-item.contact {
   padding-left: 0;
 }
-
-
-/* main.css | https://olgaamaya.netlify.app/CSS/main.css */
-
 .layersmallview {
   height: 3rem;
   width:100%;
 }
 
 @media screen and (max-width: 640px) {
-  .jobtitle {
+  .jobtitle, .jobsub {
     display: none;}
 }
-.project-info-index {overflow: hidden;}
 
 
 
