@@ -25,7 +25,7 @@ height: 100%;
 }
 
 .marquee span {
-  display: inline-block;
+  display: flex;
   padding-top: .5rem;
   padding-left: 100%;
   font-family: 'happy-times';
