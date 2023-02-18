@@ -46,10 +46,12 @@ flex-direction: row;
 .marquee2 span {animation-delay:5s;
   color: yellow;
   display: flex;
+  overflow: hidden;
 }
 .marquee1 span {animation-delay:0s;
   color: red;
   display: flex;
+  overflow: hidden;
 }
 @keyframes animate {
   0% {
