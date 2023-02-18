@@ -326,4 +326,7 @@ a.studiolist, p.aboutlist {
     display: none;}
 }
 
+@media screen and (min-width: 950px){.project-info-index {opacity: 0;}}
+@media screen and (max-width: 950px){.project-info-index {opacity: 1 !important;}
+
 
