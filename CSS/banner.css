@@ -28,17 +28,13 @@ flex-direction: row;
   flex-wrap: nowrap;
   padding-top: .5rem;
   padding-left: 0;
-  font-family: 'happy-times';
   text-align: center;
   white-space: nowrap;
   min-width:100%;
   max-width:100%;
   height:100%;
-  line-height: 1.5rem;
-  font-size: 1.25rem;
   animation:animate 10s linear infinite;
   top: .5rem;
-  letter-spacing: .15rem;
 }
 .marquee2 span {
   animation-delay:5s;
