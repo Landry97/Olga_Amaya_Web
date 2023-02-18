@@ -337,10 +337,10 @@ a.studiolist, p.aboutlist {
 .marquee-w {
 position: relative;
 display: block;
-width:100%;
-height: 3rem;
+width: 100%;
+height: 100%;
 bottom: 0;
-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%); 
 overflow: hidden;
 }
 
@@ -359,7 +359,6 @@ overflow: hidden;
   padding-left: 100%;
   font-family: 'happy-times';
   text-align: center;
-  -webkit-text-stroke: 1px #43e486;
   white-space: nowrap;
   min-width:100%;
   height:100%;
