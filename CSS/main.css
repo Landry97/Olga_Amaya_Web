@@ -334,16 +334,19 @@ a.studiolist, p.aboutlist {
 
 
 
+
+
 .marquee-w {
 position: relative;
 display: block;
-width: 50%;
-height: 50%;
-  top:50%;
-  left:50%;
-transform: translate(-50%); 
-overflow: hidden;
+width: 100%;
+height: 100%;
+  bottom:0;
+  left:0%;
+  background-color: blue;
+  text-align: center;
   
+overflow: hidden;
 }
 
 .marquee {
@@ -354,9 +357,12 @@ overflow: hidden;
   overflow: hidden;
   min-width: 100%;
   height: 100%;
+  color: green;
+  
 }
 
 .marquee span {
+  color: white;
   display: inline-block;
   padding-left: 100%;
   font-family: 'happy-times';
@@ -367,16 +373,19 @@ overflow: hidden;
   line-height: 1.5rem;
   font-size: 1.25rem;
   animation:animate 10s linear infinite;
+  color: white;
 }
 .marquee2 span {animation-delay:5s;
+  color: pink;
 }
 @keyframes animate {
 
   0% {
-      transform: translate(0,0);
+      transform: translateX(0);
   }
   100% {
-      transform: translate(-100,0);
+      transform: translateX(-100%);
   }
 }
+
 
