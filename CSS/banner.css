@@ -29,7 +29,7 @@ display: flex;
 flex-direction: row;
   flex-wrap: nowrap;
   padding-top: .5rem;
-  padding-left: 100vw;
+  padding-left: 0;
   font-family: 'happy-times';
   text-align: center;
   white-space: nowrap;
