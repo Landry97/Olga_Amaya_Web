@@ -1,0 +1,54 @@
+
+
+.marquee-w {
+position: relative;
+display: flex;
+width: 100%;
+height: 100%;
+  bottom:0;
+  left:0%;
+  background: rgb(250,200,250,0.5)
+  justify-content: center;
+  overflow: hidden;
+/*! overflow: hidden; */
+}
+
+.marquee {
+  position: absolute;
+  left: 0;
+  display: flex;
+  margin: auto auto;
+  white-space: nowrap;
+  overflow: hidden;
+  min-width: 100%;
+  height: 100%;
+  color: green;
+  
+}
+
+.marquee span {
+  padding-left: 100%;
+  font-family: 'happy-times';
+  text-align: center;
+  white-space: nowrap;
+  min-width:100%;
+  height:100%;
+  line-height: 1.5rem;
+  font-size: 1.25rem;
+  animation:animate 10s linear infinite;
+  color: white;
+  position: absolute;
+  top: .5rem;
+}
+.marquee2 span {animation-delay:5s;
+  color: yellow;
+  left:50%;
+}
+@keyframes animate {
+  0% {
+      transform: translateX(0%);
+  }
+  100% {
+      transform: translateX(-200%);
+  }
+}
