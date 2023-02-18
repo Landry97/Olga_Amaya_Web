@@ -45,10 +45,12 @@ flex-direction: row;
 .marquee2 span {animation-delay:5s;
   color: yellow;
   display: flex;
+  padding-left:150%;
 }
 .marquee1 span {animation-delay:0s;
   color: red;
   display: flex;
+  padding-left:50%;
 }
 @keyframes animate {
   0% {
