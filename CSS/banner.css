@@ -41,7 +41,6 @@ flex-direction: row;
   animation:animate 10s linear infinite;
   top: .5rem;
   letter-spacing: .15rem;
-  padding-left:100%;
 }
 .marquee2 span {
   animation-delay:5s;
@@ -57,9 +56,9 @@ flex-direction: row;
 }
 @keyframes animate {
   0% {
-      transform: translate(0,0);
+      transform: translate(100%,0);
   }
   100% {
-      transform: translate(-200%,0);
+      transform: translate(-100%,0);
   }
 }
