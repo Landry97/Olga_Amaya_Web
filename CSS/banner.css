@@ -1,5 +1,4 @@
 
-
 .marquee-w {
 position: relative;
 display: flex;
@@ -15,7 +14,7 @@ height: 100%;
 
 .marquee {
   position: absolute;
-  left: 0%;
+  left: 0;
   display: flex;
   margin: auto auto;
   white-space: nowrap;
@@ -27,7 +26,6 @@ height: 100%;
 }
 
 .marquee span {
-  padding-top: .5rem;
   padding-left: 100%;
   font-family: 'happy-times';
   text-align: center;
@@ -36,23 +34,20 @@ height: 100%;
   height:100%;
   line-height: 1.5rem;
   font-size: 1.25rem;
-  animation:animate 15s linear infinite;
+  animation:animate 30s linear infinite;
   color: white;
+  position: absolute;
   top: .5rem;
-  width: 50%;
-  transform: translateX(100%);
 }
-.marquee2 span {animation-delay:7.5s;
+.marquee2 span {animation-delay:15s;
   color: yellow;
-  width:50%;
   left:50%;
 }
 @keyframes animate {
   0% {
-      transform: translateX(0);
+      transform: translateX(0%);
   }
   100% {
-      transform: translateX(-300%);
+      transform: translateX(-200%);
   }
 }
-
