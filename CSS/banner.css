@@ -45,6 +45,7 @@ flex-direction: row;
   color: white;
   display: flex;
   overflow: hidden;
+  transform: translate(50%,0)
 }
 .marquee1 span {
   animation-delay:0s;
