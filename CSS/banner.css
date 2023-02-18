@@ -2,6 +2,7 @@
 position: relative;
 display: flex;
 flex-direction: row;
+  flex-wrap: nowrap;
 width: 100%;
 height: 100%;
   bottom:0;
@@ -14,6 +15,10 @@ height: 100%;
 }
 
 .marquee {
+  
+display: flex;
+flex-direction: row;
+  flex-wrap: nowrap;
   position: absolute;
   left: 0;
   margin: auto auto;
@@ -26,7 +31,9 @@ height: 100%;
 }
 
 .marquee span {
-  display: flex;
+display: flex;
+flex-direction: row;
+  flex-wrap: nowrap;
   padding-top: .5rem;
   padding-left: 100%;
   font-family: 'happy-times';
