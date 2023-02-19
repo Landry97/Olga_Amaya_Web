@@ -2,7 +2,8 @@
   position: relative;
   height: 2rem;
   overflow: hidden;
-height: calc(100%);
+height: calc(100%)
+  transform: translateY(85%);
 }
 
 .banner::before
