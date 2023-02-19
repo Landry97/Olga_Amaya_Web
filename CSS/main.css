@@ -325,8 +325,9 @@ a.studiolist, p.aboutlist {
   .jobtitle, .jobsub {
     display: none;}
 }
+.jobtitle, .jobsub {display: none;}
 
-@media screen and (min-width: 950px){.project-info-index, .jobtitle, .jobsub {opacity: 0;}}
-@media screen and (max-width: 950px){.project-info-index, .jobtitle, .jobsub {opacity: 1 !important;}
+@media screen and (min-width: 950px){.project-info-index {opacity: 0;}}
+@media screen and (max-width: 950px){.project-info-index {opacity: 1 !important;}
 
 
