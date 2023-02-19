@@ -1,7 +1,7 @@
 .banner{
   position: relative;
   width: 100%;
-  height: 10%;
+  height: 2rem;
   overflow: hidden;
 
 }
@@ -21,7 +21,7 @@ content: '';
 
 .scroll
 {
-width: calc(100% +400px);
+width: calc(-100% +400px);
 left: -400px;
 display:flex;
 color: #fff;
@@ -42,6 +42,7 @@ animation-delay: -60s;
 {  
 animation: animate_two 60s linear infinite;
 animation-delay: -30s;
+  color: blue !important;
 }
 
 @keyframes animate_one
@@ -50,7 +51,6 @@ animation-delay: -30s;
   { 
     transform: translateX(100%);
   }
-
   100%
   { 
     transform: translateX(-100%);
@@ -64,7 +64,6 @@ animation-delay: -30s;
   { 
     transform: translateX(0);
   }
-
   100%
   { 
     transform: translateX(-200%);
