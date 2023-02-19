@@ -1,12 +1,9 @@
 .banner{
   position: relative;
-  /*! width: 100vw; */
   height: 2rem;
   overflow: hidden;
 height: calc(100%);
-  /*! left: 50%; */
-  transform: translateY(90%);
-  top: calc(10% - 1.5rem);
+  transform: translateY(93%);
 }
 
 .banner::before
