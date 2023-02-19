@@ -21,7 +21,7 @@ content: '';
 
 .scroll
 {
-width: calc(-100% +400px);
+width: calc(100% +400px);
 left: -400px;
 display:flex;
 color: #fff;
@@ -42,14 +42,15 @@ animation-delay: -60s;
 {  
 animation: animate_two 60s linear infinite;
 animation-delay: -30s;
-  color: blue !important;
+width: calc(100% +400px);
+left: -400px;
 }
 
 @keyframes animate_one
 {
   0%
   { 
-    transform: translateX(100%);
+    transform: translateX(0);
   }
   100%
   { 
@@ -62,11 +63,10 @@ animation-delay: -30s;
 {
   0%
   { 
-    transform: translateX(0);
+    transform: translateX(-100%);
   }
   100%
   { 
     transform: translateX(-200%);
   }
 }
-
