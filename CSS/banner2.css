@@ -3,7 +3,7 @@
   height: 2rem;
   overflow: hidden;
 height: calc(100%);
-  transform: translateY(85%);
+  transform: translateY(90%);
 }
 
 .banner::before
