@@ -317,17 +317,14 @@ a.studiolist, p.aboutlist {
   padding-left: 0;
 }
 .layersmallview {
-  height: 3rem;
+  height: 100%;
   width:100%;
 }
 
 @media screen and (max-width: 950px) {
-  .jobtitle, .jobsub {
+  .jobtitle, .jobsub, .layersmallview {
     display: none;}
 }
-.jobtitle, .jobsub {display: none;}
 
 @media screen and (min-width: 950px){.project-info-index {opacity: 0;}}
 @media screen and (max-width: 950px){.project-info-index {opacity: 1 !important;}
-
-
