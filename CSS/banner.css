@@ -3,7 +3,7 @@
   width: 100%;
   height: 2rem;
   overflow: hidden;
-
+height: calc(100%);
 }
 
 .banner::before
@@ -70,3 +70,4 @@ left: -400px;
     transform: translateX(-200%);
   }
 }
+
