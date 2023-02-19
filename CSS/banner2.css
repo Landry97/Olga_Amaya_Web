@@ -1,10 +1,9 @@
-.banner{
+.banner {
   position: relative;
   height: 1.5rem;
   overflow: hidden;
-  height: calc(100%);
   width: 100%;
-  transform: translateY(calc(100% - 1.5rem));
+  margin-top: calc(100% - 1.5rem);
 }
 
 .banner::before
