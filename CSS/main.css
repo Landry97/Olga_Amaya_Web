@@ -319,10 +319,15 @@ a.studiolist, p.aboutlist {
 .layersmallview {
   height: 100%;
   width:100%;
+  color: transparent;
 }
 
 @media screen and (max-width: 950px) {
   .jobtitle, .jobsub, .layersmallview {
+    display: none;}
+}
+@media screen and (min-width: 950px) {
+  .banner {
     display: none;}
 }
 
