@@ -30,9 +30,6 @@ div.direction{display: flex;align-items: center;justify-content: center;text-ali
     position: absolute;
     width: 100%;
     height: 80%;
- 
- display:none;
- 
 }
 .directiontext {
   letter-spacing: .15rem;
