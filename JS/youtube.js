@@ -8,7 +8,7 @@
 
 
 const videos = document.querySelectorAll('iframe')
-var closeIcon = document.getElementsByClassName('close pointer'); 
+var closeIcon = document.getElementsByClassName('close pointer prev nex'); 
 
 function closevideo(e)
 {
