@@ -149,6 +149,12 @@ margin-bottom: auto;
   bottom: 0;
 }
 
-#videoslide{
-  width: 90%;
+#videoslide {
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  position: absolute;
+  bottom: 1rem;
+  top: 1rem;
+  padding: 2rem;
 }
