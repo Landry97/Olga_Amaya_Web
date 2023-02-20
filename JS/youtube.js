@@ -16,7 +16,7 @@ function closevideo(e)
       const source = i.src
       i.src = ''
       i.src = source
-};
+});
 
 for (var i = 0; i < closeIcon.length; i++) {
    closeIcon[i].addEventListener('click', closevideo); 
