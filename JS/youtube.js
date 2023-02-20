@@ -8,7 +8,8 @@
 
 
 const videos = document.querySelectorAll('iframe')
-var closeIcon = document.getElementsByClassName('close pointer prev nex'); 
+var closeIcon = document.getElementsByClassName('close pointer');
+var prevnexIcon = document.getElementsByClassName('prev nex'); 
 
 function closevideo(e)
 {
@@ -19,5 +20,9 @@ function closevideo(e)
 };
 
 for (var i = 0; i < closeIcon.length; i++) {
+   closeIcon[i].addEventListener('click', closevideo); 
+}
+
+for (var i = 0; i < prevnexIcon.length; i++) {
    closeIcon[i].addEventListener('click', closevideo); 
 }
