@@ -25,10 +25,10 @@ for (var i = 0; i < closeIcon.length; i++) {
 }
 
 for (var i = 0; i < prevIcon.length; i++) {
-   closeIcon[i].addEventListener('click', closevideo); 
+   prevIcon[i].addEventListener('click', closevideo); 
 }
 
 for (var i = 0; i < nexIcon.length; i++) {
-   closeIcon[i].addEventListener('click', closevideo); 
+   nexIcon[i].addEventListener('click', closevideo); 
 }
 
