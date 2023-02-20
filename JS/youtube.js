@@ -7,8 +7,8 @@
 //}
 
 
-const videos = document.querySelectorAll('iframe');
-const close = document.querySelectorAll('.close pointer');
+const videos = document.querySelectorAll('iframe')
+const close = document.querySelectorAll('.close pointer')
 
 close.addEventListener('click', () => {
    videos.forEach(i => {
