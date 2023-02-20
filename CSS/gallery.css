@@ -55,7 +55,7 @@ p.textag:hover{
     position: fixed;
     left: 0;
     top: 4rem;
-    padding: 0 20vw 60vh 1rem;
+    padding: 0 10% 60vh 1rem;
     text-decoration: none;
 }
 p.textprev{cursor: pointer;
@@ -66,7 +66,7 @@ padding: .5rem 0 .5rem 0;
     position: fixed;
     right: 0;
     top: 4rem;
- padding: 0 1rem 60vh 20vw;
+ padding: 0 1rem 60vh 10%;
     text-decoration: none;
 }
 .again {
