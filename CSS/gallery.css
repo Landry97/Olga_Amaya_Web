@@ -151,12 +151,4 @@ margin-bottom: auto;
 
 #videoslide {
   width: 100%;
-  position: absolute;
-  bottom: 1rem;
-  left: 1rem;
-  right: 1rem;
-  top: 1rem;
-  padding: 2.5rem;
-  height: auto;
-  margin-bottom: auto;
 }
