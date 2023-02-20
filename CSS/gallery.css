@@ -78,7 +78,7 @@ p.textag:hover{
     position: fixed;
     left: 0;
     top: 4rem;
-    padding: 0 44vw 60vh 1rem;
+    padding: 0 20vw 60vh 1rem;
     text-decoration: none;
 }
 p.textprev{cursor: pointer;
@@ -89,17 +89,13 @@ padding: .5rem 0 .5rem 0;
     position: fixed;
     right: 0;
     top: 4rem;
- padding: 0 1rem 60vh 44vw;
+ padding: 0 1rem 60vh 20vw;
     text-decoration: none;
 }
 .again {
     display: none;
-    position: fixed;
-    right: 0;
-    top: 4rem;
- padding: 0 0rem 60vh 44vw;
- text-decoration: none;
 }
+
 p.textnex{cursor: pointer;
 padding: .5rem 0 .5rem 0;
 }
