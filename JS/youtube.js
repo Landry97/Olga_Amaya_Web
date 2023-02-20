@@ -8,12 +8,16 @@
 
 
 const videos = document.querySelectorAll('iframe')
-const close = document.querySelectorAll('.close pointer')
+var closeIcon = document.getElementsByClassName('close pointer'); 
 
-close.addEventListener('click', () => {
-   videos.forEach(i => {
+function closevideo(e)
+{
+    videos.forEach(i => {
       const source = i.src
       i.src = ''
       i.src = source
-   })
-})
+};
+
+for (var i = 0; i < closeIcon.length; i++) {
+   closeIcon[i].addEventListener('click', closevideo); 
+}
