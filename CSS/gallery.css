@@ -152,3 +152,10 @@ margin-bottom: auto;
 #videoslide {
   width: 100%;
 }
+
+.videoclass{
+{
+    height: calc(75vh);
+    margin-bottom: auto;
+}
+}
