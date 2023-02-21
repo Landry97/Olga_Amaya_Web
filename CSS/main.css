@@ -5,8 +5,8 @@ figure, figure img, picture{ display: flex;}
 figure{position: relative;}
 
 
-@font-face{font-family: "Bendicion";src: url("Font/staatliches-regular-webfont.woff2") format("woff2"),
-  url("Font/staatliches-regular-webfont.woff") format("woff");}
+@font-face{font-family: "Bendicion";src: url("Font/._Typefesse_Claire-Obscure.woff2") format("woff2"),
+  url("Font/._Typefesse_Claire-Obscure.woff") format("woff");}
 
 
 
