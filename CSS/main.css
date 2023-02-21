@@ -34,6 +34,7 @@ header{position: relative;background-color: transparent;flex-direction: row;flex
   padding-top: 1em;
   padding-bottom: 1em;
   font-size: 1.75rem;
+  z-index: 999;
 }
 
 .h_index {color: black !important}
