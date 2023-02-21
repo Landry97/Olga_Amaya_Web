@@ -112,7 +112,9 @@ left: 0;
 bottom: 0;
 }
 
-nav.menu{background-size: 2rem 2rem;bottom: 0;height: 3.5rem;position: absolute;width: 100%;top:0;z-index: 101;}
+nav.menu{background-size: 2rem 2rem;bottom: 0;
+  height: 6rem;
+  position: absolute;width: 100%;top:0;z-index: 101;}
 
 
 address{display: none;font-size: 1.25rem;text-decoration: none;text-decoration-style: none;color: black;letter-spacing: .3rem;width: 100ch;height: auto;width: 100%;}
