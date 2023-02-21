@@ -379,3 +379,23 @@ a.studiolist, p.aboutlist {
 
 @media screen and (min-width: 950px){.project-info-index {opacity: 0;}}
 @media screen and (max-width: 950px){.project-info-index {opacity: 1 !important;}
+  
+  
+  
+/* main.css | https://olgaamaya.netlify.app/CSS/main.css */
+
+.header-title a {
+  /* height: 3.5rem; */
+  height: 6rem;
+}
+
+.header-title {
+  /* height: 3.5rem; */
+  height: 6rem;
+}
+
+.menu-toggle {
+  /* height: 3.5rem; */
+  height: 6rem;
+}
+
