@@ -333,3 +333,12 @@ a.studiolist, p.aboutlist {
 
 @media screen and (min-width: 950px){.project-info-index {opacity: 0;}}
 @media screen and (max-width: 950px){.project-info-index {opacity: 1 !important;}
+
+  
+
+@supports (display: grid) {
+    .main > * {
+        display:grid;
+    }
+}  
+  
