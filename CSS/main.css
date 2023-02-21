@@ -5,10 +5,6 @@ figure, figure img, picture{ display: flex;}
 figure{position: relative;}
 
 
-@font-face{font-family: "Bendicion";src: url("Font/happy-times-NG_regular_master_web.woff2") format("woff2"),
-  url("Font/happy-times-NG_regular_master_web.woff") format("woff");}
-
-
 @font-face{font-family: "Bendicion";src: url("Font/MINUIT-Display-webfont.woff2") format("woff2"),
   url("Font/MINUIT-Display-webfont.woff") format("woff");}
 
