@@ -5,22 +5,22 @@ figure, figure img, picture{ display: flex;}
 figure{position: relative;}
 
 
-@font-face{font-family: "happy-times";src: url("Font/happy-times-NG_regular_master_web.woff2") format("woff2"),
+@font-face{font-family: "Bendicion";src: url("Font/happy-times-NG_regular_master_web.woff2") format("woff2"),
   url("Font/happy-times-NG_regular_master_web.woff") format("woff");}
 
 
-@font-face{font-family: "moche";src: url("Font/Moche-Regular.woff2") format("woff2"),
-  url("Font/Moche-Regular.woff") format("woff");}
+@font-face{font-family: "Bendicion";src: url("Font/Bendicion-Light_Modular.woff2") format("woff2"),
+  url("Font/Bendicion-Light_Modular.woff") format("woff");}
 
 
 
-h,h1,h2,h3,h4,h5,h6,a,p,p1,p2,p3,p4,p5,p6{font-family: happy-times,Trebuchet MS,Arial,sans-serif;}
+h,h1,h2,h3,h4,h5,h6,a,p,p1,p2,p3,p4,p5,p6{font-family: Bendicion,Trebuchet MS,Arial,sans-serif;}
 
 body#bodyid.bodyclass.show{overflow: hidden;} 
 
 body{touch-action: manipulate;width: 100%;height: 100%;min-height: 100vh;background: black;color: white;display: flex;flex-direction: column;font-family:happy-times,Futura,Trebuchet MS,Arial,sans-serif;font-size: 1rem;}
 
-footer, header{font-family: moche;}main ul li a{font-family: BBBouquet-Regular,Futura,Trebuchet MS,Arial,sans-serif;font-size: 1rem;letter-spacing: .15rem;font-weight: lighter;}
+footer, header{font-family: Bendicion;}main ul li a{font-family: Bendicion,Futura,Trebuchet MS,Arial,sans-serif;font-size: 1rem;letter-spacing: .15rem;font-weight: lighter;}
 
 header{position: relative;background-color: transparent;flex-direction: row;flex-wrap: nowrap;width: 100%;align-items: center;align-content: center;justify-content: center;}
 
