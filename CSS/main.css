@@ -13,7 +13,7 @@ footer, header{font-family: Trebuchet MS;}main ul li a{font-family: BBBouquet-Re
 
 header{position: relative;background-color: transparent;flex-direction: row;flex-wrap: nowrap;width: 100%;align-items: center;align-content: center;justify-content: center;}
 
-.header-title {align-content: center;text-align: left;align-items: center;justify-content: center;text-transform: uppercase;z-index: 1000;height: 3.5rem;font-weight: lighter;letter-spacing: .6em;}
+.header-title {align-content: center;text-align: left;align-items: center;justify-content: center;z-index: 1000;height: 3.5rem;font-weight: lighter;letter-spacing: .6em;}
 
 .header-title a span{color: white;font-size: 1.25rem;height: 100%;text-align: center;box-sizing:border-box;display: block;float: none;line-height: normal;z-index: auto;}
 
