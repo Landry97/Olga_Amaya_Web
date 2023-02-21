@@ -26,7 +26,7 @@ header{position: relative;background-color: transparent;flex-direction: row;flex
   text-decoration: none;
   
   position: absolute;
-  height: 3.5rem;
+  height: 6rem;
   left: 25vw;
   width: 50vw;
   text-align: left;
@@ -79,7 +79,7 @@ p.menupoint{height: 8px;position: absolute;text-indent: -100rem;width: 8px;borde
   width: 3.5rem;
   top: 0;
   left: 0;
-  height: 3.5rem;
+  height: 6rem;
 }
 
 
@@ -382,20 +382,3 @@ a.studiolist, p.aboutlist {
   
   
   
-/* main.css | https://olgaamaya.netlify.app/CSS/main.css */
-
-.header-title a {
-  /* height: 3.5rem; */
-  height: 6rem;
-}
-
-.header-title {
-  /* height: 3.5rem; */
-  height: 6rem;
-}
-
-.menu-toggle {
-  /* height: 3.5rem; */
-  height: 6rem;
-}
-
