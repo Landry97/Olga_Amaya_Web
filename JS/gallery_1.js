@@ -128,26 +128,21 @@ else {
 function openLightbox_5() { 
   closeLightbox_4();
   
-  document.getElementById('mouseTarget').style.height = '3.5rem';
-  document.getElementById('mouseTarget').style.top = '0';
-  document.getElementById('mouseTarget').style.zIndex = '100001';
+  document.getElementById('mouseTarget').style.display = 'none';
   document.getElementsByTagName('body')[0].style.overflow ="hidden";
   document.getElementById('Lightbox_5').style.display = 'flex';
   document.getElementById('rowid').style.display = 'none';
   document.getElementById('menu-toggle').style.display = 'none';
   document.getElementsByTagName("Footer")[0].style.display = "none";
-  document.getElementById('menu-toggle').style.display = 'none';
+  
 };
 
 function closeLightbox_5() {
   x.addListener(scale);
-  document.getElementById('mouseTarget').style.height = '';
-  document.getElementById('mouseTarget').style.top = '0';
-  document.getElementById('mouseTarget').style.zIndex = '';
+  document.getElementById('mouseTarget').style.display = 'flex';
   document.getElementsByTagName('body')[0].style.overflow ="";
   document.getElementById('Lightbox_5').style.display = 'none'; 
   document.getElementById('rowid').style.display = 'grid';
-  document.getElementById('menu-toggle').style.display = 'flex';
   document.getElementsByTagName("Footer")[0].style.display = "flex";  
   var mq = window.matchMedia( "(max-width: 950px)" );
 if (mq.matches) {
