@@ -183,6 +183,7 @@ right: 0;}
 @media and screen(min-width:1000px){
 .infogallery{
 position: fixed; left: 0;}
- 
-#infolink_1,#infolink_2, #infolink_3{display:none;}
 }
+
+#infolink_1:hover, #infolink_2:hover, #infolink_3:hover, #infolink_4:hover {text-decoration: underline;
+  text-decoration-color: pink;}
