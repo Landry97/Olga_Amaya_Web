@@ -1,5 +1,6 @@
 function openLightbox_1() { 
-  document.getElementById('mouseTarget').style.height = '3.5rem';
+  document.getElementById('projecttitle').style.display = 'flex';
+  document.getElementById('mouseTarget').style.display = 'none';
   document.getElementById('mouseTarget').style.top = '0';
   document.getElementById('mouseTarget').style.zIndex = '100001';
   document.getElementsByTagName('body')[0].style.overflow ="hidden";
