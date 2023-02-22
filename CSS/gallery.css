@@ -151,6 +151,8 @@ margin-bottom: auto;
 
 #videoslide {
 width: 80%;
+ left:10%;
+ right:10%;
 max-height: 100%;
 position: relative;
 height: 100%;
