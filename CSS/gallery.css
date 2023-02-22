@@ -161,12 +161,13 @@ margin-bottom: auto;
 .projecttitle{display:none; position: absolute;
 top: 0;
 left: 0;
-align-items: center;
+align-items: end;
 justify-content: center;
 color: white;
 font-size: 1rem;
 height: 3rem;
-right: 0;}
+right: 0;
+}
 
 .creditlinks {
   /* height 3rem: ; */
