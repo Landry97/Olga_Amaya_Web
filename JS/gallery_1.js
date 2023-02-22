@@ -33,7 +33,7 @@ else {
 
 
 function openLightbox_2() { 
-  document.getElementById('mouseTarget').style.height = '3.5rem';
+  document.getElementById('mouseTarget').style.height = '6rem';
   document.getElementById('mouseTarget').style.top = '0';
   document.getElementById('mouseTarget').style.zIndex = '100001';
   document.getElementsByTagName('body')[0].style.overflow ="hidden";
