@@ -191,3 +191,15 @@ position: fixed; left: 0;}
 
 @media screen and (max-width:1000px){#infolink_2, #infolink_3, #infolink_4{display: none !important;}}
 @media screen and (min-width:1000px){#infolink_2, #infolink_3, #infolink_4{display: flex !important;}}
+
+
+.nextpointer{
+  position: absolute;
+  z-index: 999999;
+  left: 0;
+  top: 0;
+  font-size: 3rem;
+  height: 3rem;
+  color: pink;
+  padding-left: 1rem;
+}
