@@ -157,3 +157,5 @@ margin-bottom: auto;
     height: calc(75vh);
     margin-bottom: auto;
 }
+
+#projecttitle{display:none; position: absolute; top: 0; left:0; align-items: center; justify-content: center; color: white; font-size: 1rem; }
