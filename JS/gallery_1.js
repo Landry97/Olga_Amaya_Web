@@ -89,7 +89,7 @@ else {
 
 function openLightbox_4() { 
   closeLightbox_2();
-  
+  document.getElementById('mouseTarget').style.display = 'none';
   document.getElementsByTagName('body')[0].style.overflow ="hidden";
   document.getElementById('Lightbox_4').style.display = 'flex';
   document.getElementById('rowid').style.display = 'none';
@@ -99,10 +99,8 @@ function openLightbox_4() {
 
 function closeLightbox_4() {
   x.addListener(scale);
-  document.getElementById('mouseTarget').style.display = 'none';
-  document.getElementById('mouseTarget').style.height = '';
-  document.getElementById('mouseTarget').style.top = '0';
-  document.getElementById('mouseTarget').style.zIndex = '';
+ 
+  document.getElementById('mouseTarget').style.display = 'flex';
   document.getElementsByTagName('body')[0].style.overflow ="";
   document.getElementById('Lightbox_4').style.display = 'none'; 
   document.getElementById('rowid').style.display = 'grid';
