@@ -170,8 +170,8 @@ margin-bottom: auto;
   font-size: 1rem;
  
   z-index: -1;
-  padding-top: 2rem;
-  padding-bottom: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .creditlinks {
