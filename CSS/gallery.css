@@ -185,5 +185,5 @@ right: 0;}
 position: fixed; left: 0;}
 }
 
-#infolink_1:hover, #infolink_2:hover, #infolink_3:hover, #infolink_4:hover {text-decoration: underline;
+#infolink_2:hover, #infolink_3:hover, #infolink_4:hover {text-decoration: underline;
   text-decoration-color: pink;}
