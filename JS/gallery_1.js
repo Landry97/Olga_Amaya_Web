@@ -13,7 +13,7 @@ function openLightbox_1() {
 
 function closeLightbox_1() {
   x.addListener(scale);
-  document.getElementById('mouseTarget').style.height = '';
+  document.getElementById('mouseTarget').style.display = 'flex';
   document.getElementById('mouseTarget').style.top = '0';
   document.getElementById('mouseTarget').style.zIndex = '';
   document.getElementsByTagName('body')[0].style.overflow ="";
