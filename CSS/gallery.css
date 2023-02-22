@@ -127,10 +127,14 @@ touch-action: manipulation;
 .left {
 left: 1rem;
 position: absolute;
+ margin: .5rem;
+ cursor: pointer;
 }
 .right {
 right: 1rem;
  position:absolute;
+ margin: .5rem;
+ cursor: pointer;
 }
 .image-slide {max-height: 80vh;
 margin-bottom: auto;
