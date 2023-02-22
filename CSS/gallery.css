@@ -189,4 +189,5 @@ position: fixed; left: 0;}
   text-decoration-color: pink;}
 
 
-@media screen and (max-width:1000px){#infolink_2, #infolink_3, #infolink_4{display: none !important;}}
+@media screen and (max-width:1000px){#infolink_2, #infolink_3, #infolink_4{display: none;}}
+@media screen and (min-width:1000px){#infolink_2, #infolink_3, #infolink_4{display: flex;}}
