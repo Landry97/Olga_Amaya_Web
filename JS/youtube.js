@@ -36,9 +36,9 @@
  * Stop an iframe or HTML5 <video> from playing
  * @param  {Element} element The element that contains the video
  */
-var stopVideo = function closevideo (e) {
+var stopVideo = function () {
 	var iframe = element.querySelector( 'iframe');
-	var video = element.querySelector( 'video' );
+	var video = element.querySelector( 'div' );
 	if ( iframe ) {
 		var iframeSrc = iframe.src;
 		iframe.src = iframeSrc;
