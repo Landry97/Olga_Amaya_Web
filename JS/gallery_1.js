@@ -91,7 +91,7 @@ function openLightbox_4() {
   closeLightbox_2();
   
   
-  document.getElementById('projecttitle_4').style.display = 'flex';
+  document.getElementById('projecttitle_4').style.display = 'block';
   document.getElementById('mouseTarget').style.display = 'none';
   document.getElementsByTagName('body')[0].style.overflow ="hidden";
   document.getElementById('Lightbox_4').style.display = 'flex';
@@ -128,7 +128,7 @@ else {
 function openLightbox_5() { 
   closeLightbox_4();
   
-  document.getElementById('projecttitle_5').style.display = 'flex';
+  document.getElementById('projecttitle_5').style.display = 'block';
   document.getElementById('mouseTarget').style.display = 'none';
   document.getElementsByTagName('body')[0].style.overflow ="hidden";
   document.getElementById('Lightbox_5').style.display = 'flex';
@@ -165,7 +165,7 @@ else {
 function openLightbox_6() { 
   closeLightbox_5();
   
-  document.getElementById('projecttitle_6').style.display = 'flex';
+  document.getElementById('projecttitle_6').style.display = 'block';
   
   document.getElementsByTagName('body')[0].style.overflow ="hidden";
   document.getElementById('Lightbox_6').style.display = 'flex';
