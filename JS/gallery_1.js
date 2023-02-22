@@ -48,6 +48,8 @@ else {
 
 
 function openLightbox_2() { 
+  closeLightbox_1();
+  
   document.getElementById('projecttitle_2').style.display = 'flex';
   document.getElementById('mouseTarget').style.display = 'none';
   document.getElementById('mouseTarget').style.top = '0';
