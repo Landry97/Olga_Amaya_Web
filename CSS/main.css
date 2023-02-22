@@ -26,6 +26,21 @@ header{position: relative;background-color: transparent;flex-direction: row;flex
 
 .header-title p{color: white;text-decoration: none;list-style-type: none;}nav .menu{display: flex;flex: 1;}
 
+
+/* main.css | https://olgaamaya.netlify.app/CSS/main.css */
+
+#headerindex {
+  /* font-size: 1.5rem; */
+  /* line-height: 1.35rem; */
+  /* letter-spacing: 3rem; */
+  font-size: 1.7rem;
+  line-height: 1.2rem;
+  letter-spacing: 1.2rem;
+}
+
+
+
+
 .header-title a{
   text-decoration: none;
   list-style-type: none;
@@ -34,8 +49,8 @@ header{position: relative;background-color: transparent;flex-direction: row;flex
   
   position: absolute;
   height: 6rem;
-  left: 25vw;
-  width: 50vw;
+  left: 25%;
+  width: 50%;
   text-align: left;
   
   padding-top: 1em;
@@ -57,9 +72,9 @@ header{position: relative;background-color: transparent;flex-direction: row;flex
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
-  line-height: 1.35rem;
-  letter-spacing: 3rem;
+  font-size: 1.7rem;
+  line-height: 1.2rem;
+  letter-spacing: 1.2rem;
 }
 
 .layersmallview {
@@ -72,7 +87,8 @@ background: rgba(0, 0, 0, 0.75);
 z-index: -1;
 }
 
-p.menupoint{height: 8px;position: absolute;text-indent: -100rem;width: 8px;border-radius: 8px;cursor: pointer;z-index: 1000;background-color: white;}
+p.menupoint{height: 12px;position: absolute;text-indent: -100rem;width: 12px;border-radius: 20px;cursor: pointer;z-index: 1000;background-color: pink;}
+
 
 .menu-toggle{
   display: none;
