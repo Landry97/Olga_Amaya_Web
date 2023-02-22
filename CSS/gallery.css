@@ -9,7 +9,7 @@ p.INFGLLRY{display: none;height: 10px;position: absolute;width: 10px;cursor: poi
 @media screen and (min-width:1050px){p.INFGLLRY{font-size: 2.05rem;}}
 @media screen and (min-width:1350px){p.INFGLLRY{font-size: 2.95rem;}}
 .header.show{position: fixed;top: 0;}
-.infogallery{padding: 1rem 1.5rem;bottom: 0;text-decoration: none;letter-spacing:.15rem;}
+.infogallery{padding: 1rem 1.5rem;bottom: 0;text-decoration: none;letter-spacing:.15rem;margin-top: -1rem;}
 a.infogallery{color: white;}
 p.infogallery.show{color: white;}
 a.infogallery:hover{color: white;}
