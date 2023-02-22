@@ -125,13 +125,13 @@ touch-action: manipulation;
 }
 
 .left {
-left: .25rem;
+left: .2rem;
 position: absolute;
  margin: .5rem;
  cursor: pointer;
 }
 .right {
-right: .25rem;
+right: .2rem;
  position:absolute;
  margin: .5rem;
  cursor: pointer;
