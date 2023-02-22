@@ -88,6 +88,8 @@ else {
 
 
 function openLightbox_4() { 
+  closeLightbox_2();
+  
   document.getElementById('mouseTarget').style.height = '3.5rem';
   document.getElementById('mouseTarget').style.top = '0';
   document.getElementById('mouseTarget').style.zIndex = '100001';
