@@ -154,7 +154,7 @@ margin-bottom: auto;
 }
 
 #videoslide {
-width: calc(65vw);
+width: calc(100%);
  align-content: center;
 align-items: center;
 align-self: center;
@@ -168,7 +168,7 @@ z-index: 2147483647;
 .videoclass{
     height: calc(100%);
     margin-bottom: auto;
- max-width: 65% !important;
+ max-width: 90% !important;
 }
 
 .projecttitle {
