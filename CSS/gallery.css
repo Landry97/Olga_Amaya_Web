@@ -187,3 +187,6 @@ position: fixed; left: 0;}
 
 #infolink_2:hover, #infolink_3:hover, #infolink_4:hover {text-decoration: underline;
   text-decoration-color: pink;}
+
+
+@media screen and (max-width:1000px){#infolink_2, #infolink_3, #infolink_4{display: none !important;}}
