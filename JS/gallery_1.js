@@ -1,5 +1,5 @@
 function openLightbox_1() { 
-  document.getElementById('projecttitle_1').style.display = 'flex';
+  document.getElementById('projecttitle_1').style.display = 'block';
   document.getElementById('mouseTarget').style.display = 'none';
   document.getElementById('mouseTarget').style.top = '0';
   document.getElementById('mouseTarget').style.zIndex = '100001';
@@ -50,7 +50,7 @@ else {
 function openLightbox_2() { 
   closeLightbox_1();
   
-  document.getElementById('projecttitle_2').style.display = 'flex';
+  document.getElementById('projecttitle_2').style.display = 'block';
   document.getElementById('mouseTarget').style.display = 'none';
   document.getElementById('mouseTarget').style.top = '0';
   document.getElementById('mouseTarget').style.zIndex = '100001';
