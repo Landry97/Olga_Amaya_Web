@@ -168,7 +168,7 @@ z-index: 2147483647;
 .videoclass{
     height: calc(100%);
     margin-bottom: auto;
- max-width: 90% !important;
+ max-width: 70% !important;
 }
 
 .projecttitle {
