@@ -33,6 +33,7 @@ else {
 
 
 function openLightbox_2() { 
+  document.getElementById('projecttitle').style.display = 'flex';
   document.getElementById('mouseTarget').style.display = 'none';
   document.getElementById('mouseTarget').style.top = '0';
   document.getElementById('mouseTarget').style.zIndex = '100001';
@@ -46,6 +47,7 @@ function openLightbox_2() {
 
 function closeLightbox_2() {
   x.addListener(scale);
+  document.getElementById('projecttitle').style.display = 'none';
   document.getElementById('mouseTarget').style.display = '';
   document.getElementById('mouseTarget').style.top = '0';
   document.getElementById('mouseTarget').style.zIndex = '';
