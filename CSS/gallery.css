@@ -131,9 +131,9 @@ position: absolute;
  cursor: pointer;
 }
 .right {
-right: 1rem;
+right: .25rem;
  position:absolute;
- margin: .25rem;
+ margin: .5rem;
  cursor: pointer;
 }
 .image-slide {max-height: 80vh;
