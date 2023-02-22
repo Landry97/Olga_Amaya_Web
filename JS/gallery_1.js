@@ -126,6 +126,8 @@ else {
 
 
 function openLightbox_5() { 
+  closeLightbox_4();
+  
   document.getElementById('mouseTarget').style.height = '3.5rem';
   document.getElementById('mouseTarget').style.top = '0';
   document.getElementById('mouseTarget').style.zIndex = '100001';
@@ -162,6 +164,8 @@ else {
 
 
 function openLightbox_6() { 
+  closeLightbox_5();
+  
   document.getElementById('mouseTarget').style.height = '3.5rem';
   document.getElementById('mouseTarget').style.top = '0';
   document.getElementById('mouseTarget').style.zIndex = '100001';
