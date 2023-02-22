@@ -1,5 +1,5 @@
 function openLightbox_1() { 
-  document.getElementById('projecttitle').style.display = 'flex';
+  document.getElementById('projecttitle_1').style.display = 'flex';
   document.getElementById('mouseTarget').style.display = 'none';
   document.getElementById('mouseTarget').style.top = '0';
   document.getElementById('mouseTarget').style.zIndex = '100001';
@@ -14,6 +14,7 @@ function openLightbox_1() {
 function closeLightbox_1() {
   x.addListener(scale);
   document.getElementById('mouseTarget').style.display = 'flex';
+  document.getElementById('projecttitle_1').style.display = 'none';
   document.getElementById('mouseTarget').style.top = '0';
   document.getElementById('mouseTarget').style.zIndex = '';
   document.getElementsByTagName('body')[0].style.overflow ="";
@@ -34,7 +35,7 @@ else {
 
 
 function openLightbox_2() { 
-  document.getElementById('projecttitle').style.display = 'flex';
+  document.getElementById('projecttitle_2').style.display = 'flex';
   document.getElementById('mouseTarget').style.display = 'none';
   document.getElementById('mouseTarget').style.top = '0';
   document.getElementById('mouseTarget').style.zIndex = '100001';
@@ -48,7 +49,7 @@ function openLightbox_2() {
 
 function closeLightbox_2() {
   x.addListener(scale);
-  document.getElementById('projecttitle').style.display = 'none';
+  document.getElementById('projecttitle_2').style.display = 'none';
   document.getElementById('mouseTarget').style.display = 'flex';
   document.getElementById('mouseTarget').style.top = '0';
   document.getElementById('mouseTarget').style.zIndex = '';
