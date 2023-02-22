@@ -29,6 +29,20 @@ if (mq.matches) {
 else {
   document.getElementById('menu-toggle').style.display = 'none';
 }
+
+
+  var infolink = window.matchMedia( "(min-width: 950px)" );
+  if (infolink.matches) {
+  document.getElementById('infolink_2').style.display = 'flex';
+  document.getElementById('infolink_3').style.display = 'flex';
+  document.getElementById('infolink_4').style.display = 'flex';
+}
+else {
+  
+  document.getElementById('infolink_2').style.display = 'none';
+  document.getElementById('infolink_3').style.display = 'none';
+  document.getElementById('infolink_4').style.display = 'none';
+}
 };
 
 
