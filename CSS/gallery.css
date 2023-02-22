@@ -125,7 +125,7 @@ touch-action: manipulation;
 }
 
 .left {
-left: 1rem;
+left: .25rem;
 position: absolute;
  margin: .5rem;
  cursor: pointer;
@@ -133,7 +133,7 @@ position: absolute;
 .right {
 right: 1rem;
  position:absolute;
- margin: .5rem;
+ margin: .25rem;
  cursor: pointer;
 }
 .image-slide {max-height: 80vh;
