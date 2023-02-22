@@ -254,6 +254,16 @@ if (event.keyCode == 39) {
 };
 };
 
+function changeSlide3(n) {
+  showSlide3(slideIndex += n);
+  window.onkeydown = function (event){ 
+if (event.keyCode == 37) {
+    changeSlide3(-1);}  
+if (event.keyCode == 39) {
+    changeSlide3(1);}
+};
+};
+
 function changeSlide4(n) {
   showSlide4(slideIndex += n);
   window.onkeydown = function (event){ 
@@ -291,6 +301,10 @@ function toSlide1(n) {
 
 function toSlide2(n) {
   showSlide2(slideIndex = n);
+};
+
+function toSlide3(n) {
+  showSlide3(slideIndex = n);
 };
 
 function toSlide4(n) {
@@ -336,6 +350,7 @@ function showSlide1(n) {
   slides1[slideIndex - 1].style.display = 'flex';
   };
 
+
 function showSlide2(n) {
   const slides2 = document.getElementsByClassName('slide2');
   
@@ -360,6 +375,29 @@ function showSlide2(n) {
   slides2[slideIndex - 1].style.display = 'flex';
   };
 
+function showSlide3(n) {
+  const slides3 = document.getElementsByClassName('slide3');
+  
+  let modalPreviews = document.getElementsByClassName('modal-preview');
+ 
+  if (n > slides3.length) {
+    slideIndex = 1;	
+  };
+  
+  if (n < 1) {
+    slideIndex = slides3.length;
+  };
+  
+
+  for (let i = 0; i < slides3.length; i++) {
+    slides3[i].style.display = "none";
+  };
+  
+  for (let i = 0; i < modalPreviews.length; i++) {
+    modalPreviews[i].className = modalPreviews[i].className.replace(' active', '');
+  };
+  slides3[slideIndex - 1].style.display = 'flex';
+  };
 
 
 function showSlide4(n) {
@@ -471,11 +509,11 @@ document.addEventListener("keyup", function (e) {
 
 if (keystate[leftKey]) {
 //code to be executed when left arrow key is pushed.
-  changeSlide1(-1);changeSlide2(-1);changeSlide4(-1);changeSlide5(-1);changeSlide6(-1);changeSlide7(-1);
+  changeSlide1(-1);changeSlide2(-1);changeSlide3(-1);changeSlide4(-1);changeSlide5(-1);changeSlide6(-1);changeSlide7(-1);
 }
 if (keystate[rightKey]) {
 //code to be executed when right arrow key is pushed.
-  changeSlide1(1);changeSlide2(1);changeSlide4(1);changeSlide5(1);changeSlide6(1);changeSlide7(1);
+  changeSlide1(1);changeSlide2(1);changeSlide3(1);changeSlide4(1);changeSlide5(1);changeSlide6(1);changeSlide7(1);
 }
 
 
