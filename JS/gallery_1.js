@@ -90,19 +90,16 @@ else {
 function openLightbox_4() { 
   closeLightbox_2();
   
-  document.getElementById('mouseTarget').style.height = '3.5rem';
-  document.getElementById('mouseTarget').style.top = '0';
-  document.getElementById('mouseTarget').style.zIndex = '100001';
   document.getElementsByTagName('body')[0].style.overflow ="hidden";
   document.getElementById('Lightbox_4').style.display = 'flex';
   document.getElementById('rowid').style.display = 'none';
   document.getElementById('menu-toggle').style.display = 'none';
   document.getElementsByTagName("Footer")[0].style.display = "none";
-  document.getElementById('menu-toggle').style.display = 'none';
 };
 
 function closeLightbox_4() {
   x.addListener(scale);
+  document.getElementById('mouseTarget').style.display = 'none';
   document.getElementById('mouseTarget').style.height = '';
   document.getElementById('mouseTarget').style.top = '0';
   document.getElementById('mouseTarget').style.zIndex = '';
