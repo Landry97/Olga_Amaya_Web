@@ -19,7 +19,7 @@ a.infogallery:hover{color: white;}
 .madeby{display: flex;width: auto;align-items: center;text-align: center;justify-content: center;}
 @media screen and (max-width: 750px) {.row{flex-direction: column;}}
 .modal{display: none;position: fixed;justify-content: center;align-items: center;z-index: 101;width: 100%;background-color: black;height: 100%;}
-.modal-content{display: flex;flex-direction: column;justify-content: center;align-items: center;width: 100%;max-width: 100%;height: 100%;max-height: 75%;}
+.modal-content{display: flex;flex-direction: column;justify-content: center;align-items: center;width: 100%;max-width: 100%;height: 100%;}
 div.direction{display: flex;align-items: center;justify-content: center;text-align: center;} 
 .slide{position: relative; display: none;justify-content: center;align-items: center;width: 100%;max-width: 90%;height: 100%;max-height: 100%;}
 .image-slide{display: flex;justify-content: center;align-items: center;width: 100%;max-width: 100%%;height: 100%;max-height: 100%;-o-object-fit: contain;object-fit: contain;}
