@@ -48,7 +48,7 @@ function openLightbox_2() {
 function closeLightbox_2() {
   x.addListener(scale);
   document.getElementById('projecttitle').style.display = 'none';
-  document.getElementById('mouseTarget').style.display = '';
+  document.getElementById('mouseTarget').style.display = 'flex';
   document.getElementById('mouseTarget').style.top = '0';
   document.getElementById('mouseTarget').style.zIndex = '';
   document.getElementsByTagName('body')[0].style.overflow ="";
