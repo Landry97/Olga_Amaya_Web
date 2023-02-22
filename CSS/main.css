@@ -29,18 +29,6 @@ header{position: relative;background-color: transparent;flex-direction: row;flex
 
 /* main.css | https://olgaamaya.netlify.app/CSS/main.css */
 
-#headerindex {
-  /* font-size: 1.5rem; */
-  /* line-height: 1.35rem; */
-  /* letter-spacing: 3rem; */
-  font-size: 1.7rem;
-  line-height: 1.2rem;
-  letter-spacing: 1.2rem;
-}
-
-
-
-
 .header-title a{
   text-decoration: none;
   list-style-type: none;
@@ -75,6 +63,7 @@ header{position: relative;background-color: transparent;flex-direction: row;flex
   font-size: 1.7rem;
   line-height: 1.2rem;
   letter-spacing: 1.2rem;
+  margin-right: -1rem;
 }
 
 .layersmallview {
