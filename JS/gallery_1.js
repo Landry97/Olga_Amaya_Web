@@ -1,4 +1,6 @@
 function openLightbox_1() { 
+  closevideo();
+  
   document.getElementById('projecttitle_1').style.display = 'block';
   document.getElementById('mouseTarget').style.display = 'none';
   document.getElementById('mouseTarget').style.top = '0';
@@ -49,6 +51,7 @@ else {
 
 function openLightbox_2() { 
   closeLightbox_1();
+  closevideo();
   
   document.getElementById('projecttitle_2').style.display = 'block';
   document.getElementById('mouseTarget').style.display = 'none';
@@ -87,6 +90,7 @@ function openLightbox_3() {
   closeLightbox_2();
   
   
+  
   document.getElementById('projecttitle_3').style.display = 'block';
   document.getElementById('mouseTarget').style.display = 'none';
   document.getElementsByTagName('body')[0].style.overflow ="hidden";
@@ -98,6 +102,7 @@ function openLightbox_3() {
 
 function closeLightbox_3() {
   x.addListener(scale);
+  closevideo();
  
   
   document.getElementById('projecttitle_3').style.display = 'none';
@@ -133,6 +138,7 @@ function openLightbox_4() {
 
 function closeLightbox_4() {
   x.addListener(scale);
+  closevideo();
  
   
   document.getElementById('projecttitle_4').style.display = 'none';
