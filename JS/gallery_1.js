@@ -461,7 +461,7 @@ function showSlide5(n) {
 
 
 function showSlide6(n) {
-  const slides6 = document.getElementsByClassName('slide2');
+  const slides6 = document.getElementsByClassName('slide6');
   
   let modalPreviews = document.getElementsByClassName('modal-preview');
  
