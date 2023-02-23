@@ -521,6 +521,6 @@ if (keystate[rightKey]) {
 
       // to pause the video
       function pause() {
-         let video = document.getElementById("video_1")
+         let video = document.getElementById("videoId")
          video.contentWindow.postMessage( '{"event":"command", "func":"pauseVideo", "args":""}', '*');
       }
