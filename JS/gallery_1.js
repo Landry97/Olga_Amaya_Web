@@ -101,6 +101,7 @@ function openLightbox_3() {
 
 function closeLightbox_3() {
   x.addListener(scale);
+  pause3();
  
   
   document.getElementById('projecttitle_3').style.display = 'none';
@@ -136,6 +137,7 @@ function openLightbox_4() {
 
 function closeLightbox_4() {
   x.addListener(scale);
+  pause4();
   
   document.getElementById('projecttitle_4').style.display = 'none';
   document.getElementById('mouseTarget').style.display = 'flex';
@@ -257,6 +259,9 @@ if (event.keyCode == 39) {
 };
 
 function changeSlide3(n) {
+  
+  pause3();
+  
   showSlide3(slideIndex += n);
   window.onkeydown = function (event){ 
 if (event.keyCode == 37) {
@@ -267,7 +272,9 @@ if (event.keyCode == 39) {
 };
 
 function changeSlide4(n) {
-  pause();
+  
+  pause4();
+  
   showSlide4(slideIndex += n);
   window.onkeydown = function (event){ 
 if (event.keyCode == 37) {
@@ -520,9 +527,15 @@ if (keystate[rightKey]) {
 }
 
 
- function pause() {
-  let iframe1 = document.getElementById("videoId");
-  
- var temp = iframe1.src; 
+ function pause3() {
+let iframe3 = document.getElementById("videoId_3");
+var temp = iframe3.src; 
+iframe3.src = temp;
+ };
+
+ function pause4() {
+let iframe4 = document.getElementById("videoId_4");
+var temp = iframe1.src; 
 iframe1.src = temp;
-            };
+ };
+
