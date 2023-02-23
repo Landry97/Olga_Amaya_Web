@@ -580,8 +580,8 @@
   
 <div id="projecttitle_3" class="projecttitle"> carlos sadness me desamaste </div>
   
-    <span id="close-pointer" class="close pointer" onclick="closeLightbox_3()">&times;</span>
-<span id="next-pointer" class="nextpointer" onClick="openLightbox_4();toSlide4(1)"> > </span>
+    <span id="close-pointer" class="close pointer" data-func="pauseVideo" onclick="closeLightbox_3()">&times;</span>
+<span id="next-pointer" class="nextpointer" data-func="pauseVideo" onClick="openLightbox_4();toSlide4(1)"> > </span>
   
     <div class="modal-content">
       
@@ -600,8 +600,8 @@
     </div>
     
   <div class="arrows" style="z-index: 99999999;">
-      <i class="arrow left" onclick="changeSlide3(-1); stop;"></i>
-     <i class="arrow right" onclick="changeSlide3(1); stop;"></i>
+      <i class="arrow left" data-func="pauseVideo" onclick="changeSlide3(-1);"></i>
+     <i class="arrow right" data-func="pauseVideo" onclick="changeSlide3(1);"></i>
     </div>
   
  <section class="creditlinks">
