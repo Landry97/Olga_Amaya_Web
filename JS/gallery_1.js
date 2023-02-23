@@ -64,7 +64,6 @@ function openLightbox_2() {
 
 function closeLightbox_2() {
   
-  pause();
   x.addListener(scale);
   document.getElementById('projecttitle_2').style.display = 'none';
   document.getElementById('mouseTarget').style.display = 'flex';
