@@ -534,7 +534,7 @@ iframe3.src = temp;
 
  function pause4() {
 let iframe4 = document.getElementById("videoId_4");
-var temp = iframe1.src; 
-iframe1.src = temp;
+var temp = iframe4.src; 
+iframe4.src = temp;
  };
 
