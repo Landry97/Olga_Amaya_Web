@@ -519,13 +519,8 @@ if (keystate[rightKey]) {
   changeSlide1(1);changeSlide2(1);changeSlide3(1);changeSlide4(1);changeSlide5(1);changeSlide6(1);changeSlide7(1);
 }
 
-      // to pause the video
-      function pause() {
-         let iframes = document.getElementById("videoId")
-         video.contentWindow.postMessage( '{"event":"command", "func":"pauseVideo", "args":""}', '*');
-      }
 
-function stopVideo(element) {
+ function pause() {
   let iframe1 = document.getElementById("videoId");
   
  var temp = iframe1.src; 
