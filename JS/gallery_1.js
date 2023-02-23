@@ -196,28 +196,29 @@ else {
 
 
 
+
 function openLightbox_6() { 
   closeLightbox_5();
   
   document.getElementById('projecttitle_6').style.display = 'block';
-  document.getElementById('mousetarget').style.display = 'none';
+  document.getElementById('mouseTarget').style.display = 'none';
   document.getElementsByTagName('body')[0].style.overflow ="hidden";
   document.getElementById('Lightbox_6').style.display = 'flex';
   document.getElementById('rowid').style.display = 'none';
   document.getElementById('menu-toggle').style.display = 'none';
   document.getElementsByTagName("Footer")[0].style.display = "none";
-  document.getElementById('menu-toggle').style.display = 'none';
+  
 };
 
 function closeLightbox_6() {
   x.addListener(scale);
   
+  
   document.getElementById('projecttitle_6').style.display = 'none';
-  document.getElementById('mousetarget').style.display = 'flex';
+  document.getElementById('mouseTarget').style.display = 'flex';
   document.getElementsByTagName('body')[0].style.overflow ="";
   document.getElementById('Lightbox_6').style.display = 'none'; 
   document.getElementById('rowid').style.display = 'grid';
-  document.getElementById('menu-toggle').style.display = 'flex';
   document.getElementsByTagName("Footer")[0].style.display = "flex";  
   var mq = window.matchMedia( "(max-width: 950px)" );
 if (mq.matches) {
