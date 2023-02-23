@@ -271,6 +271,7 @@ if (event.keyCode == 39) {
 };
 
 function changeSlide4(n) {
+  pause();
   showSlide4(slideIndex += n);
   window.onkeydown = function (event){ 
 if (event.keyCode == 37) {
@@ -522,4 +523,8 @@ if (keystate[rightKey]) {
   changeSlide1(1);changeSlide2(1);changeSlide3(1);changeSlide4(1);changeSlide5(1);changeSlide6(1);changeSlide7(1);
 }
 
-
+      // to pause the video
+      function pause() {
+         let video = document.getElementById("video_1")
+         video.contentWindow.postMessage( '{"event":"command", "func":"pauseVideo", "args":""}', '*');
+      }
