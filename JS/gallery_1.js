@@ -200,7 +200,7 @@ function openLightbox_6() {
   closeLightbox_5();
   
   document.getElementById('projecttitle_6').style.display = 'block';
-  
+  document.getElementById('mousetarget').style.display = 'none';
   document.getElementsByTagName('body')[0].style.overflow ="hidden";
   document.getElementById('Lightbox_6').style.display = 'flex';
   document.getElementById('rowid').style.display = 'none';
