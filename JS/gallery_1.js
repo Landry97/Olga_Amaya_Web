@@ -101,7 +101,6 @@ function openLightbox_3() {
 
 function closeLightbox_3() {
   x.addListener(scale);
-  closevideo();
  
   
   document.getElementById('projecttitle_3').style.display = 'none';
