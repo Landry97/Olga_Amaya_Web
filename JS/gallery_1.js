@@ -521,6 +521,13 @@ if (keystate[rightKey]) {
 
       // to pause the video
       function pause() {
-         let video = document.getElementById("videoId")
+         let iframes = document.getElementById("videoId")
          video.contentWindow.postMessage( '{"event":"command", "func":"pauseVideo", "args":""}', '*');
       }
+
+function stopVideo(element) {
+  let iframe1 = document.getElementById("videoId");
+  
+ var temp = iframe1.src; 
+iframe1.src = temp;
+            };
