@@ -1,6 +1,4 @@
 function openLightbox_1() { 
-  closevideo();
-  
   document.getElementById('projecttitle_1').style.display = 'block';
   document.getElementById('mouseTarget').style.display = 'none';
   document.getElementById('mouseTarget').style.top = '0';
@@ -51,7 +49,6 @@ else {
 
 function openLightbox_2() { 
   closeLightbox_1();
-  closevideo();
   
   document.getElementById('projecttitle_2').style.display = 'block';
   document.getElementById('mouseTarget').style.display = 'none';
@@ -66,6 +63,8 @@ function openLightbox_2() {
 };
 
 function closeLightbox_2() {
+  
+  pause();
   x.addListener(scale);
   document.getElementById('projecttitle_2').style.display = 'none';
   document.getElementById('mouseTarget').style.display = 'flex';
@@ -138,8 +137,6 @@ function openLightbox_4() {
 
 function closeLightbox_4() {
   x.addListener(scale);
-  closevideo();
- 
   
   document.getElementById('projecttitle_4').style.display = 'none';
   document.getElementById('mouseTarget').style.display = 'flex';
