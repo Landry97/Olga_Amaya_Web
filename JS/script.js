@@ -26,6 +26,7 @@ menu.addEventListener('click', () => {
       menupoint.classList.toggle('show');
       h_index.classList.toggle('h_index');
       contact.classList.toggle('contact');
+      change_text_contact_of();
 
 }); 
 
