@@ -147,7 +147,7 @@ animation-name: spin;
 width: 100%;
 position: absolute;
 height: 0;
-z-index: 10;
+z-index: 999999;
 touch-action: manipulation;
  top:48%;
 
