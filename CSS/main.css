@@ -410,4 +410,4 @@ a.studiolist, p.aboutlist {
   .morecontact {display: flex; padding: 2rem;}
   .lesscontact {display: none;}
 
-#headline {min-height:9rem;}
+#headline {min-height: 50vh;}
