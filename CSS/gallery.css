@@ -265,4 +265,4 @@ position: fixed; left: 0;}
   width: 4rem;
 }
 
-.laptop-menu:hover {color: pink !important;}
+.laptop-menu:hover .child {color: pink !important;}
