@@ -409,6 +409,7 @@ a.studiolist, p.aboutlist {
   .more {display: none;}
   .morecontact {display: flex; padding: 2rem;}
   .lesscontact {display: none;}
-.internalaboutcontainer { margin-top: auto;
-display: block;
-position: static;}
+.internalaboutcontainer { display: block;
+position: static;
+margin-top: calc(20% + 30vh);
+}
