@@ -243,7 +243,6 @@ else {
 
 function openLightbox_7() { 
   closeLightbox_6();
-  closeLightbox_8();
   
   
   
