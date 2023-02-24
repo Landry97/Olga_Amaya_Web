@@ -259,6 +259,7 @@ font-size: 1rem;
 letter-spacing: .55em;
 display: flex;
 flex-wrap: wrap;
+flex-direction: column;
 gap: 0;
 text-align: center;}
 
