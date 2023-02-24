@@ -92,6 +92,7 @@ else {
 
 function openLightbox_3() {
   
+  setkeys_3();
   closeLightbox_2();
   closeLightbox_4();
   
@@ -130,6 +131,8 @@ else {
 
 
 function openLightbox_4() { 
+  
+  setkeys_4();
   closeLightbox_3();
   closeLightbox_5();
   
@@ -169,6 +172,9 @@ else {
 
 
 function openLightbox_5() { 
+  
+  
+  setkeys_5();
   closeLightbox_4();
   closeLightbox_6();
   
@@ -208,6 +214,8 @@ else {
 
 
 function openLightbox_6() { 
+  
+  setkeys_6();
   closeLightbox_5();
   closeLightbox_7();
   
@@ -240,13 +248,10 @@ else {
 }
 };
 
-
-
-
 function openLightbox_7() { 
+  
+  setkeys_7();
   closeLightbox_6();
-  
-  
   
   document.getElementById('projecttitle_7').style.display = 'block';
   document.getElementById('mouseTarget').style.display = 'none';
@@ -311,10 +316,11 @@ if (event.keyCode == 39) {
 };
 
 function changeSlide3(n) {
-  
   pause3();
-  
   showSlide3(slideIndex += n);
+};
+
+function setkeys_3(){
   window.onkeydown = function (event){ 
 if (event.keyCode == 37) {
     changeSlide3(-1);}  
@@ -324,10 +330,11 @@ if (event.keyCode == 39) {
 };
 
 function changeSlide4(n) {
-  
   pause4();
-  
   showSlide4(slideIndex += n);
+};
+
+function setkeys_4(){
   window.onkeydown = function (event){ 
 if (event.keyCode == 37) {
     changeSlide4(-1);}  
@@ -338,6 +345,9 @@ if (event.keyCode == 39) {
 
 function changeSlide5(n) {
   showSlide5(slideIndex += n);
+};
+
+function setkeys_5(){
   window.onkeydown = function (event){ 
 if (event.keyCode == 37) {
     changeSlide5(-1);}  
@@ -348,6 +358,9 @@ if (event.keyCode == 39) {
 
 function changeSlide6(n) {
   showSlide6(slideIndex += n);
+};
+
+function setkeys_6(){
   window.onkeydown = function (event){ 
 if (event.keyCode == 37) {
     changeSlide6(-1);}  
@@ -358,6 +371,9 @@ if (event.keyCode == 39) {
 
 function changeSlide7(n) {
   showSlide7(slideIndex += n);
+};
+
+function setkeys_7(){
   window.onkeydown = function (event){ 
 if (event.keyCode == 37) {
     changeSlide7(-1);}  
