@@ -94,7 +94,7 @@ img.hover-shadow{transition: 0.3s;}
 .previous,.next{display: flex;justify-content: center;cursor: pointer;position: absolute;color: transparent;}
 .previous{left: 0;padding: 35vh 44vw 35vh 1rem;}
 .next{right: 0;padding: 35vh 1rem 35vh 44vw;}
-#close-pointer:hover{font-size:3.5rem;}
+#close-pointer:hover{font-size:3.5rem; color:pink; line-height:3.25rem;}
 
 .arrow {
   border: solid white;
