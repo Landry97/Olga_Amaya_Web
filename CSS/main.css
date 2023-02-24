@@ -406,6 +406,6 @@ a.studiolist, p.aboutlist {
 @media screen and (max-width: 950px){.project-info-index {opacity: 1 !important;}
   
   
-  #more {display: none;}
-  #morecontact {display: flex;}
-  #lesscontact {display: none;}
+  .more {display: none;}
+  .morecontact {display: flex;}
+  .lesscontact {display: none;}
