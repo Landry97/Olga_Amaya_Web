@@ -250,13 +250,11 @@ position: fixed; left: 0;}
   height: 3rem;
   color: pink;
   padding-left: 1rem;
+  padding-right: 1rem;
  cursor: pointer;
 }
 
 
-#before-pointer{display:none;z-index:969696969797970;
+#before-pointer{display:flex;top:3rem; color: transparent;}
 
-}
-
-#next-pointer:hover {
- .next-pointer{display:flex !important;}}
+laptop-menu:hover {color: pink !important;}
