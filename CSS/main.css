@@ -90,6 +90,7 @@ p.menupoint{height: 12px;position: absolute;text-indent: -100rem;width: 12px;bor
   top: 0;
   left: 0;
   height: 6rem;
+  z-index: 999;
 }
 
 
