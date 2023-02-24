@@ -30,6 +30,14 @@ menu.addEventListener('click', () => {
 }); 
 
 
+function change_text_contact_on(){
+    document.getElementById("morecontact").innerHTML = "contact";
+}
+function change_text_contact_of(){
+    document.getElementById("morecontact").innerHTML = "more here";
+}
+
+
 
 
 //TO TOP BUTTON
