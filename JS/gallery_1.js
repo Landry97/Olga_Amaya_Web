@@ -1,4 +1,6 @@
 function openLightbox_1() { 
+  closeLightbox_7();
+  
   document.getElementById('projecttitle_1').style.display = 'block';
   document.getElementById('mouseTarget').style.display = 'none';
   document.getElementById('mouseTarget').style.top = '0';
