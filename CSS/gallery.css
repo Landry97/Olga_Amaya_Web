@@ -257,4 +257,12 @@ position: fixed; left: 0;}
 
 #before-pointer{display:flex;top:3rem; color: transparent;}
 
-laptop-menu:hover {color: pink !important;}
+  .laptop-menu {
+   height: 7rem;
+  top: 0;
+  position: absolute;
+  left: 0;
+  width: 4rem;
+}
+
+.laptop-menu:hover {color: pink !important;}
