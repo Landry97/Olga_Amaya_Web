@@ -1,5 +1,5 @@
 function openLightbox_1() { 
-  
+  changeSlide1(0);
   closeLightbox_2();
   closeLightbox_7();
   
@@ -52,6 +52,7 @@ else {
 
 
 function openLightbox_2() { 
+  changeSlide2(0);
   closeLightbox_1();
   closeLightbox_3();
   
@@ -89,7 +90,9 @@ else {
 };
 
 
-function openLightbox_3() { 
+function openLightbox_3() {
+  
+  changeSlide3(0);
   closeLightbox_2();
   closeLightbox_4();
   
