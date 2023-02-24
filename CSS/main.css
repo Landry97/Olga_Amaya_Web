@@ -255,7 +255,7 @@ align-self: center;
 justify-content: center}
 
 .project-index .project-info-index {position: absolute;z-index: 3;opacity: 0;transform: translateY(0);transition: 0.25s; 
-font-size: 1rem;
+font-size: 2em;
 letter-spacing: .55em;
 display: flex;
 flex-wrap: wrap;
@@ -341,7 +341,7 @@ li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter
 }
 
 @media screen and (min-width: 640px){
-.jobtitle{font-size: 3rem;}
+.jobtitle{/*! font-size: 3rem; */}
 .jobsub{font-size: 1.5rem;}
 }
 
