@@ -1,4 +1,6 @@
 function openLightbox_1() { 
+  
+  closeLightbox_2();
   closeLightbox_7();
   
   document.getElementById('projecttitle_1').style.display = 'block';
