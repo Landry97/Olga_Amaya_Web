@@ -96,21 +96,23 @@ img.hover-shadow{transition: 0.3s;}
 .next{right: 0;padding: 35vh 1rem 35vh 44vw;}
 #close-pointer:hover{color:pink;
 
- -webkit-animation:spin 3s linear infinite;
-    -moz-animation:spin 3s linear infinite;
-    animation:spin 3s linear infinite;
+animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  /* transform: rotate(3deg); */
+   /* transform: rotate(0.3rad);/ */
+   /* transform: rotate(3grad); */ 
+   /* transform: rotate(.03turn);  */
 }
-@-moz-keyframes spin { 
-    100% { -moz-transform: rotate(180deg); } 
-}
-@-webkit-keyframes spin { 
-    100% { -webkit-transform: rotate(180deg); } 
-}
-@keyframes spin { 
-    100% { 
-        -webkit-transform: rotate(180deg); 
-        transform:rotate(180deg); 
-    } 
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
 
 }
