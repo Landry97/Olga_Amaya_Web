@@ -1,5 +1,5 @@
 var meinIntervall = setInterval(function() { 
-    document.getElementById("headline").innerHTML = "let's get in contact!<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>                                                 ";
+    document.getElementById("headline").innerHTML = "let's get in contact!<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>";
 }, 10000); 
 
 var meinIntervall2 = setInterval(function() {
