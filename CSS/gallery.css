@@ -255,14 +255,18 @@ position: fixed; left: 0;}
 }
 
 
-#before-pointer{display:flex;top:3rem; color: transparent;}
+#before-pointer{display:flex;top:3rem; color: transparent;
+ z-index: 909090019193997879;}
 
-  .laptop-menu {
+.laptop-menu {
    height: 7rem;
   top: 0;
   position: absolute;
   left: 0;
   width: 4rem;
+ z-index: 909090019193;
+    
 }
 
-.laptop-menu:hover .child {color: pink !important;}
+.laptop-menu:hover #before-pointer{color: pink !important;}
+
