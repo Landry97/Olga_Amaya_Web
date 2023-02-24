@@ -84,7 +84,6 @@ padding: .5rem 1rem .5rem .5rem;
 
 @media screen and (max-height:450px){.directiontext{color: transparent;}.nex:hover,.prev:hover{color: transparent;}}
 
-  div.dot:hover,div.dot:active{background: rgb(219, 10, 10);}
 img.preview,img.modal-preview{opacity: 1;}
 @media screen and (max-width:440px){img.preview{width: 100%;}}
 img.active,.preview:hover,.modal-preview:hover{opacity: 0.8;}  
@@ -95,7 +94,7 @@ img.hover-shadow{transition: 0.3s;}
 .previous,.next{display: flex;justify-content: center;cursor: pointer;position: absolute;color: transparent;}
 .previous{left: 0;padding: 35vh 44vw 35vh 1rem;}
 .next{right: 0;padding: 35vh 1rem 35vh 44vw;}
-#close-pointer:hover{color: white;}
+#close-pointer:hover{font-size:3.5rem;}
 
 .arrow {
   border: solid white;
