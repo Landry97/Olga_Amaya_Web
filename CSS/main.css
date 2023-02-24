@@ -411,4 +411,4 @@ a.studiolist, p.aboutlist {
   .lesscontact {display: none;}
 .internalaboutcontainer { margin-top: auto;
 display: block;
-position: inherit;}
+position: static;}
