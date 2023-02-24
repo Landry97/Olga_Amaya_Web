@@ -409,3 +409,5 @@ a.studiolist, p.aboutlist {
   .more {display: none;}
   .morecontact {display: flex; padding: 2rem;}
   .lesscontact {display: none;}
+
+#headline {min-height:9rem;}
