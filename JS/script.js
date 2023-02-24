@@ -17,6 +17,7 @@ const body = document.getElementById('bodyid');
 const h_index = document.getElementById('headerindex');
 const contact = document.getElementById("item-contact");
 const morecontact = document.getElementById("more");
+const lesscontact = document.getElementById("less");
 
 menu.addEventListener('click', () => {
       navMenu.classList.toggle('show');
@@ -28,6 +29,7 @@ menu.addEventListener('click', () => {
       h_index.classList.toggle('h_index');
       contact.classList.toggle('contact');
       morecontact.classList.toggle('morecontact');
+      lesscontact.classList.toggle('lesscontact');
 
 }); 
 
