@@ -38,7 +38,7 @@ div.direction{display: flex;align-items: center;justify-content: center;text-ali
   top:3.5rem;
   width: 100%;
   position: absolute;
-  z-index: 999999999999999999999999999;
+  z-index: 999;
 }
 p.textnex:hover{
  color:  rgb(219, 10, 10);  
