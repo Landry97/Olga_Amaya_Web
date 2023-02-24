@@ -1,4 +1,3 @@
-
 html{-webkit-tap-highlight-color: transparent;-webkit-user-select: none;-ms-user-select: none;user-select: none;}*{margin: 0%;padding: 0%;box-sizing: border-box;}
 
 figure, figure img, picture{ display: flex;} 
@@ -256,7 +255,7 @@ align-self: center;
 justify-content: center}
 
 .project-index .project-info-index {position: absolute;z-index: 3;opacity: 0;transform: translateY(0);transition: 0.25s; 
-font-size: 1em;
+font-size: 1rem;
 letter-spacing: .55em;
 display: flex;
 flex-wrap: wrap;
@@ -346,8 +345,8 @@ li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter
 }
 
 @media screen and (max-width: 640px){
-.jobtitle{font-size: 1.5rem;}
-.jobsub{font-size: 1rem;}
+.jobtitle{font-size: 2em;}
+.jobsub{font-size: 1.5em;}
 }
 
 .jobtitle, .jobsub{
