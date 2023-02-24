@@ -89,6 +89,7 @@ img.preview,img.modal-preview{opacity: 1;}
 img.active,.preview:hover,.modal-preview:hover{opacity: 0.8;}  
 img.hover-shadow{transition: 0.3s;}
 .hover-shadow:hover{box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);} 
+
 .close{
   color: pink;
   height: 3rem;
@@ -123,8 +124,6 @@ animation-name: spin;
     to {
         transform:rotate(360deg);
     }
-}
-
 }
 
 .arrow {
