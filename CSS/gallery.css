@@ -165,17 +165,16 @@ right: .2rem;
  margin: .5rem;
  cursor: pointer;
 }
-.image-slide {max-height: 80vh;
+.image-slide {
+max-height: 80vh;
 margin-bottom: auto;
 }
 
-
-/* gallery.css | https://olgaamaya.netlify.app/CSS/gallery.css */
-
 .modal-content {
-  max-height: 65%;
+  max-height: 80%;
   position: relative;
 }
+
 .slide1, .slide2, .slide3, .slide4, .slide5, .slide6, .slide7, .slide8, .slide9, .slide10, .slide11, .slide12, .slide13, .slide14, .slide15{
   position: absolute;
   top: 0;
