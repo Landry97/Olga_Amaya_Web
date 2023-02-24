@@ -16,6 +16,7 @@ const address = document.getElementById('address');
 const body = document.getElementById('bodyid');
 const h_index = document.getElementById('headerindex');
 const contact = document.getElementById("item-contact");
+const morecontact = document.getElementById("more");
 
 menu.addEventListener('click', () => {
       navMenu.classList.toggle('show');
@@ -26,17 +27,9 @@ menu.addEventListener('click', () => {
       menupoint.classList.toggle('show');
       h_index.classList.toggle('h_index');
       contact.classList.toggle('contact');
-      change_text_contact_of();
+      morecontact.classList.toggle('morecontact');
 
 }); 
-
-
-function change_text_contact_on(){
-    document.getElementById("morecontact").innerHTML = "contact";
-}
-function change_text_contact_of(){
-    document.getElementById("morecontact").innerHTML = "more here";
-}
 
 
 
