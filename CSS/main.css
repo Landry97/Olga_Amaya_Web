@@ -413,3 +413,8 @@ a.studiolist, p.aboutlist {
 position: static;
 margin-top: calc(20% + 30vh);
 }
+
+@media screen and (min-width: 950px) {
+  .modal-content {
+  max-height: 85%;
+}
