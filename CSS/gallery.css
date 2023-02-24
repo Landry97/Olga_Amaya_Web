@@ -94,7 +94,26 @@ img.hover-shadow{transition: 0.3s;}
 .previous,.next{display: flex;justify-content: center;cursor: pointer;position: absolute;color: transparent;}
 .previous{left: 0;padding: 35vh 44vw 35vh 1rem;}
 .next{right: 0;padding: 35vh 1rem 35vh 44vw;}
-#close-pointer:hover{font-size:3.5rem; color:pink; line-height:3.25rem;}
+#close-pointer:hover{color:pink;
+
+ -webkit-animation:spin 3s linear infinite;
+    -moz-animation:spin 3s linear infinite;
+    animation:spin 3s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(180deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(180deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(180deg); 
+        transform:rotate(180deg); 
+    } 
+}
+
+}
 
 .arrow {
   border: solid white;
