@@ -270,5 +270,10 @@ position: fixed; left: 0;}
 
 
 @media screen and (min-width:1000px){
-.laptop-menu:hover #before-pointer{color: pink !important;}}
+.laptop-menu:hover #before-pointer{color: pink !important;}
+ .projecttitle {
+   font-size: 3rem;
+   padding-top: .5rem;
+ }
+}
 
