@@ -53,6 +53,7 @@ else {
 
 function openLightbox_2() { 
   closeLightbox_1();
+  closeLightbox_3();
   
   document.getElementById('projecttitle_2').style.display = 'block';
   document.getElementById('mouseTarget').style.display = 'none';
@@ -90,6 +91,7 @@ else {
 
 function openLightbox_3() { 
   closeLightbox_2();
+  closeLightbox_4();
   
   
   
@@ -127,6 +129,7 @@ else {
 
 function openLightbox_4() { 
   closeLightbox_3();
+  closeLightbox_5();
   
   
   document.getElementById('projecttitle_4').style.display = 'block';
@@ -165,6 +168,7 @@ else {
 
 function openLightbox_5() { 
   closeLightbox_4();
+  closeLightbox_6();
   
   document.getElementById('projecttitle_5').style.display = 'block';
   document.getElementById('mouseTarget').style.display = 'none';
@@ -203,6 +207,7 @@ else {
 
 function openLightbox_6() { 
   closeLightbox_5();
+  closeLightbox_7();
   
   document.getElementById('projecttitle_6').style.display = 'block';
   document.getElementById('mouseTarget').style.display = 'none';
@@ -238,6 +243,7 @@ else {
 
 function openLightbox_7() { 
   closeLightbox_6();
+  closeLightbox_8();
   
   
   
