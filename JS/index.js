@@ -8,8 +8,8 @@ mouseTarget.addEventListener('mouseenter', function(){
 else {
  document.getElementById("bodyid").style.background = '';
 }
-};
-})
+}
+);
 
 mouseTarget.addEventListener('mouseleave', function(){
  if (sizer.matches) {
@@ -18,5 +18,5 @@ mouseTarget.addEventListener('mouseleave', function(){
 else {
  document.getElementById("bodyid").style.background = "";
 }
-};
-})
+}
+);
