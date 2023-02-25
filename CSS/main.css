@@ -1,3 +1,8 @@
+--firstcolor: white;
+--secondcolor: pink;
+padding: var(--firstcolor);
+padding: var(--secondcolor);
+
 html{-webkit-tap-highlight-color: transparent;-webkit-user-select: none;-ms-user-select: none;user-select: none;}*{margin: 0%;padding: 0%;box-sizing: border-box;}
 
 figure, figure img, picture{ display: flex;} 
@@ -85,7 +90,7 @@ background: rgba(0, 0, 0, 0.75);
 z-index: -1;
 }
 
-p.menupoint{height: 12px;position: absolute;text-indent: -100rem;width: 12px;border-radius: 20px;cursor: pointer;z-index: 1000;background-color: pink;}
+p.menupoint{height: 12px;position: absolute;text-indent: -100rem;width: 12px;border-radius: 20px;cursor: pointer;z-index: 1000;background-color: var(--secondcolor),blue;}
 
 
 .menu-toggle{
