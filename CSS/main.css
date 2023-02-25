@@ -1,3 +1,22 @@
+
+/* main.css | https://olgaamaya.netlify.app/CSS/main.css */
+
+.about, .internalaboutcontainer, .holdingcontainer, .internalcontainerL, .internalcontainerA {
+  /* background: black; */
+}
+
+.aboutcontainer {
+  /* background: black; */
+}
+
+.about {
+  /* background: white; */
+}
+
+
+
+
+
 html{ --firstcolor: white; --secondcolor: pink; -webkit-tap-highlight-color: transparent;-webkit-user-select: none;-ms-user-select: none;user-select: none;} 
 *{margin: 0%;padding: 0%;box-sizing: border-box;}
 
@@ -5,12 +24,6 @@ figure, figure img, picture{ display: flex;}
 
 figure{position: relative;}
 
-
-@font-face { 
-  font-family: "outward-block"; 
-  src: url("fonts/outward-block-webfont.woff2") format("woff2"),
-  url("fonts/outward-block-webfont.woff") format("woff");
-}
 @font-face { 
   font-family: "VG5000"; 
   src: url("fonts/VG5000-Regular_web.woff2") format("woff2"),
@@ -369,17 +382,14 @@ Headlineaboutcontainer ->aboutcontainer ->internalaboutcontainer
 }
 .aboutcontainer {
   margin-top: auto;
-  background: black;
   text-align: center;
 }
 
-.about, .internalaboutcontainer, 
-.holdingcontainer, .internalcontainerL, .internalcontainerA {
-  background: black;
-}
+
 a.studiolist, p.aboutlist {
-  color: white;
+  color: var(--firstcolor);
 }
+
 #rowid {width: 100% !important;}
 #item-contact .menu-item contact{padding:0 !important}
 
