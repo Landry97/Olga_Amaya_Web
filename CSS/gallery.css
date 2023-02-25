@@ -269,6 +269,7 @@ position: fixed; left: 0;}
 }
 
 
+@media screen and (max-width:1000px){#before-pointer{display:none;}}
 @media screen and (min-width:1000px){
 .laptop-menu:hover #before-pointer{color: pink !important;}
  .projecttitle {
@@ -276,4 +277,5 @@ position: fixed; left: 0;}
    padding-top: .5rem;}
  .modal-content {
   max-height: '';}
+ #before-pointer{display:flex;}
 }
