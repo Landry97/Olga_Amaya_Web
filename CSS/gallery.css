@@ -40,15 +40,8 @@ div.direction{display: flex;align-items: center;justify-content: center;text-ali
   position: absolute;
   z-index: 999;
 }
-p.textnex:hover{
- color:  rgb(219, 10, 10);  
-}
-p.textprev:hover{
- color:  rgb(219, 10, 10);  
-}
-p.textag:hover{
- background:  rgb(219, 10, 10);  
-}
+
+
 .prev {
   touch-action: manipulation;
     /* z-index: -10; */
@@ -58,9 +51,7 @@ p.textag:hover{
     padding: 0 10% 60vh 1rem;
     text-decoration: none;
 }
-p.textprev{cursor: pointer;
-padding: .5rem 0 .5rem 0;
-}
+
 .nex {
   touch-action: manipulation;
     position: fixed;
@@ -69,20 +60,7 @@ padding: .5rem 0 .5rem 0;
  padding: 0 1rem 60vh 10%;
     text-decoration: none;
 }
-.again {
-    display: none;
-}
-
-p.textnex{cursor: pointer;
-padding: .5rem 0 .5rem 0;
-}
-p.textag{cursor: pointer;
-padding: .5rem 1rem .5rem .5rem;
- background: black;
- color: white;}
-
-
-@media screen and (max-height:450px){.directiontext{color: transparent;}.nex:hover,.prev:hover{color: transparent;}}
+.directiontext{color: transparent;}
 
 img.preview,img.modal-preview{opacity: 1;}
 @media screen and (max-width:440px){img.preview{width: 100%;}}
@@ -91,7 +69,7 @@ img.hover-shadow{transition: 0.3s;}
 .hover-shadow:hover{box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);} 
 
 .close{
-  color: pink;
+  color: var(--secondcolor);
   height: 3rem;
   position: absolute;
   top: 1rem;
@@ -101,22 +79,16 @@ img.hover-shadow{transition: 0.3s;}
   z-index: 505;
   line-height: 2.25rem;
 }
-.close:hover,.close:focus{color: #999;text-decoration: none;cursor: pointer;}
-.previous,.next{display: flex;justify-content: center;cursor: pointer;position: absolute;color: transparent;}
-.previous{left: 0;padding: 35vh 44vw 35vh 1rem;}
-.next{right: 0;padding: 35vh 1rem 35vh 44vw;}
-#close-pointer:hover{color:pink;
 
+.close:hover,.close:focus{color: #999;text-decoration: none;cursor: pointer;}
+
+#close-pointer:hover{
+color: var(--secondcolor);
 animation-name: spin;
   animation-duration: 5000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear; 
-  /* transform: rotate(3deg); */
-   /* transform: rotate(0.3rad);/ */
-   /* transform: rotate(3grad); */ 
-   /* transform: rotate(.03turn);  */
 }
-
 @keyframes spin {
     from {
         transform:rotate(0deg);
@@ -127,7 +99,7 @@ animation-name: spin;
 }
 
 .arrow {
-  border: solid white;
+  border: solid var(--firstcolor);
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 4px;
@@ -208,7 +180,7 @@ margin-top: 2em;
  
   height: 3rem;
   text-align: center;
-  color: white;
+  color: var(--firstcolor);
   font-size: 1rem;
  
   z-index: -1;
@@ -234,7 +206,7 @@ position: fixed; left: 0;}
 }
 
 #infolink_3:hover, #infolink_4:hover {text-decoration: underline;
-  text-decoration-color: pink;}
+  text-decoration-color: var(--secondcolor);}
 
 
 @media screen and (max-width:1000px){#infolink_2, #infolink_3, #infolink_4{display: none !important;}}
@@ -248,7 +220,7 @@ position: fixed; left: 0;}
   top: 0;
   font-size: 3rem;
   height: 3rem;
-  color: pink;
+  color: var(--secondcolor);
   padding-left: 1rem;
   padding-right: 1rem;
  cursor: pointer;
@@ -271,7 +243,7 @@ position: fixed; left: 0;}
 
 @media screen and (max-width:1000px){#before-pointer{display:none;}}
 @media screen and (min-width:1000px){
-.laptop-menu:hover #before-pointer{color: pink !important;}
+.laptop-menu:hover #before-pointer{color: var(--secondcolor) !important;}
  .projecttitle {
    font-size: 3rem;
    padding-top: .5rem;}
