@@ -110,9 +110,9 @@ nav.menu li{
   display: flex;align-content: center;text-align: center;align-items: center;flex-direction: row;letter-spacing: .3rem;
 }
 
-li.menu-item a{color: white;text-decoration: none;list-style-type: none;} 
+li.menu-item a{color: var(--firstcolor);text-decoration: none;list-style-type: none;} 
 
-li.menu-item a:hover{text-decoration: underline;text-decoration-color: rgb(255,100,250);list-style-type: circle;}
+li.menu-item a:hover{text-decoration: underline;text-decoration-color: var(--secondcolor);list-style-type: circle;}
 
 nav.menu ul{display: flex;height: 100%;width: 100%;}
 
@@ -154,9 +154,9 @@ address div p a{font-size: 1.25rem;text-decoration: none;text-decoration-style: 
 #nav-ul.show{transform: translateY(40%);display: flex;flex-direction: column;align-items: center;flex-wrap: nowrap;width: 100%;height: auto;margin-top: auto;}
 #nav-ul.show li{margin-top: 1.5rem;position: initial;}
 #nav-ul.show li.activePage a{color: black;z-index:101;}
-#nav-ul.show li.activePage a:hover{color: white;z-index:102;}
+#nav-ul.show li.activePage a:hover{var(--firstcolor);z-index:102;}
 #nav-ul.show li.menu-item a{color: black;}
-#nav-ul.show li.menu-item a:hover, #address.show li.menu-item a:hover{color: white;} 
+#nav-ul.show li.menu-item a:hover, #address.show li.menu-item a:hover{color: var(--firstcolor);} 
 #address.show{transform: translateY(100%);color: black;background-color: rgb(255, 200, 255);display: flex;flex-direction: column;flex-wrap: nowrap;align-items: center;justify-content: center;align-content: center;text-decoration: none;height: auto;width: 55%;margin-top: auto;margin-bottom: 80%;}
 #address.show li a{color: black;}
 .workclass{ display: flex;justify-content: center;}
@@ -164,12 +164,12 @@ main{display: flex;justify-content: center;background-color: transparent;height:
 main ul{display: flex;flex-direction: row;flex-wrap: wrap;align-content:center;align-items: center;text-align: center; margin-top:1rem; }
 
 main ul li{display: block;padding: 1rem 2rem 1rem 2rem;list-style-type: none;}
-main ul li:hover{list-style-type: circle;text-decoration-color: white;}
+main ul li:hover{list-style-type: circle;text-decoration-color: var(--firstcolor);}
 
 
 .footer-wrapper{height: auto;min-height: 20vh;display: flex;align-content: flex-end;} 
 footer{margin-top: auto;color: black;display: flex;flex-direction: row;width: 100%;padding-top: 5rem;padding-bottom: 3rem;padding-left: 2.5rem;letter-spacing: .1rem;font-size: .75em;}
-footer p a {color: white;text-decoration: none;}
+footer p a {color: var(--firstcolor);text-decoration: none;}
 .instagram{height: 1rem;display: flex;align-content: space-around;align-items: center;margin-right: 3.5%;margin-top: .5%;margin-bottom: .5%;font-size: .85rem;}
 .copyright{height: 1rem;display: flex;align-content: center;align-items: center;margin-right: 3.5%;margin-top: .5%;margin-bottom: .5%;}
 .privacy{height: 1rem;display: flex;align-content: space-around;align-items: center;margin-top: .5%;margin-bottom: .5%;}
@@ -178,7 +178,7 @@ footer p a {color: white;text-decoration: none;}
     height: 0;
     border-top: 0.2rem solid black;
     border-right: .5rem solid black;
-    border-bottom: 1rem solid white;
+    border-bottom: 1rem solid var(--secondcolor);
     border-left: .5rem solid black;
     align-content: space-around;
     align-items: center;
@@ -188,7 +188,7 @@ footer p a {color: white;text-decoration: none;}
 
 @media screen and (min-width: 950px){
 #myBtn:hover{ 
-    border-bottom: 1rem solid rgb(255,100,250);}
+    border-bottom: 1rem solid var(--firstcolor);}
 }
 
 .wrapper{margin-top: 2rem;text-align: center;font-size: 3rem;padding: 0 1em 0 1em;}
@@ -206,13 +206,12 @@ footer p a {color: white;text-decoration: none;}
 .project-info p {position: absolute;width: auto;min-width: 100%;left: 0;padding: 100% 1.5rem 0 1.5rem; text-align: center;letter-spacing: .25rem;} 
 .about{width: 100%;background: white;height: auto;padding-left: 1.5rem;padding-right: 1.5rem;padding-top: .25rem; padding-bottom: .25rem;display: flex;align-items: center;align-content: center;text-align: center;justify-content: center;font-size: 3em;}
 a.studiolist{display: inline;color: black;text-decoration: none;}
-#workclass li:hover{color: rgb(219, 10, 10);}
-p.project-image:hover, .project-info:hover{color: rgb(219, 10, 10);}
-.internalabout{background: white;align-items: center;align-content: center;text-align: center;justify-content: center;margin: .5rem;padding: .8rem;}
-.holdingcontainer {width: 100%;background: white;height: auto;padding: 1rem;display: flex;flex-direction: row;}
-.internalcontainerA {flex: 2;background: white;margin: .5rem;padding: 1rem;}
-.internalcontainerL {flex: 2;background: white;margin: .5rem;padding: 1rem;}
-.internalcontainerR {flex: 1;background: white;margin: .5rem;padding: 1rem;}
+
+.internalabout{background: var(--firstcolor);align-items: center;align-content: center;text-align: center;justify-content: center;margin: .5rem;padding: .8rem;}
+.holdingcontainer {width: 100%;background: var(--firstcolor);height: auto;padding: 1rem;display: flex;flex-direction: row;}
+.internalcontainerA {flex: 2;background: var(--firstcolor);margin: .5rem;padding: 1rem;}
+.internalcontainerL {flex: 2;background: var(--firstcolor);margin: .5rem;padding: 1rem;}
+.internalcontainerR {flex: 1;background: var(--firstcolor);margin: .5rem;padding: 1rem;}
 .madeby{margin: .5rem;padding: .5rem;letter-spacing: .15em;font-size: 1em;}
 .madebyinfo{display: flex;width: auto;align-items: center;text-align: center;justify-content: center;margin: .5rem;padding: .5rem;letter-spacing: .1em;font-size: 0.9em;}
 
