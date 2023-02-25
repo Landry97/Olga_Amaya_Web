@@ -1,6 +1,3 @@
---firstcolor: white;
---secondcolor: pink;
-
 html{ --firstcolor: white; --secondcolor: pink; -webkit-tap-highlight-color: transparent;-webkit-user-select: none;-ms-user-select: none;user-select: none;} 
 *{margin: 0%;padding: 0%;box-sizing: border-box;}
 
