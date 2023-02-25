@@ -1,7 +1,5 @@
 --firstcolor: white;
 --secondcolor: pink;
-padding: var(--firstcolor);
-padding: var(--secondcolor);
 
 html{-webkit-tap-highlight-color: transparent;-webkit-user-select: none;-ms-user-select: none;user-select: none;}*{margin: 0%;padding: 0%;box-sizing: border-box;}
 
