@@ -63,7 +63,8 @@
   }
 }
 /* animation contact start*/
-.headlineaboutcontainer {
+  
+#headline, #headline2{
   animation: fadeIn 20s;
   -webkit-animation: fadeIn 20s;
   -moz-animation: fadeIn 20s;
