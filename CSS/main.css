@@ -88,7 +88,7 @@ background: rgba(0, 0, 0, 0.75);
 z-index: -1;
 }
 
-p.menupoint{height: 12px;position: absolute;text-indent: -100rem;width: 12px;border-radius: 20px;cursor: pointer;z-index: 1000;background-color: var(--secondcolor),blue;}
+p.menupoint{height: 12px;position: absolute;text-indent: -100rem;width: 12px;border-radius: 20px;cursor: pointer;z-index: 1000;background-color: var(--secondcolor);}
 
 
 .menu-toggle{
