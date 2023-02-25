@@ -449,6 +449,7 @@ if (event.keyCode == 39) {
 
 function changeSlide7(n) {
   showSlide7(slideIndex += n);
+  pause7();
 };
 
 function setkeys_7(){
@@ -463,6 +464,7 @@ if (event.keyCode == 39) {
 
 function changeSlide8(n) {
   showSlide8(slideIndex += n);
+  pause8();
 };
 
 function setkeys_8(){
@@ -476,6 +478,7 @@ if (event.keyCode == 39) {
 
 function changeSlide9(n) {
   showSlide9(slideIndex += n);
+  pause9();
 };
 
 function setkeys_9(){
