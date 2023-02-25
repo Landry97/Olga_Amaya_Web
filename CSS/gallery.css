@@ -227,7 +227,7 @@ position: fixed; left: 0;}
 }
 
 
-#before-pointer{display:flex;top:3rem; color: transparent;
+#before-pointer{top:3rem; color: transparent;
  z-index: 909090019193997879;}
 
 .laptop-menu {
@@ -243,11 +243,10 @@ position: fixed; left: 0;}
 
 @media screen and (max-width:1000px){#before-pointer{display:none;}}
 @media screen and (min-width:1000px){
-.laptop-menu:hover #before-pointer{color: var(--secondcolor) !important;}
+.laptop-menu:hover #before-pointer{color: var(--secondcolor) !important; display: flex;}
  .projecttitle {
    font-size: 3rem;
    padding-top: .5rem;}
  .modal-content {
-  max-height: '';}
- #before-pointer{display:flex;}
-}
+  max-height: '';}}
+ 
