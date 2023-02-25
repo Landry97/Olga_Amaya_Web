@@ -15,29 +15,22 @@ footer, header a{
   font-family: VG5000; }
 main ul li a{
   font-family: VG5000; ,Futura,Trebuchet MS,Arial,sans-serif;font-size: 1rem;letter-spacing: .15rem;font-weight: lighter;}
-header{position: relative;background-color: transparent;flex-direction: row;flex-wrap: nowrap;width: 100%;align-items: center;align-content: center;justify-content: center;}
-
-.header-title {align-content: center;text-align: left;align-items: center;justify-content: center;z-index: 1000;height: 6rem;font-weight: lighter;letter-spacing: .6em;}
-
-.header-title a span{color: white;font-size: 1.25rem;height: 100%;text-align: center;box-sizing:border-box;display: block;float: none;line-height: normal;z-index: auto;}
+header{position: relative;background-color: transparent;width: 100%;}
+.header-title {height: 6rem;}
+.header-title a span{color: white;height: 100%;box-sizing:border-box;display: block;float: none;}
 
 .header-title p{color: white;text-decoration: none;list-style-type: none;}nav .menu{display: flex;flex: 1;}
-
-
-/* main.css | https://olgaamaya.netlify.app/CSS/main.css */
 
 .header-title a{
   text-decoration: none;
   list-style-type: none;
   letter-spacing: .33em;
-  text-decoration: none;
-  
+  text-decoration: none;  
   position: absolute;
   height: 6rem;
   left: 25%;
   width: 50%;
   text-align: left;
-  
   padding-top: 1em;
   padding-bottom: 1em;
   font-size: 1.75rem;
