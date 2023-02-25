@@ -3,7 +3,7 @@ var mouseTarget = document.getElementById('mouseTarget');
 
 mouseTarget.addEventListener('mouseenter', function(){ 
  if (sizer.matches) {
- document.getElementById("bodyid").style.background = "pink";
+ document.getElementById("bodyid").style.background = "--secondcolor";
 }
 else {
  document.getElementById("bodyid").style.background = '';
