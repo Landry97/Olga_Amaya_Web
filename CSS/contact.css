@@ -42,14 +42,7 @@
   justify-content: center;
   margin-top: auto;
 }
-@media screen and (min-width: 404px){h2 {
-  font-size:'';
-  letter-spacing:'';
-}
-@media screen and (max-width: 404px){h2 {
-  font-size: 2em;
-  letter-spacing: .05rem;
-}
+
 @media screen and (max-width: 750px){
   #social_elements{
   padding-top:2em;}
@@ -64,7 +57,7 @@
 }
 /* animation contact start*/
   
-#headline, #headline2{
+#headline, #headline2 {
   animation: fadeIn 20s;
   -webkit-animation: fadeIn 20s;
   -moz-animation: fadeIn 20s;
@@ -103,4 +96,4 @@
   50% {opacity: 0; }
   100% { opacity: 1; }
 }
- .copyright{margin-right: auto;}
+ .copyright{margin-right: auto !important;}
