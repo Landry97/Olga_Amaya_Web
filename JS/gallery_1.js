@@ -18,12 +18,10 @@ function openLightbox_1() {
   if (ilink.matches) {
   document.getElementsByClassName('infogallery infolink_2')[0].style.display = 'flex';
   document.getElementsByClassName('infogallery infolink_3')[0].style.display = 'flex';
-  document.getElementsByClassName('infogallery infolink_4')[0].style.display = 'flex';
 }
 else {
   document.getElementsByClassName('infogallery infolink_2')[0].style.display = 'none';
   document.getElementsByClassName('infogallery infolink_3')[0].style.display = 'none';
-  document.getElementsByClassName('infogallery infolink_4')[0].style.display = 'none';
 }
 };
 
