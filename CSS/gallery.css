@@ -10,9 +10,7 @@ p.INFGLLRY{display: none;height: 10px;position: absolute;width: 10px;cursor: poi
 @media screen and (min-width:1350px){p.INFGLLRY{font-size: 2.95rem;}}
 .header.show{position: fixed;top: 0;}
 .infogallery{padding: 1rem 1.5rem;bottom: 0;text-decoration: none;letter-spacing:.15rem;margin-top: -1rem;}
-a.infogallery{color: white;}
-p.infogallery.show{color: white;}
-a.infogallery:hover{color: white;}
+a.infogallery, p.infogallery.show, a.infogallery:hover{color: white;}
 .row{display: flex;align-items: center;justify-content: center;flex-direction: row;flex-wrap: wrap;align-content: center;width: 90%;height: auto;}
 .col {flex-wrap: wrap;display: flex;align-items: center;justify-content: center;cursor: pointer;margin-top: 1rem;margin-bottom: 1rem;margin-left: .5rem;margin-right: .5rem;}
 .col picture img{width: 100%;height: 100%;max-width: 100%;object-fit: contain;}
@@ -24,8 +22,6 @@ div.direction{display: flex;align-items: center;justify-content: center;text-ali
 .slide{position: relative; display: none;justify-content: center;align-items: center;width: 100%;max-width: 90%;height: 100%;max-height: 100%;}
 .image-slide{display: flex;justify-content: center;align-items: center;width: 100%;max-width: 100%%;height: 100%;max-height: 100%;-o-object-fit: contain;object-fit: contain;}
 .modal-preview{width: auto;}
-
-
 #layer{
     position: absolute;
     width: 100%;
@@ -40,8 +36,6 @@ div.direction{display: flex;align-items: center;justify-content: center;text-ali
   position: absolute;
   z-index: 999;
 }
-
-
 .prev {
   touch-action: manipulation;
     /* z-index: -10; */
@@ -51,7 +45,6 @@ div.direction{display: flex;align-items: center;justify-content: center;text-ali
     padding: 0 10% 60vh 1rem;
     text-decoration: none;
 }
-
 .nex {
   touch-action: manipulation;
     position: fixed;
@@ -61,12 +54,10 @@ div.direction{display: flex;align-items: center;justify-content: center;text-ali
     text-decoration: none;
 }
 .directiontext{color: transparent;}
-
 img.preview,img.modal-preview{opacity: 1;}
 @media screen and (max-width:440px){img.preview{width: 100%;}}
-img.active,.preview:hover,.modal-preview:hover{opacity: 0.8;}  
+.preview:hover,.modal-preview:hover{opacity: 0.8;}  
 img.hover-shadow{transition: 0.3s;}
-.hover-shadow:hover{box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);} 
 
 .close{
   color: var(--secondcolor);
@@ -79,7 +70,6 @@ img.hover-shadow{transition: 0.3s;}
   z-index: 505;
   line-height: 2.25rem;
 }
-
 .close:hover,.close:focus{color: #999;text-decoration: none;cursor: pointer;}
 
 #close-pointer:hover{
@@ -97,24 +87,20 @@ animation-name: spin;
         transform:rotate(360deg);
     }
 }
-
 .arrow {
   border: solid var(--firstcolor);
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 4px;
 }
-
 .right {
-  transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
-
 .left {
-  transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
 }
-
 .arrows {
 width: 100%;
 position: absolute;
@@ -122,9 +108,7 @@ height: 0;
 z-index: 999999;
 touch-action: manipulation;
  top:48%;
-
 }
-
 .left {
 left: .2rem;
 position: absolute;
@@ -165,32 +149,25 @@ z-index: 2147483647;
  margin-bottom: 2em;
 margin-top: 2em;
 }
-
 .videoclass{
     height: calc(100%);
     margin-bottom: auto;
  max-width: 95% !important;
 }
-
 .projecttitle {
   display: none;
   position: absolute;
   top: 0;
   width: 100%;
- 
   height: 3rem;
   text-align: center;
   color: var(--firstcolor);
   font-size: 1rem;
- 
   z-index: -1;
 padding-top: 1.5rem;
 margin-bottom: 1rem;
 }
-
 .creditlinks {
-  /* height 3rem: ; */
-  height\ 3rem: ;
   height: 3rem;
   position: absolute;
   bottom: 0;
@@ -198,21 +175,14 @@ margin-bottom: 1rem;
   justify-content: space-between;
   width: 100%;
 }
-
-//
 @media and screen(min-width:1000px){
 .infogallery{
 position: fixed; left: 0;}
 }
-
 #infolink_3:hover, #infolink_4:hover {text-decoration: underline;
   text-decoration-color: var(--secondcolor);}
-
-
 @media screen and (max-width:1000px){#infolink_2, #infolink_3, #infolink_4{display: none !important;}}
 @media screen and (min-width:1000px){#infolink_2, #infolink_3, #infolink_4{display: flex !important;}}
-
-
 .nextpointer{
   position: absolute;
   z-index: 999999;
@@ -225,11 +195,8 @@ position: fixed; left: 0;}
   padding-right: 1rem;
  cursor: pointer;
 }
-
-
 #before-pointer{top:3rem; color: transparent;
  z-index: 909090019193997879;}
-
 .laptop-menu {
    height: 7rem;
   top: 0;
@@ -237,10 +204,7 @@ position: fixed; left: 0;}
   left: 0;
   width: 4rem;
  z-index: 909090019193;
-    
 }
-
-
 @media screen and (max-width:1000px){#before-pointer{display:none;}}
 @media screen and (min-width:1000px){
 .laptop-menu:hover #before-pointer{color: var(--secondcolor) !important; display: flex;}
@@ -249,4 +213,3 @@ position: fixed; left: 0;}
    padding-top: .5rem;}
  .modal-content {
   max-height: '';}}
- 
