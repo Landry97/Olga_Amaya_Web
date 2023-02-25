@@ -16,12 +16,12 @@ function openLightbox_1() {
   
   var ilink = window.matchMedia( "(min-width: 950px)" );
   if (ilink.matches) {
-  document.getElementsByClassName('.infolink_2')[0].style.display = 'flex';
+  document.getElementsByClassName('infogallery infolink_2')[0].style.display = 'flex';
   document.getElementById('infolink_3').style.display = 'flex';
   document.getElementById('infolink_4').style.display = 'flex';
 }
 else {
-  document.getElementsByClassName('.infolink_2')[0].style.display = 'none';
+  document.getElementsByClassName('infogallery infolink_2')[0].style.display = 'none';
   document.getElementById('infolink_3').style.display = 'none';
   document.getElementById('infolink_4').style.display = 'none';
 }
