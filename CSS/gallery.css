@@ -183,6 +183,11 @@ position: fixed; left: 0;}
   text-decoration-color: var(--secondcolor);}
 @media screen and (max-width:1000px){#infolink_2, #infolink_3, #infolink_4{display: none !important;}}
 @media screen and (min-width:1000px){#infolink_2, #infolink_3, #infolink_4{display: flex !important;}}
+
+
+@media screen and (max-width:1000px){.infolink_2, .infolink_3, .infolink_4{display: none !important;}}
+@media screen and (min-width:1000px){.infolink_2, .infolink_3, .infolink_4{display: flex !important;}}
+
 .nextpointer{
   position: absolute;
   z-index: 999999;
