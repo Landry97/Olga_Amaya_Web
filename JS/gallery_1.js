@@ -252,6 +252,7 @@ function openLightbox_7() {
   
   setkeys_7();
   closeLightbox_6();
+  closeLightbox_8();
   
   document.getElementById('projecttitle_7').style.display = 'block';
   document.getElementById('mouseTarget').style.display = 'none';
