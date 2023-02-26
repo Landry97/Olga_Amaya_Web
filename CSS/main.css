@@ -367,8 +367,8 @@ a.studiolist, p.aboutlist {
 
 @media (min-width: 950px) {
   .project-list-index {
-    gap: 0;
-    --num-cols: 10;
+    gap: 0 !important;
+    --num-cols: 10 !important;
   }
 figure.project-index:nth-child(1) {
   grid-column: 1/5;
