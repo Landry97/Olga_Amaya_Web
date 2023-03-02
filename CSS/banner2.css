@@ -3,7 +3,7 @@
   height: 1.5rem;
   overflow: hidden;
   width: 100%;
-  margin-top: calc(100% - 1.5rem);
+  margin-top: auto;
 }
 
 .banner::before
