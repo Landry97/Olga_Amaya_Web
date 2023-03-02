@@ -213,7 +213,7 @@ a.studiolist{display: inline;color: black;text-decoration: none;}
  /*each project different :hover -> background-color */
 
 @media screen and (min-width: 950px){
-#project-info1:hover{background-color: rgba(255, 0, 0, 0.8);}
+/*#project-info1:hover{background-color: rgba(255, 0, 0, 0.8);}//
 #project-info2:hover{background-color: #3B48AD; opacity: .8;}
 #project-info3:hover{background-color: #FFE68F; opacity: .8;}
 #project-info4:hover{background-color: rgba(255, 255, 0, 0.8);}
@@ -224,11 +224,11 @@ a.studiolist{display: inline;color: black;text-decoration: none;}
 #project-info9:hover{background-color: rgba(0, 0, 255, 0.8);}
 #project-info10:hover{background-color: rgba(255, 0, 0, 0.8);}
 #project-info11:hover{background-color: rgba(255, 0, 0, 0.8);}
-#project-info12:hover{background-color: rgba(0, 0, 255, 0.8);}
+#project-info12:hover{background-color: rgba(0, 0, 255, 0.8);}*/
+  .project-info-index:hover {background-color: rgba(0,0,0, 0.85);
+  transition: all ease 0.5s}
 
   footer p.instagram a:hover,footer p.privacy a:hover{text-decoration: underline;text-decoration-color: rgba(255,100, 250)}
-
-  
 }
 
 figure.project-index:hover{transform: translateY(0)}
