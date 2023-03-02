@@ -162,9 +162,11 @@ margin-top: 2em;
   text-align: center;
   color: var(--firstcolor);
   font-size: 1rem;
-  z-index: -1;
-padding-top: 1.5rem;
-margin-bottom: 1rem;
+  z-index: -1;    
+ 
+    line-height: .9em;
+    margin-top: .5em;
+}
 }
 .creditlinks {
   height: 3rem;
