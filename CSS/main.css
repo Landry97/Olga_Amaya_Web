@@ -358,7 +358,10 @@ a.studiolist, p.aboutlist {
   .banner {
     display: none;}
 }
-@media screen and (min-width: 950px){.project-info-index {opacity: 0;}}
+@media screen and (min-width: 950px){.project-info-index {opacity: 0;}
+figure.project-index {
+  padding: .25rem;
+}}
 @media screen and (max-width: 950px){.project-info-index {opacity: 1 !important;}} 
   .more {display: none;}
   .morecontact {display: flex; padding: 2rem;}
@@ -425,14 +428,6 @@ figure.project-index:nth-child(10) {
   grid-row: 13/17;
 }
 
-}
-
-
-/* main.css | https://olgaamaya.netlify.app/CSS/main.css */
-
-figure.project-index {
-  padding: .25rem;
-}
 
 figcaption.project-info-index {
   position: absolute !important;
@@ -441,4 +436,3 @@ figcaption.project-info-index {
 .link-to-project {
   position: relative;
 }
-
