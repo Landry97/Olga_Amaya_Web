@@ -1,6 +1,7 @@
 html{ --firstcolor: white; --secondcolor: pink; -webkit-tap-highlight-color: transparent;-webkit-user-select: none;-ms-user-select: none;user-select: none;} 
 *{margin: 0%;padding: 0%;box-sizing: border-box;}
-figure, figure img, picture{ display: flex; height:100%; width:100%;} 
+figure, figure img, picture{ display: flex;} 
+picture{position: absolute; height:100%; width:100%;} 
 figure{position: relative;}
 @font-face { 
   font-family: "VG5000"; 
