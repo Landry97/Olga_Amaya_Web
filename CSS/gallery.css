@@ -171,9 +171,10 @@ margin-top: 2em;
   height: 3rem;
   position: absolute;
   bottom: 0;
+ left:0;
   display: flex;
-  justify-content: space-between;
-  width: 100%;
+  justify-content:column;
+  width: 50%;
 }
 @media and screen(min-width:1000px){
 .infogallery{
