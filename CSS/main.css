@@ -431,6 +431,7 @@ figure.project-index:nth-child(10) {
 
 figcaption.project-info-index {
   position: absolute !important;
+  cursor: pointer;
 }
 
 .link-to-project {
