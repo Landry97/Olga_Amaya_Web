@@ -153,19 +153,18 @@ margin-top: 2em;
     margin-bottom: auto;
  max-width: 95% !important;
 }
-.projecttitle {
-  display: none;
+.projecttitle {  
+ display: none;
   position: absolute;
-  top: 0;
+  top: 1rem;
   width: 100%;
-  height: 3rem;
-  text-align: center;
+  height: 5rem;
   color: var(--firstcolor);
-  font-size: 1rem;
-  z-index: -1;    
- 
-    line-height: .9em;
-    margin-top: .5em;
+  font-size: 1em;
+  z-index: -1;
+  line-height: .9em;
+  padding-top: .5em;
+  text-align: center;
 }
 
 .creditlinks {
@@ -214,8 +213,6 @@ position: fixed; left: 0;}
 @media screen and (max-width:1000px){#before-pointer{display:none;}}
 @media screen and (min-width:1000px){
 .laptop-menu:hover #before-pointer{color: var(--secondcolor) !important; display: flex;}
- .projecttitle {
-   font-size: 1.5em;
-   padding-top: .5rem;}
+ .projecttitle {}
  .modal-content {
   max-height: '';}}
