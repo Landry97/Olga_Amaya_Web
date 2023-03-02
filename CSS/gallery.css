@@ -167,27 +167,21 @@ margin-top: 2em;
   text-align: center;
 }
 
-.creditlinks {
-  height: 5em;
-  flex-direction: column;
- display:flex;
- flex-direction: column;
-}
-
 .infogallery {
   margin: 0.15rem 1rem 0.15rem 1rem;
+ line-height: 1em;
 }
 
-
 .creditlinks {
-  height: 3rem;
+  height: 6rem;
+  width: 50%;
   position: absolute;
   bottom: 0;
  left:0;
   display: flex;
-  justify-content:column;
-  width: 50%;
+ flex-direction: column;
 }
+
 @media and screen(min-width:1000px){
 .infogallery{
 position: fixed; left: 0;}
