@@ -136,7 +136,7 @@ address div p a{font-size: 1.25rem;text-decoration: none;text-decoration-style: 
 #address.on-mobile{font-size: 0.6rem;}
 #address.on-mobile p a{font-size: .6rem;}
 
-#menupointid.show{background: url("black-cross.png") no-repeat;background-size: 100%;background-color: transparent;height: 1.05rem;width: 1.05rem;} 
+#menupointid.show{background: url("black-cross.png") no-repeat;background-size: 100%;background-color: transparent;height: 2rem;width: 2rem;} 
 #menu.show{display: none;}
 #navMenu.show{left: 0;right: 0;top: 0; bottom: 0;font-size: 1.75rem;letter-spacing: .6rem;min-width: 100vw;width: 100%;min-height: 100vh;display: flex;flex-direction: column;align-content: center;align-items: center;z-index: 101;background-color: rgb(255,200,255);}
 #nav-ul.show{transform: translateY(40%);display: flex;flex-direction: column;align-items: center;flex-wrap: nowrap;width: 100%;height: auto;margin-top: auto;}
