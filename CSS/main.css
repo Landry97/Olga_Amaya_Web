@@ -23,6 +23,14 @@ header{position: relative;background-color: transparent;width: 100%;}
 
 .header-title p{color: white;text-decoration: none;list-style-type: none;}nav .menu{display: flex;flex: 1;}
 
+#mailback {
+  height: 2rem;
+  width: 2rem;
+  background: url="(/BUTTONS/mail.png)";
+  background-image: url("/BUTTONS/mail.png");
+  background-size: contain;
+}
+
 .header-title a{
   text-decoration: none;
   list-style-type: none;
