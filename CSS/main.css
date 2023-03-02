@@ -31,6 +31,13 @@ header{position: relative;background-color: transparent;width: 100%;}
   background-size: contain;
 }
 
+#mailback:hover {
+  transition: all 0.2s ease;
+  transform: translateX(-0.2rem);
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
 .header-title a{
   text-decoration: none;
   list-style-type: none;
