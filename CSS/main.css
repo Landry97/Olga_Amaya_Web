@@ -419,7 +419,7 @@ figure.project-index:nth-child(10) {
 }
   
   figure.project-index:nth-child(11) {
-  grid-column: 5/7;
+  grid-column: 4/7;
   grid-row: 13/17;
 }
 
