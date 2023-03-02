@@ -213,7 +213,7 @@ position: fixed; left: 0;}
 @media screen and (min-width:1000px){
 .laptop-menu:hover #before-pointer{color: var(--secondcolor) !important; display: flex;}
  .projecttitle {
-   font-size: 3rem;
+   font-size: 1.5em;
    padding-top: .5rem;}
  .modal-content {
   max-height: '';}}
