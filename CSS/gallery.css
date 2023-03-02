@@ -217,9 +217,9 @@ position: fixed; left: 0;}
   width: 4rem;
  z-index: 909090019193;
 }
-@media screen and (max-width:1000px){#before-pointer{display:none;}}
+@media screen and (max-width:1000px){#before-pointer{display:none;}.projecttitle {font-size: 0.8em;}}
 @media screen and (min-width:1000px){
 .laptop-menu:hover #before-pointer{color: var(--secondcolor) !important; display: flex;}
- .projecttitle {}
+ 
  .modal-content {
   max-height: '';}}
