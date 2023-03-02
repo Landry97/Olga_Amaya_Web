@@ -373,9 +373,9 @@ function openLightbox_10() {
   
 };
 
-function closeLightbox_9() {
+function closeLightbox_10() {
   x.addListener(scale);
-  pause9();
+  pause10();
   
   
   document.getElementById('projecttitle_10').style.display = 'none';
