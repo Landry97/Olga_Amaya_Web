@@ -156,16 +156,15 @@ margin-top: 2em;
 .projecttitle {
   display: none;
   position: absolute;
-  top: 0;
   width: 100%;
-  height: 6rem;
+  height: 2rem;
   color: var(--firstcolor);
   font-size: 1.5em;
   z-index: -1;
   line-height: 1em;
-  padding-top: 1em;
   text-align: center;
 }
+
 
 .infogallery {
   margin: 0 1rem 0 1rem;
@@ -210,16 +209,28 @@ position: fixed; left: 0;}
 #before-pointer{top:3rem;
  color: transparent;
  z-index: 909090019193997879;}
+
 .laptop-menu {
    height: 7rem;
   top: 0;
   position: absolute;
   left: 0;
   width: 4rem;
- z-index: 909090019193;
+ z-index: 999999987;
 }
 
-@media screen and (max-width:1000px){ #before-pointer{position: absolute; left:0; bottom:1rem; color: var(--secondcolor);}.projecttitle {font-size: 0.8em;}}
+
+@media screen and (max-width:1000px){ #before-pointer{
+    margin-top: auto;
+    z-index: 9999999999;
+    cursor: pointer; 
+    color: var(--secondcolor);}
+ .projecttitle {
+    font-size: 0.8em;}
+.laptop-menu {
+    height: 100vh;
+    z-index: -1;}
+}
 @media screen and (min-width:1000px){
 .laptop-menu:hover #before-pointer{color: var(--secondcolor) !important; display: flex;}
  
