@@ -352,31 +352,6 @@ margin: 1rem 2rem 1rem 2rem !important;
   font-weight: lighter;
   letter-spacing: .15rem;
 }
-.headlineaboutcontainer{
-  text-align: center;
-  margin-bottom: auto;
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-}
-.aboutcontainer {
-  margin-top: auto;
-  text-align: left;
-}
-a.studiolist, p.aboutlist {
-  color: var(--firstcolor);
-  margin: 2.5rem;
-}
-
-.internalaboutcontainer {
-display: flex;
-text-align: left;
-flex-direction: row;
-}
-
-#aboutme{margin-left:2.5rem}
-
-
-
 
 #rowid {width: 100% !important;}
 #item-contact .menu-item contact{padding:0 !important}
