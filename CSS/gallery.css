@@ -220,10 +220,11 @@ position: fixed; left: 0;}
 }
 
 @media screen and (max-width:1000px){ 
+  
   .laptop-menu {
     height: 100vh;
     z-index: -1;}
-}
+ 
   #before-pointer{
     position: absolute;
     bottom: 1rem;
@@ -231,6 +232,7 @@ position: fixed; left: 0;}
     z-index: 9999999999;
     cursor: pointer; 
     color: var(--secondcolor);}
+
  .projecttitle {
     font-size: 0.8em;}
 
