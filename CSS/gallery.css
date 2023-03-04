@@ -73,19 +73,10 @@ img.hover-shadow{transition: 0.3s;}
 
 #close-pointer:hover{
 color: var(--secondcolor);
-animation-name: spin;
-  animation-duration: 5000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear; 
+transform: scale(150%);
+transition: all 0.3s ease;
 }
-@keyframes spin {
-    from {
-        transform:rotate(0deg);
-    }
-    to {
-        transform:rotate(360deg);
-    }
-}
+
 .arrow {
   border: solid var(--firstcolor);
   border-width: 0 3px 3px 0;
