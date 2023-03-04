@@ -228,7 +228,7 @@ a.studiolist{display: inline;color: black;text-decoration: none;}
   .project-info-index:hover {background-color: rgba(0,0,0, 0.85);
   transition: all ease 0.5s}
 
-  footer p.instagram a:hover,footer p.privacy a:hover{/*! text-decoration: underline; *//*! text-decoration-color: rgba(255,100, 250); */transform: translateY(-0.25em);transition: all 0.3s ease;color: pink;letter-spacing: calc(+.2em);/*! transform: scale3d; */}
+  footer p.instagram a:hover,footer p.privacy a:hover{transform: translateY(-0.25em);transition: all 0.3s ease;color: pink;}
 }
 
 figure.project-index:hover{transform: translateY(0)}
