@@ -55,6 +55,16 @@
     margin-left: auto;
   }
 }
+
+@media screen and (max-width: 1000px){
+.internalaboutcontainer {
+  flex-wrap: wrap;}
+}
+
+.internalaboutcontainer {
+  flex-wrap: wrap;
+}
+
 /* animation contact start*/
   
 #headline {
