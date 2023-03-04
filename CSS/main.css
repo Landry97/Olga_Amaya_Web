@@ -104,7 +104,7 @@ p.menupoint{height: 12px;position: absolute;text-indent: -100rem;width: 12px;bor
 nav.menu li{
   display: flex;align-content: center;text-align: center;align-items: center;flex-direction: row;letter-spacing: .3rem;
 }
-li.menu-item a{color: var(--firstcolor);text-decoration: none;list-style-type: none; white-space: nowrap; margin:1.5rem} 
+li.menu-item a{color: var(--firstcolor);text-decoration: none;list-style-type: none; white-space: nowrap; margin-top:1.5rem} 
 
 li.menu-item a:hover{color: var(--secondcolor);
   height: 2.5rem;}
