@@ -107,7 +107,7 @@ nav.menu li{
 li.menu-item a{color: var(--firstcolor);text-decoration: none;list-style-type: none; white-space: nowrap; margin-top:1.5rem} 
 
 li.menu-item a:hover{color: var(--secondcolor);
-  height: calc(120%);}
+  transform: scale(125%);}
 
 
 
