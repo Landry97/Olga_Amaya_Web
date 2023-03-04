@@ -106,8 +106,8 @@ nav.menu li{
 }
 li.menu-item a{color: var(--firstcolor);text-decoration: none;list-style-type: none; white-space: nowrap;} 
 
+li.menu-item a:hover{color: var(--secondcolor);position: absolute;top:1.75rem;}
 
-li.menu-item a:hover{text-decoration: underline;text-decoration-color: var(--secondcolor);list-style-type: circle;}
 
 nav.menu ul{display: flex;height: 100%;width: 100%;}
 
