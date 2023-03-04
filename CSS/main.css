@@ -112,7 +112,6 @@ li.menu-item a:hover{text-decoration: underline;text-decoration-color: var(--sec
 nav.menu ul{display: flex;height: 100%;width: 100%;}
 
 nav.menu ul {
-  /* width: 100%; */
   width: 15%;
   position: relative;
 }
@@ -207,8 +206,20 @@ a.studiolist{display: inline;color: black;text-decoration: none;}
 .internalcontainerA {flex: 2;background: var(--firstcolor);margin: .5rem;padding: 1rem;}
 .internalcontainerL {flex: 2;background: var(--firstcolor);margin: .5rem;padding: 1rem;}
 .internalcontainerR {flex: 1;background: var(--firstcolor);margin: .5rem;padding: 1rem;}
-.madeby{margin: .5rem;padding: .5rem;letter-spacing: .15em;font-size: 1em;}
-.madebyinfo{display: flex;width: auto;align-items: center;text-align: center;justify-content: center;margin: .5rem;padding: .5rem;letter-spacing: .1em;font-size: 0.9em;}
+
+
+
+/* Element | https://olgaamaya.netlify.app/about.html */
+
+.internalaboutcontainer {
+  /* margin: 3rem; */
+  display: flex;
+  text-align: left;
+  margin: ;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
 
  /*each project different :hover -> background-color */
 
@@ -349,11 +360,24 @@ margin: 1rem 2rem 1rem 2rem !important;
 }
 .aboutcontainer {
   margin-top: auto;
-  text-align: center;
+  text-align: left;
 }
 a.studiolist, p.aboutlist {
   color: var(--firstcolor);
+  margin: 2.5rem;
 }
+
+.internalaboutcontainer {
+display: flex;
+text-align: left;
+flex-direction: row;
+}
+
+#aboutme{margin-left:2.5rem}
+
+
+
+
 #rowid {width: 100% !important;}
 #item-contact .menu-item contact{padding:0 !important}
 .menu-item {padding-left:2.5rem;}
