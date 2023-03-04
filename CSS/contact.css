@@ -60,6 +60,10 @@
 .internalaboutcontainer {
   flex-wrap: wrap;}
 }
+@media screen and (min-width: 1000px){
+.internalaboutcontainer {
+  flex-wrap: nowrap;}
+}
 
 .internalaboutcontainer {
   flex-wrap: wrap;
