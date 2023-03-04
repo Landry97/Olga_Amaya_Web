@@ -233,6 +233,10 @@ position: fixed; left: 0;}
     color: var(--secondcolor);}
  .projecttitle {
     font-size: 0.8em;}
+
+.creditlinks {
+  display: none;
+}
 }
 @media screen and (min-width:1000px){
 .laptop-menu:hover #before-pointer{color: var(--secondcolor) !important; display: flex;}
