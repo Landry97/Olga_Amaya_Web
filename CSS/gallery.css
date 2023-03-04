@@ -244,7 +244,7 @@ position: fixed; left: 0;}
 }
 @media screen and (min-width:1000px){
    .projecttitle{
-    top: 1em;    
+    top: .75em;    
   }
 .laptop-menu:hover #before-pointer{color: var(--secondcolor) !important; display: flex;}
  
