@@ -2,6 +2,8 @@ html{ --firstcolor: white; --secondcolor: pink; -webkit-tap-highlight-color: tra
 *{margin: 0%;padding: 0%;box-sizing: border-box;}
 figure, figure img, picture{ display: flex;} 
 picture{height:100%; width:100%;} 
+h1{font-size:75px;letter-spacing: .1rem;}h2{font-size:50px;letter-spacing: .1rem;}h3{font-size:25px;letter-spacing: .1rem;}
+
 
 figure{position: relative;}
 @font-face { 
@@ -295,7 +297,7 @@ figure.project-index{width: 100vw;padding:0;}
 }
 @media (min-width: 640px){figure.project-index{height: auto;position:relative}}
 @media (min-width: 640px){footer{flex-wrap: nowrap;}.copyright{margin-left: auto;}#myBtn{margin-left: 3.5%;margin-right: 3.5%;}.privacy{margin-left: 3.5%;margin-right: 3.5%;}}
-li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter-spacing: .1rem;}
+li.menu-item{font-size:1.2125rem;letter-spacing: 0;}
 
 @media (min-width: 950px){
     .project-list-index{ 
