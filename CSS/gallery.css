@@ -169,7 +169,7 @@ margin-top: 2em;
 .infogallery{
 position: fixed; left: 0;}
 }
-.infolink_3:hover, .infolink_4:hover {color: var(--firstcolor);margin-left:1rem;}
+.infolink_3:hover, .infolink_4:hover {color: var(--firstcolor);margin-left:1.5rem;}
 @media screen and (max-width:1000px){#infolink_2, #infolink_3, #infolink_4{display: none !important;}}
 @media screen and (min-width:1000px){#infolink_2, #infolink_3, #infolink_4{display: flex !important;}}
 
