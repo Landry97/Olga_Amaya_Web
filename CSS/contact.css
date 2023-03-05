@@ -68,7 +68,8 @@
 }
 a.studiolist, p.aboutlist {
   color: var(--firstcolor);
-  margin: 2.5rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
 }
 
 .internalaboutcontainer {
