@@ -35,12 +35,13 @@
 }
 #social_elements {
   position: relative;
-  height: 1.5rem;
+  height: 2rem;
   width: 100%;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
   margin-top: auto;
+  padding-top: 3em;
 }
 
 @media screen and (max-width: 750px){
