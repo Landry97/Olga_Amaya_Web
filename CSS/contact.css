@@ -61,8 +61,6 @@
   margin-bottom: auto;
   margin-left: 2.5rem;
   margin-right: 2.5rem;
-  
-  margin-bottom: 1.25rem;
 }
 .aboutcontainer {
   margin-top: auto;
@@ -72,6 +70,7 @@ a.studiolist, p.aboutlist {
   color: var(--firstcolor);
   margin-left: 2.5rem;
   margin-right: 2.5rem;
+  margin-bottom: 1.25rem;
 }
 
 .internalaboutcontainer {
