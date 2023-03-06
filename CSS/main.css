@@ -379,7 +379,7 @@ margin: 1rem 2rem 1rem 2rem !important;
 @media screen and (min-width: 950px){.project-info-index {opacity: 0;}
 figure.project-index {
   
-  border: solid 2px black;
+  border: solid 2px transparent;
   /*! border-block-color: black; */
 }}
 @media screen and (max-width: 950px){.project-info-index {opacity: 1 !important;}} 
