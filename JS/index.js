@@ -13,7 +13,7 @@ mouseTarget.addEventListener('mouseenter', function(){
 else {
  document.getElementById("bodyid").style.background = '';
  for (let i = 0; i < collection.length; i++) {
-  collection[i].style.borderColor = "";
+  collection[i].style.borderColor = "pink";
 }
 }
 }
@@ -23,13 +23,13 @@ mouseTarget.addEventListener('mouseleave', function(){
  if (sizer.matches) {
  document.getElementById("bodyid").style.background = "";
   for (let i = 0; i < collection.length; i++) {
-  collection[i].style.borderColor = "";
+  collection[i].style.borderColor = "pink";
 }
 }
 else {
  document.getElementById("bodyid").style.background = "";
  for (let i = 0; i < collection.length; i++) {
-  collection[i].style.borderColor = "";
+  collection[i].style.borderColor = "pink";
 }
 }
 }
