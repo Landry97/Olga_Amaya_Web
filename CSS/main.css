@@ -303,7 +303,7 @@ li.menu-item{font-size:1.2125rem;letter-spacing: 0;}
     .project-list-index{ 
         --num-cols: 3; 
         align-self: center;
-        --gap: 0.5rem; 
+        --gap: 2px; 
         --row-height: auto;        
         box-sizing: border-box; 
         padding: var(--gap); 
@@ -378,7 +378,9 @@ margin: 1rem 2rem 1rem 2rem !important;
 }
 @media screen and (min-width: 950px){.project-info-index {opacity: 0;}
 figure.project-index {
-  padding: .25rem;
+  
+  border: solid 2px black;
+  /*! border-block-color: black; */
 }}
 @media screen and (max-width: 950px){.project-info-index {opacity: 1 !important;}} 
   .more {display: none;}
@@ -446,7 +448,7 @@ figure.project-index:nth-child(10) {
   grid-row: 13/17;
 }
   
-      figure.project-index:nth-child(12) {
+    figure.project-index:nth-child(12) {
   grid-column: 1/6;
   grid-row: 17/21;
 }  figure.project-index:nth-child(13) {
