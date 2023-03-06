@@ -63,7 +63,6 @@ figure.project-index:nth-child(10) {
 
 figure{position: relative;}
 figure, figure img, picture{ display: flex;} 
-picture{height:100%; width:100%;} 
   
 @font-face { 
   font-family: "VG5000"; 
@@ -453,3 +452,5 @@ figcaption.project-info-index {
 .link-to-project {
   position: relative;
 }
+  
+picture{height:100%; width:100%;} 
