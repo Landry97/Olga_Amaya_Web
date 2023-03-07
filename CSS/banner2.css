@@ -100,7 +100,7 @@ content: '';
 width: calc(100% +400px);
 left: -400px;
 display:flex;
-color: #fff;
+color: black;
 /*! overflow: hidden; */
 }
 
