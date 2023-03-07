@@ -5,6 +5,15 @@
   width: 100%;
   margin-top: auto;
 }
+.banner2 {
+  position: fixed;
+  height: 3rem;
+  overflow: hidden;
+  width: 100%;
+  margin-top: auto;
+  top: 95vh;
+  color: black;
+}
 
 .banner::before
 {
@@ -14,6 +23,19 @@ content: '';
   left:0;
   width: 100%;
   height: 1.5rem;
+  background: transparent;
+  z-index: 10000;
+  pointer-events: none;
+}
+
+.banner2::before
+{
+content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  /*! height: 1.5rem; */
   background: transparent;
   z-index: 10000;
   pointer-events: none;
