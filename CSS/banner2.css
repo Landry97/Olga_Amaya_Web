@@ -100,14 +100,13 @@ content: '';
 width: calc(100% +400px);
 left: -400px;
 display:flex;
-color: black;
 /*! overflow: hidden; */
 }
 
 .scroll2 div
 {
 background: transparent;
-color: #fff;
+color: black;
 font-size: 1rem;
 letter-spacing: 0.1em;
 white-space: nowrap;
