@@ -230,6 +230,6 @@ position: fixed; left: 0;}
 .laptop-menu:hover #before-pointer{color: var(--secondcolor) !important; display: flex;}
  
  .modal-content {
-  max-height: '';}}
+  max-height: '';}
 
 .projecttitellink {color: black; text-decoration: none;}
