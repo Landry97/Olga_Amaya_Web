@@ -123,3 +123,5 @@ width: calc(100% +400px);
 left: -400px;
 }
 
+@media and screen (min-width:1000px){banner2{display:flex;}}
+@media and screen (max-width:1000px){banner2{display:none;}}
