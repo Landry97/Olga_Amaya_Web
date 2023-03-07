@@ -459,8 +459,9 @@ figure.project-index:nth-child(10) {
   grid-row: 22/24;
 }  figure.project-index:nth-child(15) {
   grid-column: 8/11;
-  grid-row: 20/26;
-} figure.project-index:nth-child(16) {
+  grid-row: 20/24;
+} 
+  figure.project-index:nth-child(16) {
   grid-column: 5/11;
   grid-row: 17/20;
 }
