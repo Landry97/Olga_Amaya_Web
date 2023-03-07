@@ -65,19 +65,20 @@
 }
 .aboutcontainer {
   margin-top: auto;
-  text-align: left;
+  text-align: center;
 }
 a.studiolist, p.aboutlist {
   color: var(--firstcolor);
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-  margin-bottom: 1.25rem;
 }
 
 .internalaboutcontainer {
 display: flex;
-text-align: left;
-flex-direction: row;
+text-align: center;
+flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  margin-left:2.5rem;
+  margin-right:2.5rem;
 }
 
 #aboutme{margin-left:2.5rem}
@@ -98,7 +99,7 @@ flex-direction: row;
 .internalaboutcontainer {
   flex-wrap: nowrap;}
   a.studiolist, p.aboutlist {
-  width:50%;
+  width:100%;
 }
 }
 
