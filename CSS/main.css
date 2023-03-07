@@ -457,15 +457,12 @@ figure.project-index:nth-child(10) {
 }  figure.project-index:nth-child(14) {
   grid-column: 5/8;
   grid-row: 22/24;
-}  figure.project-index:nth-child(15) {
+}
+figure.project-index:nth-child(15) {
   grid-column: 8/11;
   grid-row: 20/24;
 } 
-  figure.project-index:nth-child(16) {
-      height:100%; 
-    width:100%; 
-    margin:0;
-    padding:1rem;
+figure.project-index:nth-child(16) {
   grid-column: 5/11;
   grid-row: 17/20;
 }
