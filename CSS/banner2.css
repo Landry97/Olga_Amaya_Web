@@ -107,7 +107,7 @@ display:flex;
 {
 background: transparent;
 color: black;
-font-size: 1.5rem;
+font-size: 1rem;
 letter-spacing: 0.2em;
 white-space: nowrap;
 animation: animate_one 60s linear infinite;
