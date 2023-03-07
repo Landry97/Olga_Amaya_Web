@@ -2,7 +2,7 @@ function openLightbox_1() {
   setkeys_1();
   closeLightbox_2();
   closeLightbox_9();
-  closeLightbox_10();
+  closeLightbox_14();
   
   document.getElementById('projecttitle_1').style.display = 'block';
   document.getElementById('mouseTarget').style.display = 'none';
