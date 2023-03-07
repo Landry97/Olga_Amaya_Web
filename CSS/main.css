@@ -462,6 +462,7 @@ figure.project-index:nth-child(10) {
   grid-row: 20/24;
 } 
   figure.project-index:nth-child(16) {
+      height:100%; width:100%; margin:0;
   grid-column: 5/11;
   grid-row: 17/20;
 }
