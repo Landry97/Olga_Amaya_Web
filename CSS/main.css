@@ -453,20 +453,31 @@ figure.project-index:nth-child(10) {
   grid-row: 17/21;
 }  figure.project-index:nth-child(13) {
   grid-column: 5/8;
-  grid-row: 20/22;
-}  figure.project-index:nth-child(14) {
-  grid-column: 5/8;
-  grid-row: 22/24;
-}
-figure.project-index:nth-child(15) {
-  grid-column: 8/11;
   grid-row: 20/24;
+}  figure.project-index:nth-child(14) {
+  grid-column: 1/4;
+  grid-row: 24/28;
+}
+  figure.project-index:nth-child(15) {
+  grid-column: 8/11;
+  grid-row: 23/27;
 } 
 figure.project-index:nth-child(16) {
   grid-column: 5/11;
   grid-row: 17/20;
 }
-
+  figure.project-index:nth-child(17) {
+  grid-column: 1/5;
+  grid-row: 21/24;
+}
+    figure.project-index:nth-child(18) {
+  grid-column: 4/8;
+  grid-row: 24/27;
+}
+    figure.project-index:nth-child(19) {
+  grid-column: 8/11;
+  grid-row: 20/23;
+}
 figcaption.project-info-index {
   position: absolute !important;
   cursor: pointer;
