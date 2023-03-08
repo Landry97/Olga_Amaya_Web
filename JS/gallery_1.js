@@ -434,7 +434,7 @@ function openLightbox_12() {
   
   setkeys_12();
   closeLightbox_11();
-  closeLightbox_12();
+  closeLightbox_13();
   
   document.getElementById('projecttitle_12').style.display = 'block';
   document.getElementById('mouseTarget').style.display = 'none';
