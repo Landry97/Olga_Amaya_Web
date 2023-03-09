@@ -107,9 +107,9 @@ margin-bottom: auto;
 }
 
 .modal-content {
- position: absolute;
+ position: relative;
  top:6rem;
- bottom:6rem;left:0;right:0;
+ margin-bottom:6rem;
  
 }
 
