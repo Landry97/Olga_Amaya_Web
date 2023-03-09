@@ -68,10 +68,10 @@ header{position: relative;background-color: transparent;width: 100%;}
 background: url("/IMG/Element 1.svg");
 background-repeat: no-repeat;
 background-position: center;
+background-size: contain;
   height: 5rem;
   margin-top: .5rem;
   margin-bottom: .5rem;
-  background-size: contain;
 }
 
 .layersmallview {
