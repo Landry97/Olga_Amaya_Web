@@ -108,8 +108,7 @@ margin-bottom: auto;
 
 .modal-content {
  position: relative;
- top:6rem;
- margin-bottom:6rem;
+ max-height: 80vh;
  
 }
 
