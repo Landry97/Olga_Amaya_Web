@@ -109,8 +109,7 @@ margin-bottom: auto;
 .modal-content {
  position: absolute;
  top:6rem;
- bottom:6rem;
- width:auto;
+ bottom:6rem;left:0;right:0;
  
 }
 
