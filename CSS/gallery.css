@@ -14,7 +14,7 @@ body{align-items:center;}
   height: 100%;
   position: relative;
   top: max(6rem);
-  margin-bottom: calc(3rem);
+  margin-bottom: max(6rem);
 }
 div.direction{display: flex;align-items: center;justify-content: center;text-align: center;} 
 .slide{position: relative; display: none;justify-content: center;align-items: center;width: 100%;max-width: 90%;height: 100%;max-height: 100%;}
