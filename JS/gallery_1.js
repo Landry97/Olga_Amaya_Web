@@ -14,6 +14,7 @@ function openLightbox_1() {
   document.getElementById('menu-toggle').style.display = 'none';
   document.getElementsByTagName("Footer")[0].style.display = "none";
   document.getElementById('menu-toggle').style.display = 'none';
+  };
   
 
 function closeLightbox_1() {
