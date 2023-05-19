@@ -15,16 +15,6 @@ function openLightbox_1() {
   document.getElementsByTagName("Footer")[0].style.display = "none";
   document.getElementById('menu-toggle').style.display = 'none';
   
-  var ilink = window.matchMedia( "(min-width: 950px)" );
-  if (ilink.matches) {
-  document.getElementsByClassName('infogallery infolink_2')[0].style.display = 'flex';
-  document.getElementsByClassName('infogallery infolink_3')[0].style.display = 'flex';
-}
-else {
-  document.getElementsByClassName('infogallery infolink_2')[0].style.display = 'none';
-  document.getElementsByClassName('infogallery infolink_3')[0].style.display = 'none';
-}
-};
 
 function closeLightbox_1() {
   x.addListener(scale);
