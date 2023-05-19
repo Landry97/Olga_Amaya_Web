@@ -18,7 +18,6 @@ function openLightbox_1() {
   
 
 function closeLightbox_1() {
-  x.addListener(scale);
   document.getElementById('mouseTarget').style.display = 'flex';
   document.getElementById('projecttitle_1').style.display = 'none';
   document.getElementById('mouseTarget').style.top = '0';
@@ -58,8 +57,7 @@ function openLightbox_2() {
 };
 
 function closeLightbox_2() {
-  
-  x.addListener(scale);
+ 
   document.getElementById('projecttitle_2').style.display = 'none';
   document.getElementById('mouseTarget').style.display = 'flex';
   document.getElementById('mouseTarget').style.top = '0';
@@ -97,7 +95,6 @@ function openLightbox_3() {
 };
 
 function closeLightbox_3() {
-  x.addListener(scale);
   pause3();
  
   
@@ -136,7 +133,6 @@ function openLightbox_4() {
 };
 
 function closeLightbox_4() {
-  x.addListener(scale);
   pause4();
   
   document.getElementById('projecttitle_4').style.display = 'none';
@@ -178,9 +174,6 @@ function openLightbox_5() {
 };
 
 function closeLightbox_5() {
-  x.addListener(scale);
-  
-  
   document.getElementById('projecttitle_5').style.display = 'none';
   document.getElementById('mouseTarget').style.display = 'flex';
   document.getElementsByTagName('body')[0].style.overflow ="";
@@ -219,9 +212,6 @@ function openLightbox_6() {
 };
 
 function closeLightbox_6() {
-  x.addListener(scale);
-  
-  
   document.getElementById('projecttitle_6').style.display = 'none';
   document.getElementById('mouseTarget').style.display = 'flex';
   document.getElementsByTagName('body')[0].style.overflow ="";
@@ -253,7 +243,6 @@ function openLightbox_7() {
 };
 
 function closeLightbox_7() {
-  x.addListener(scale);
   pause7();
  
   
@@ -293,7 +282,6 @@ function openLightbox_8() {
 };
 
 function closeLightbox_8() {
-  x.addListener(scale);
   pause8();
   
   
@@ -329,7 +317,6 @@ function openLightbox_9() {
 };
 
 function closeLightbox_9() {
-  x.addListener(scale);
   pause9();
   
   
@@ -368,7 +355,6 @@ function openLightbox_10() {
 };
 
 function closeLightbox_10() {
-  x.addListener(scale);
   pause10();
   
   
@@ -403,7 +389,6 @@ function openLightbox_11() {
 };
 
 function closeLightbox_11() {
-  x.addListener(scale);
   
   document.getElementById('projecttitle_11').style.display = 'none';
   document.getElementById('mouseTarget').style.display = 'flex';
@@ -436,8 +421,7 @@ function openLightbox_12() {
   document.getElementsByTagName("Footer")[0].style.display = "none";
 };
 
-function closeLightbox_12() {
-  x.addListener(scale);
+function closeLightbox_12() { 
   document.getElementById('projecttitle_12').style.display = 'none';
   document.getElementById('mouseTarget').style.display = 'flex';
   document.getElementsByTagName('body')[0].style.overflow ="";
@@ -470,9 +454,6 @@ function openLightbox_13() {
 };
 
 function closeLightbox_13() {
-  x.addListener(scale);
- 
-  
   document.getElementById('projecttitle_13').style.display = 'none';
   document.getElementById('mouseTarget').style.display = 'flex';
   document.getElementsByTagName('body')[0].style.overflow ="";
@@ -505,9 +486,6 @@ function openLightbox_14() {
 };
 
 function closeLightbox_14() {
-  x.addListener(scale);
- 
-  
   document.getElementById('projecttitle_14').style.display = 'none';
   document.getElementById('mouseTarget').style.display = 'flex';
   document.getElementsByTagName('body')[0].style.overflow ="";
@@ -540,9 +518,6 @@ function openLightbox_15() {
 };
 
 function closeLightbox_15() {
-  x.addListener(scale);
- 
-  
   document.getElementById('projecttitle_15').style.display = 'none';
   document.getElementById('mouseTarget').style.display = 'flex';
   document.getElementsByTagName('body')[0].style.overflow ="";
@@ -575,9 +550,6 @@ function openLightbox_16() {
 };
 
 function closeLightbox_16() {
-  x.addListener(scale);
- 
-  
   document.getElementById('projecttitle_16').style.display = 'none';
   document.getElementById('mouseTarget').style.display = 'flex';
   document.getElementsByTagName('body')[0].style.overflow ="";
@@ -610,9 +582,6 @@ function openLightbox_17() {
 };
 
 function closeLightbox_17() {
-  x.addListener(scale);
- 
-  
   document.getElementById('projecttitle_17').style.display = 'none';
   document.getElementById('mouseTarget').style.display = 'flex';
   document.getElementsByTagName('body')[0].style.overflow ="";
@@ -644,9 +613,6 @@ function openLightbox_18() {
 };
 
 function closeLightbox_18() {
-  x.addListener(scale);
- 
-  
   document.getElementById('projecttitle_18').style.display = 'none';
   document.getElementById('mouseTarget').style.display = 'flex';
   document.getElementsByTagName('body')[0].style.overflow ="";
