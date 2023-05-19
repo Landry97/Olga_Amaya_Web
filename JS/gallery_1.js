@@ -568,7 +568,7 @@ else {
 
 function openLightbox_17() { 
   
-  setkeys_14();
+  setkeys_17();
   closeLightbox_16();
   closeLightbox_18();
   
