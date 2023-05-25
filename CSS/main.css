@@ -4,6 +4,8 @@ figure, figure img, picture{ display: flex;}
 picture{height:100%; width:100%;} 
 h1{font-size:75px;letter-spacing: .1rem;}h2{font-size:50px;letter-spacing: .1rem;}h3{font-size:25px;letter-spacing: .1rem;}h4{font-size:15px;letter-spacing: .1rem;}
 
+font-display: swap;
+
 
 figure{position: relative;}
 @font-face { 
