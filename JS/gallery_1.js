@@ -945,9 +945,6 @@ function showSlide1(n) {
   
   let modalPreviews = document.getElementsByClassName('modal-preview');
   
-  if (n > 1) {
-  document.getElementById('next').style.display = 'flex';
-  };
  
   if (n > slides1.length) {
     slideIndex = 1;	
