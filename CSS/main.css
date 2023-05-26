@@ -30,16 +30,8 @@ header{position: relative;background-color: transparent;width: 100%;}
 #mailback {
   height: 2rem;
   width: 2rem;
-  background: url="(/BUTTONS/mail.png)";
   background-image: url("/BUTTONS/mail.png");
   background-size: contain;
-}
-
-#mailback:hover {
-  transition: all 0.2s ease;
-  transform: translateX(-0.15rem);
-  width: 2.3rem;
-  height: 2.3rem;
 }
 
 .header-title a{
