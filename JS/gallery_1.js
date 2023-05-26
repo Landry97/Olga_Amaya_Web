@@ -1301,9 +1301,6 @@ function showSlide15(n) {
   
   let modalPreviews = document.getElementsByClassName('modal-preview');
   
-  if (n > 1) {
-  document.getElementById('next').style.display = 'flex';
-  };
  
   if (n > slides15.length) {
     slideIndex = 1;	
@@ -1331,9 +1328,6 @@ function showSlide16(n) {
   
   let modalPreviews = document.getElementsByClassName('modal-preview');
   
-  if (n > 1) {
-  document.getElementById('next').style.display = 'flex';
-  };
  
   if (n > slides16.length) {
     slideIndex = 1;	
@@ -1360,11 +1354,7 @@ function showSlide17(n) {
   const slides17 = document.getElementsByClassName('slide17');
   
   let modalPreviews = document.getElementsByClassName('modal-preview');
-  
-  if (n > 1) {
-  document.getElementById('next').style.display = 'flex';
-  };
- 
+
   if (n > slides17.length) {
     slideIndex = 1;	
   };
@@ -1389,10 +1379,6 @@ function showSlide18(n) {
   const slides18 = document.getElementsByClassName('slide18');
   
   let modalPreviews = document.getElementsByClassName('modal-preview');
-  
-  if (n > 1) {
-  document.getElementById('next').style.display = 'flex';
-  };
  
   if (n > slides18.length) {
     slideIndex = 1;	
