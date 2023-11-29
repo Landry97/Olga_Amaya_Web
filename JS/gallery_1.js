@@ -1,7 +1,5 @@
 function openLightbox_1() { 
   setkeys_1();
-  closeLightbox_18();
-  closeLightbox_19();
   closeLightbox_20();
   
   document.getElementById('projecttitle_1').style.display = 'block';
