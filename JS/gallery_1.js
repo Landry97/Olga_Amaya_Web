@@ -692,6 +692,36 @@ else {
 }
 };
 
+function openLightbox_21() { 
+  
+  setkeys_21();
+  closeLightbox_20();
+  
+  document.getElementById('projecttitle_21').style.display = 'block';
+  document.getElementById('mouseTarget').style.display = 'none';
+  document.getElementsByTagName('body')[0].style.overflow ="hidden";
+  document.getElementById('Lightbox_21').style.display = 'flex';
+  document.getElementById('rowid').style.display = 'none';
+  document.getElementById('menu-toggle').style.display = 'none';
+  document.getElementsByTagName("Footer")[0].style.display = "none";
+};
+
+function closeLightbox_21() {
+  document.getElementById('projecttitle_21').style.display = 'none';
+  document.getElementById('mouseTarget').style.display = 'flex';
+  document.getElementsByTagName('body')[0].style.overflow ="";
+  document.getElementById('Lightbox_21').style.display = 'none'; 
+  document.getElementById('rowid').style.display = 'grid';
+  document.getElementById('menu-toggle').style.display = 'flex';
+  document.getElementsByTagName("Footer")[0].style.display = "flex";  
+  var mq = window.matchMedia( "(max-width: 950px)" );
+if (mq.matches) {
+  document.getElementById('menu-toggle').style.display = 'flex';
+}
+else {
+  document.getElementById('menu-toggle').style.display = 'none';
+}
+};
 
 function changeSlide1(n) {
   showSlide1(slideIndex += n);
@@ -962,6 +992,19 @@ if (event.keyCode == 39) {
 };
 };
 
+function changeSlide21(n) {
+  showSlide21(slideIndex += n);
+};
+
+function setkeys_21(){
+  window.onkeydown = function (event){ 
+if (event.keyCode == 37) {
+    changeSlide21(-1);}  
+if (event.keyCode == 39) {
+    changeSlide21(1);}
+};
+};
+
 function toSlide1(n) {
   showSlide1(slideIndex = n);
 };
@@ -1030,6 +1073,9 @@ function toSlide19(n) {
 };
 function toSlide20(n) {
   showSlide20(slideIndex = n);
+};
+function toSlide21(n) {
+  showSlide21(slideIndex = n);
 };
 
 
@@ -1542,6 +1588,29 @@ function showSlide20(n) {
   slides20[slideIndex - 1].style.display = 'flex';
   };
 
+function showSlide21(n) {
+  const slides21 = document.getElementsByClassName('slide21');
+  
+  let modalPreviews = document.getElementsByClassName('modal-preview');
+ 
+  if (n > slides21.length) {
+    slideIndex = 1;	
+  };
+  
+  if (n < 1) {
+    slideIndex = slides21.length;
+  };
+  
+
+  for (let i = 0; i < slides21.length; i++) {
+    slides21[i].style.display = "none";
+  };
+  
+  for (let i = 0; i < modalPreviews.length; i++) {
+    modalPreviews[i].className = modalPreviews[i].className.replace(' active', '');
+  };
+  slides21[slideIndex - 1].style.display = 'flex';
+  };
 
 
   overlayShown = false,
