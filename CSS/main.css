@@ -394,7 +394,7 @@ figure.project-index {
 
   figure.project-index:nth-child(1) {
   
-  grid-column: 1/8;
+  grid-column: 1/4;
   grid-row: 1/6;
 }
   figure.project-index:nth-child(2) {
