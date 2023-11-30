@@ -31,7 +31,10 @@ else {
  document.getElementById("bodyid").style.background = "";
  for (let i = 0; i < collection.length; i++) {
   collection[i].style.border = "solid 2px pink";
+}}});
+
+video=getElementsByTagName('video');
+function removeControls(video){
+  video.removeAttribute('controls');
 }
-}
-}
-);
+window.onload=removeControls(video);
