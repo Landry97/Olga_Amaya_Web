@@ -60,6 +60,9 @@
 @media screen and (max-width: 750px){
   #social_elements{
   padding-top:2em;}
+  .wrap_info {
+ flex-wrap: wrap;
+}
 }
 @media (min-width: 640px) {
   .copyright {
@@ -111,8 +114,10 @@ a.studiolist, p.aboutlist {
 }
 
 @media screen and (min-width: 1000px){
-.internalaboutcontainer {
-  flex-wrap: nowrap;}
+.internalaboutcontainer 
+ {
+  flex-wrap: nowrap;
+ }
   a.studiolist, p.aboutlist {
   width:100%;
 }
