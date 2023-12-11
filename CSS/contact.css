@@ -1,6 +1,5 @@
 #webdesign
- {font-size: 1em; color: var(--firstcolor); padding:1em; display: flex; justify-content: center;
-  
+ {display: flex; justify-content: center;
 }
 #webdesign a
  { color: var(--firstcolor);
