@@ -80,7 +80,14 @@
   /* margin-top: auto; */
   text-align: left;
   width: 40%;
-  padding-left: 5%;
+  padding: 5%;
+}
+
+.aboutcontainer_r {
+  /* margin-top: auto; */
+  text-align: left;
+  width: 40%;
+  padding: 5%;
 }
 a.studiolist, p.aboutlist {
   color: var(--firstcolor);
