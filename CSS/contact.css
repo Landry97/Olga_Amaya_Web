@@ -89,7 +89,6 @@
   text-align: left;
   width: 40%;
   padding: 5%;
-    align-self: center;
 }
 a.studiolist, p.aboutlist {
   color: var(--firstcolor);
@@ -111,6 +110,9 @@ a.studiolist, p.aboutlist {
  flex-wrap: wrap;
  flex-direction: column;
 }
+  .aboutcontainer_r {
+    align-self: center;
+}
 }
 
 @media screen and (min-width: 1000px){
@@ -124,6 +126,9 @@ a.studiolist, p.aboutlist {
   .wrap_info {
  flex-wrap: nowrap;
  flex-direction: row;
+}
+ .aboutcontainer_r {
+    align-self: baseline;
 }
 }
 
