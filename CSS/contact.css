@@ -111,8 +111,13 @@ a.studiolist, p.aboutlist {
  flex-wrap: wrap;
  flex-direction: column;
 }
-  .aboutcontainer_r {
+  .aboutcontainer {
     align-self: left;
+ width:65%;
+}
+ .aboutcontainer_r {
+    align-self: left;
+ width:65%;
 }
 }
 
@@ -128,16 +133,17 @@ a.studiolist, p.aboutlist {
  flex-wrap: nowrap;
  flex-direction: row;
 }
- .aboutcontainer_r {
-    align-self: baseline;
-}
  .aboutcontainer {
   margin-left: 5%;
   padding: 2%;
+  width:40%;
+  align-self: baseline;
 }
 .aboutcontainer_r {
   margin-left: 5%;
  padding:2%;
+ width:40%;
+ align-self: baseline;
 }
 }
 
