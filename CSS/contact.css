@@ -82,6 +82,7 @@
   text-align: left;
   width: 40%;
   padding: 5%;
+    align-self: center;
 }
 
 .aboutcontainer_r {
@@ -89,6 +90,7 @@
   text-align: left;
   width: 40%;
   padding: 5%;
+    align-self: center;
 }
 a.studiolist, p.aboutlist {
   color: var(--firstcolor);
