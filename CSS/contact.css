@@ -3,7 +3,9 @@
   
 }
 #webdesign a
- { color: var(--firstcolor); 
+ { color: var(--firstcolor);
+    text-decoration: none;
+    padding-top: 1%;
 }
 
 .social-svg_0 {
