@@ -1,7 +1,5 @@
 .wrap_info {
  display: flex;
- flex-wrap: wrap;
- flex-direction: column;
  justify-content: center;
  align-items: center;
 }
@@ -63,9 +61,6 @@
 @media screen and (max-width: 750px){
   #social_elements{
   padding-top:2em;}
-  .wrap_info {
- flex-wrap: wrap;
-}
 }
 @media (min-width: 640px) {
   .copyright {
@@ -113,6 +108,7 @@ a.studiolist, p.aboutlist {
 }
   .wrap_info {
  flex-wrap: wrap;
+ flex-direction: column;
 }
 }
 
@@ -126,6 +122,7 @@ a.studiolist, p.aboutlist {
 }
   .wrap_info {
  flex-wrap: nowrap;
+ flex-direction: row;
 }
 }
 
