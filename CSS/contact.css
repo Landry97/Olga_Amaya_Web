@@ -77,8 +77,10 @@
   margin-right: 2.5rem;
 }
 .aboutcontainer {
-  margin-top: auto;
+  /* margin-top: auto; */
   text-align: left;
+  width: 40%;
+  padding-left: 5%;
 }
 a.studiolist, p.aboutlist {
   color: var(--firstcolor);
@@ -94,9 +96,9 @@ flex-direction: column;
   margin-right:2.5rem;
 }
 
-#aboutme1{margin-left:2.5rem}
-#aboutme2{margin-left:2.5rem}
-#aboutme3{margin-left:2.5rem}
+#aboutme1{/* margin-left:2.5rem; */}
+#aboutme2{/* margin-left:2.5rem; */}
+#aboutme3{margin-top: 2.5rem;}
 
 
 @media screen and (max-width: 1000px){
