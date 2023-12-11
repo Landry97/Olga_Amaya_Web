@@ -93,15 +93,6 @@ a.studiolist, p.aboutlist {
   color: var(--firstcolor);
 }
 
-.internalaboutcontainer {
-display: flex;
-text-align: center;
-flex-direction: column;
-  align-items: center;
-  margin: 1rem;
-  margin-left:2.5rem;
-  margin-right:2.5rem;
-}
 
 #aboutme1{/* margin-left:2.5rem; */}
 #aboutme2{/* margin-left:2.5rem; */}
