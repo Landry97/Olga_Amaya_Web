@@ -4,8 +4,7 @@
 }
 
 #webdesign
- {padding-top: 1.5em; text-align: center;
-}
+ {/* padding-top: 1.5em; */text-align: left;padding-left: 15%;margin: 2rem 0 2rem 0;}
 #webdesign a
  { color: var(--firstcolor);
     text-decoration: none;
@@ -80,15 +79,17 @@
   /* margin-top: auto; */
   text-align: left;
   width: 40%;
-  padding: 5%;
-    align-self: center;
+  margin: 5%;
+  align-self: left;
+  margin-left: 15%;
 }
 
 .aboutcontainer_r {
   /* margin-top: auto; */
   text-align: left;
   width: 40%;
-  padding: 5%;
+  margin: 5%;
+  margin-left: 15%;
 }
 a.studiolist, p.aboutlist {
   color: var(--firstcolor);
@@ -111,7 +112,7 @@ a.studiolist, p.aboutlist {
  flex-direction: column;
 }
   .aboutcontainer_r {
-    align-self: center;
+    align-self: left;
 }
 }
 
@@ -129,6 +130,14 @@ a.studiolist, p.aboutlist {
 }
  .aboutcontainer_r {
     align-self: baseline;
+}
+ .aboutcontainer {
+  margin-left: 5%;
+  padding: 2%;
+}
+.aboutcontainer_r {
+  margin-left: 5%;
+ padding:2%;
 }
 }
 
