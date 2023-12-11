@@ -1,3 +1,8 @@
+.wrap_info {
+ display: flex;
+ flex-wrap: nowrap;
+}
+
 #webdesign
  {padding-top: 1.5em; text-align: center;
 }
