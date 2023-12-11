@@ -1,6 +1,6 @@
 .wrap_info {
  display: flex;
- flex-wrap: nowrap;
+ justify-content: center;
 }
 
 #webdesign
@@ -105,6 +105,9 @@ a.studiolist, p.aboutlist {
   a.studiolist, p.aboutlist {
   width:100%;
 }
+  .wrap_info {
+ flex-wrap: wrap;
+}
 }
 
 @media screen and (min-width: 1000px){
@@ -112,6 +115,9 @@ a.studiolist, p.aboutlist {
   flex-wrap: nowrap;}
   a.studiolist, p.aboutlist {
   width:100%;
+}
+  .wrap_info {
+ flex-wrap: nowrap;
 }
 }
 
