@@ -28,8 +28,9 @@ header{position: relative;background-color: transparent;width: 100%;}
 .header-title p{color: white;text-decoration: none;list-style-type: none;}nav .menu{display: flex;flex: 1;}
 
 #mailback {
-  height: 2rem;
-  width: 2rem;
+  top: 1rem;
+  height: 0rem;
+  width: 0rem;
   background-image: url("/BUTTONS/mail.png");
   background-size: contain;
 }
