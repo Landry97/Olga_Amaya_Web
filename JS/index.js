@@ -1,6 +1,6 @@
 var sizer = window.matchMedia( "(min-width: 950px)" );
 var mouseTarget = document.getElementById('mouseTarget');
-var mouseTarget2 = document.getElementById('social_elements');
+// var mouseTarget2 = document.getElementById('social_elements'); //
 
 const collection = document.getElementsByClassName("figure.project-index");
 let numb = document.getElementsByClassName("figure.project-index").length;
