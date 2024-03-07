@@ -28,11 +28,14 @@ header{position: relative;background-color: transparent;width: 100%;}
 .header-title p{color: white;text-decoration: none;list-style-type: none;}nav .menu{display: flex;flex: 1;}
 
 #mailback {
-  top: 1rem;
-  height: 0rem;
-  width: 0rem;
-  background-image: url("/BUTTONS/mail.png");
-  background-size: contain;
+    top: 1rem;
+    height: auto;
+    width: 2rem;
+    /* background-image: url(/BUTTONS/mail.png); */
+    /* background-size: contain; */
+    position: fixed;
+    top: 6rem;
+    z-index: 99999999999;
 }
 
 .header-title a{
