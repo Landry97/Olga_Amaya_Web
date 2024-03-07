@@ -46,14 +46,15 @@
   height: 2rem;margin: 0 0 0 .5rem;
 }
 #social_elements {
-  position: relative;
-  height: 2rem;
-  width: 100%;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
+    position: relative;
+    height: 2rem;
+    width: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
     margin-bottom: 3rem;
     margin-top: 1rem;
+    align-self: center;
 }
 
 @media screen and (max-width: 750px){
