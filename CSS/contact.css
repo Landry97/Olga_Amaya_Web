@@ -47,7 +47,7 @@
 }
 
 .social-svg_0:hover, .social-svg_1:hover, .social-svg_2:hover, .social-svg_3:hover, .social-svg_4:hover {
- filter: invert(50%) sepia(83%) saturate(1301%) hue-rotate(27deg) brightness(519%) contrast(519%);
+ filter: invert(55%) sepia(20%) saturate(1799%) hue-rotate(299deg) brightness(205%) contrast(100%)
 }
 
 #social_elements {
